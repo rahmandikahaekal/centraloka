@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    background-color: #ddd;
+    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+    font-size: 16px;
     color: #000;
+    background-color: #ddd;
 }
 
 .navbar-default {
@@ -25,9 +26,62 @@ header nav a.navbar-brand {
 header nav a.navbar-brand img {
     width: 75%;
 }
-body > header > nav > div > ul > li > ul {
+.navbar-default .navbar-nav>li>a {
+    color: #282d33;
+    font-size: 14px;
+    font-weight: bold;
+}
+header > nav > div > ul > li > ul {
     min-width: 115px !important;
 }
-body > header > nav > div > ul.nav.navbar-nav {
+header > nav > div > ul.nav.navbar-nav {
     padding: 15px;
 }
+header nav div div ul {
+    padding-bottom: 15px;
+}
+header nav div div ul li a {
+    color: #282d33;
+    display: block;
+    padding: 1px 15px;
+    border-right: #999 solid 1px;
+    position: relative;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+  }
+  header nav div div  ul li a:before {
+    content: "";
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    border-bottom: #fd8524 solid 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    margin: 0 auto;
+  }
+  header nav div div  ul li a:hover,
+  header nav div div  ul li a.active {
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+  }
+  header nav div div  ul li a:hover:before,
+  header nav div div  ul li a.active:before {
+    content: "";
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    border-bottom: #fd8524 solid 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+  }

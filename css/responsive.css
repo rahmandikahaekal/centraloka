@@ -4,8 +4,13 @@
     header nav a.navbar-brand {
         padding: 15px 15px;
     }
-
     header nav a.navbar-brand img {
         width: 65%;
+    }
+
+    header nav div div ul li a:before,
+    header nav div div  ul li a:hover:before,
+    header nav div div  ul li a.active:before {
+        bottom: 0;
     }
 }
