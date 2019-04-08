@@ -1,0 +1,11 @@
+/* Tablet & Smartphone */
+@media (max-width: 575.98px) {
+    /* Navbar */
+    header nav a.navbar-brand {
+        padding: 15px 15px;
+    }
+
+    header nav a.navbar-brand img {
+        width: 65%;
+    }
+}
