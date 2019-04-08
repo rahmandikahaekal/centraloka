@@ -9,6 +9,24 @@ body {
     color: #000;
     background-color: #ddd;
 }
+a {
+    color: #666;
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+}
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: underline;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+}
 
 .navbar-default {
     margin-bottom: 0;
@@ -20,16 +38,22 @@ body {
 header nav:first-child {
     min-height: 75px;
 }
+header nav:first-child ul.nav {
+    visibility: hidden;
+}
 header nav a.navbar-brand {
     padding: 10px;
 }
 header nav a.navbar-brand img {
     width: 75%;
+    padding-left: 25px;
 }
 .navbar-default .navbar-nav>li>a {
     color: #282d33;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 header > nav > div > ul > li > ul {
     min-width: 115px !important;
@@ -50,8 +74,11 @@ header nav div div ul li a {
     -moz-transition: all ease-out 0.4s;
     -o-transition: all ease-out 0.4s;
     transition: all ease-out 0.4s;
-  }
-  header nav div div  ul li a:before {
+}
+header nav div div ul li:last-child a {
+    border-right: none;
+}
+header nav div div  ul li a:before {
     content: "";
     -webkit-transition: all ease-out 0.4s;
     -moz-transition: all ease-out 0.4s;
@@ -59,21 +86,21 @@ header nav div div ul li a {
     transition: all ease-out 0.4s;
     border-bottom: #fd8524 solid 5px;
     position: absolute;
-    bottom: -15px;
+    bottom: -20px;
     left: 0;
     width: 0;
     margin: 0 auto;
-  }
-  header nav div div  ul li a:hover,
-  header nav div div  ul li a.active {
+}
+header nav div div  ul li a:hover,
+header nav div div  ul li a.active {
     text-decoration: none;
     -webkit-transition: all ease-out 0.4s;
     -moz-transition: all ease-out 0.4s;
     -o-transition: all ease-out 0.4s;
     transition: all ease-out 0.4s;
-  }
-  header nav div div  ul li a:hover:before,
-  header nav div div  ul li a.active:before {
+}
+header nav div div  ul li a:hover:before,
+header nav div div  ul li a.active:before {
     content: "";
     -webkit-transition: all ease-out 0.4s;
     -moz-transition: all ease-out 0.4s;
@@ -81,7 +108,7 @@ header nav div div ul li a {
     transition: all ease-out 0.4s;
     border-bottom: #fd8524 solid 5px;
     position: absolute;
-    bottom: -15px;
+    bottom: -20px;
     left: 0;
     width: 100%;
-  }
+}
