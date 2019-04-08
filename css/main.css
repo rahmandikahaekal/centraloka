@@ -9,6 +9,11 @@ body {
     color: #000;
     background-color: #ddd;
 }
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 a {
     color: #666;
     text-decoration: none;
@@ -28,6 +33,8 @@ a:active {
     transition: all ease-out 0.4s;
 }
 
+/* ========= */
+/* ====== Header CSS ====== */
 .navbar-default {
     margin-bottom: 0;
     border: none;
@@ -36,16 +43,16 @@ a:active {
     background-color: #f8f8f8;
 }
 header nav:first-child {
-    min-height: 75px;
+    min-height: 80px;
 }
 header nav:first-child ul.nav {
     visibility: hidden;
 }
 header nav a.navbar-brand {
-    padding: 10px;
+    padding: 5px;
 }
 header nav a.navbar-brand img {
-    width: 75%;
+    width: 100%;
     padding-left: 25px;
 }
 .navbar-default .navbar-nav>li>a {
@@ -86,7 +93,7 @@ header nav div div  ul li a:before {
     transition: all ease-out 0.4s;
     border-bottom: #fd8524 solid 5px;
     position: absolute;
-    bottom: -20px;
+    bottom: -10px;
     left: 0;
     width: 0;
     margin: 0 auto;
@@ -108,7 +115,67 @@ header nav div div  ul li a.active:before {
     transition: all ease-out 0.4s;
     border-bottom: #fd8524 solid 5px;
     position: absolute;
-    bottom: -20px;
+    bottom: -10px;
     left: 0;
     width: 100%;
+
+}
+#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a:before,
+#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a:hover:before,
+#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a.active:before {
+    border: none;    
+}
+
+/* ========= */
+/* ====== Main CSS ====== */
+main {
+    min-height: 300px
+}
+
+/* ========= */
+/* ====== Footer CSS ====== */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+footer ul li {
+    padding: 5px 0px;
+}
+footer ul li a {
+    color: #fff;
+}
+/* Foot Link */
+footer .foot_link {
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+footer .foot_link h4 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+footer .foot_link ul li img {
+    max-height: 50px;
+    display: inline;
+}
+footer .foot_link ul.foot_contact li a i.fa {
+    padding-right: 10px;
+}
+
+/* Foot Sosmed */
+footer .foot_sosmed ul li {
+    display: inline;
+    margin: 5px;
+}
+footer .foot_sosmed ul li a {
+    font-size: 30px;
+    color: #666;
+}
+footer .foot_sosmed ul li:hover a {
+    text-decoration: none;
+    color: #fff;
 }
