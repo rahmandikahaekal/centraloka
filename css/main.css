@@ -125,8 +125,21 @@ header nav div div  ul li a.active:before {
 #bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a.active:before {
     border: none;    
 }
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background: #32a2e3;
+    border-radius: 0;
+}
 
-/* ========= */
+.navbar-default > div > div.navbar-header > button.navbar-toggle > span.icon-bar {
+    background: #fff;
+    height: 4px;
+    width: 30px;
+    margin: 5px 0;
+}
+    
+    /* ========= */
 /* ====== Main CSS ====== */
 main {
     min-height: 300px
