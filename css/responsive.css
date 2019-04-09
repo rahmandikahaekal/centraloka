@@ -38,11 +38,22 @@
 
 @media (max-width: 767px) {
     header > nav:nth-child(2) {
-        position: relative;
+        /* position: relative;
         top: -65px;
+        right: 0; */
+        position: absolute;
+        top: 0px;
         right: 0;
+        bottom: 0;
+        left: 0;
+        height: 0;
     }
-    header > nav:nth-child(1) > div > div > a {
+    #bs-example-navbar-collapse-1 {
+        background: rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+    }
+        header > nav:nth-child(1) > div > div > a {
         position: relative;
         z-index: 1;
         padding: 10px;

@@ -161,16 +161,35 @@ main {
 }
 .main_signup_area .main_signup_content .box-signup div.left-side,
 .main_signup_area .main_signup_content .box-signup div.right-side {
-    padding: 30px 20px;
+    padding: 30px;
+    min-height: 510px;
 }
-.main_signup_area .main_signup_content .box-signup {
+/* .main_signup_area .main_signup_content .box-signup {
     max-height: 500px;
-}
+} */
 .main_signup_area .main_signup_content .box-signup .left-side {
-    background: #366b8eeb
+    background: #366b8eeb;
+    border-radius: 15px 0px 0px 15px;
 }
 .main_signup_area .main_signup_content .box-signup .right-side {
     background-color: #fff;
+    border-radius: 0px 15px 15px 0px;
+}
+.main_signup_content .box-signup .right-side .form-control {
+    border-radius: 0;
+}
+.main_signup_content .box-signup .right-side p {
+    color: #6d6d6d;
+}
+.main_signup_content .box-signup .right-side a {
+    color: #2c80ff;
+}
+.main_signup_content .box-signup .right-side button {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 0;
+    margin: 15px 0px;
 }
 
 /* ========= */
