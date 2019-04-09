@@ -43,7 +43,7 @@ a:active {
     background-color: #f8f8f8;
 }
 header nav:first-child {
-    min-height: 80px;
+    min-height: 80px !important;
 }
 header nav:first-child ul.nav {
     visibility: hidden;
@@ -52,7 +52,7 @@ header nav a.navbar-brand {
     padding: 5px;
 }
 header nav a.navbar-brand img {
-    width: 100%;
+    width: 100% ;
     padding-left: 25px;
 }
 .navbar-default .navbar-nav>li>a {
