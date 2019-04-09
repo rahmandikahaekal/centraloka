@@ -26,7 +26,7 @@ a {
 a:hover,
 a:active {
     color: inherit;
-    text-decoration: underline;
+    text-decoration: none;
     -webkit-transition: all ease-out 0.4s;
     -moz-transition: all ease-out 0.4s;
     -o-transition: all ease-out 0.4s;
@@ -46,7 +46,7 @@ header nav:first-child {
     min-height: 80px !important;
 }
 header nav:first-child ul.nav {
-    visibility: hidden;
+    display: none;
 }
 header nav a.navbar-brand {
     padding: 5px;
@@ -173,7 +173,6 @@ footer .foot_link h4 {
 }
 footer .foot_link ul li img {
     max-height: 50px;
-    display: inline;
 }
 footer .foot_link ul.foot_contact li a i.fa {
     padding-right: 10px;
