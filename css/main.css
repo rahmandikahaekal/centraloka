@@ -118,7 +118,6 @@ header nav div div  ul li a.active:before {
     bottom: -10px;
     left: 0;
     width: 100%;
-
 }
 #bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a:before,
 #bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a:hover:before,
@@ -139,10 +138,39 @@ header nav div div  ul li a.active:before {
     margin: 5px 0;
 }
     
-    /* ========= */
+/* ========= */
 /* ====== Main CSS ====== */
 main {
     min-height: 300px
+}
+
+/* ========= */
+/* ====== Sign Up CSS ====== */
+.main_signup_area {
+    background-image: url(../images/blur-cars-city-409701.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    padding: 60px 0;
+}
+.main_signup_area .main_signup_content {
+    
+}
+.main_signup_area .main_signup_content .box-signup div.left-side,
+.main_signup_area .main_signup_content .box-signup div.right-side {
+    padding: 30px 20px;
+}
+.main_signup_area .main_signup_content .box-signup {
+    max-height: 500px;
+}
+.main_signup_area .main_signup_content .box-signup .left-side {
+    background: #366b8eeb
+}
+.main_signup_area .main_signup_content .box-signup .right-side {
+    background-color: #fff;
 }
 
 /* ========= */
