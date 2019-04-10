@@ -1,0 +1,74 @@
+
+/* ========= */
+/* ====== Sign Up CSS ====== */
+.main_vertifikasi_area {
+    background-image: url(../images/bg-kontak.jpeg);
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 20px 0;
+}
+.main_vertifikasi_area .main_vertifikasi_content  div.side-left,
+.main_vertifikasi_area .main_vertifikasi_content  div.side-right {
+    padding: 40px 65px;
+    min-height: 515px;
+}
+
+/* Side Left */
+.main_vertifikasi_area .main_vertifikasi_content  .side-left {
+    background: rgba(108, 184, 239, 0.92);
+    border-radius: 15px 0px 0px 15px;
+}
+.main_vertifikasi_content .side-left {
+    font-size: 18px;
+    color: #fff;
+}
+.main_vertifikasi_content .side-left hr {
+    background: #00a1ff;
+    border: none;
+    width: 50px;
+    height: 5px;
+    margin: 0;
+    margin: 30px 0;
+}
+
+/* Side Right */
+.main_vertifikasi_area .main_vertifikasi_content  .side-right {
+    background-color: #fff;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.main_vertifikasi_area .main_vertifikasi_content .side-right h4 {
+    color: #444;
+    font-weight: bold;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.main_vertifikasi_content .side-right hr {
+    background: #259cef;
+    width: 50px;
+    height: 5px;
+    margin: 0;
+    top: -16px;
+    float: right;
+    position: relative;
+}
+.main_vertifikasi_content .side-right img {
+    wi
+}
+
+@media (max-width: 785px) { 
+    .main_vertifikasi_area .main_vertifikasi_content  div.side-left,
+    .main_vertifikasi_area .main_vertifikasi_content  div.side-right {
+        padding: 30px 40px;
+        min-height: 515px;
+    }
+    .main_vertifikasi_area .main_vertifikasi_content .side-right h3 {
+        padding-bottom: 20px;
+    }
+    .main_vertifikasi_area .main_vertifikasi_content .side-right {
+        border-radius: 20px;
+    }
+}
