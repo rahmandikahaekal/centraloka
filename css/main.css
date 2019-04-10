@@ -7,7 +7,7 @@ body {
     font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
     font-size: 16px;
     color: #000;
-    background-color: #ddd;
+    background-color: #f9f9f9;
 }
 ol, ul {
     list-style: none;
@@ -38,6 +38,7 @@ a:active {
 .navbar-default {
     margin-bottom: 0;
     border: none;
+    background-color: #fff;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     background-color: #f8f8f8;

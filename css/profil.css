@@ -61,6 +61,14 @@
     top: -35px;
     position: relative;
 }
+.main_profil_content div#pesanan div.pesanan-content div.tab-content {
+    padding-top: 20px    
+}
+.main_profil_content .pesanan-content #pesanan-aktif > div > img {
+    margin: 10px 0 20px;
+    width: 30%;
+    display: inline-block;
+}
 
 /* Responsive Profil */
 @media (max-width: 991px) {

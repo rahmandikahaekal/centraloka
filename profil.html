@@ -169,14 +169,14 @@
                         <div class="col-md-9 body-content">
                             <div class="well">
                                 <div class="tab-content">
-                                    <div role="tabpanel" class="tab-pane active" id="profil">
+                                    <div role="tabpanel" class="tab-pane  active" id="profil">
                                         <div class="profil-content">
                                             <h3>Profil Saya</h3>
                                             <hr>
                                             <div class="media">
                                                 <div class="media-left">
                                                     <a href="#">
-                                                    <img class="media-object" src="./images/email sent.png" alt="...">
+                                                    <img class="media-object img-circle" src="./images/user.jpg" alt="...">
                                                     </a>
                                                 </div>
                                                 <div class="media-body">
@@ -190,8 +190,26 @@
                                             <button type="button" class="btn btn-warning">Edit</button>
                                         </div>
                                     </div>
-                                    <div role="tabpanel" class="tab-pane" id="pesanan">
-
+                                    <div role="tabpanel" class="tab-pane " id="pesanan">
+                                        <div class="pesanan-content">
+                                            <ul class="nav nav-tabs nav-justified" role="tablist">
+                                                <li role="presentation" class="active">
+                                                    <a href="#pesanan-aktif" aria-controls="pesanan-aktif" role="tab" data-toggle="tab">Pesanan Aktif</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#pesanan-selesai" aria-controls="pesanan-selesai" role="tab" data-toggle="tab">Pesanan Selesai</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div role="tabpanel" class="tab-pane active" id="pesanan-aktif">
+                                                    <div class="text-center">
+                                                        <img class="img-responsive img-circle mt-5 mb-5" src="./images/user.jpg" alt="">
+                                                        <p>Anda belum memiliki pesanan sama sekali. <br />Semua pesanan Anda akan tampil disini.</p>
+                                                    </div>
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane" id="pesanan-selesai"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
