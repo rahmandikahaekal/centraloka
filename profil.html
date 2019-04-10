@@ -27,7 +27,7 @@
         <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <img class="img-responsive" alt="Brand" src="./images/logo.png">
                     </a>
                 </div>
@@ -63,7 +63,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Hotel</a></li>
+                    <li><a href="index.html">Hotel</a></li>
                     <li><a href="#">Tiket Pesawat</a></li>
                     <li><a href="#">Kereta Api</a></li>
                     <li><a href="#">Pulsa & Paket Data</a></li>
@@ -98,7 +98,7 @@
                 <div class="row">
                     <div class="main_profil_content">
                         <!-- left content -->
-                        <div class="col-md-3 visible-lg visible-md" id="menu-workspace">
+                        <div class="col-md-3 visible-lg visible-md">
                             <div class="well">
                                 <ul class="nav nav-pills nav-stacked">
                                     <li role="presentation" class="active">
@@ -127,12 +127,72 @@
                             </div>
                         </div>
 
+                        <div class="visible-xs visible-sm mb-10">
+                            <div class="container">
+                                <div class="row" style="border:none;">
+                                    <div class="col-sm-12 mb-20">
+                                        <button aria-controls="dashboard-profil" aria-expanded="false" class="btn btn-profil btn-lg btn-block btn-info font2" data-target="#dashboard-profil" data-toggle="collapse" type="button">Dashboard Menu</button>
+                                        <div class="collapse" id="dashboard-profil">
+                                            <div class="well mt-10">
+                                                <ul class="nav nav-pills nav-stacked">
+                                                    <li role="presentation" class="active">
+                                                        <a href="#profil" aria-controls="profil" role="tab" data-toggle="tab">
+                                                            <i class="fa fa-user-o"></i> Profil Saya
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-divider mt-5 mb-5"></li>
+                                                    <li role="presentation">
+                                                        <a href="#pesanan" aria-controls="pesanan" role="tab" data-toggle="tab">
+                                                            <i class="fa fa-shopping-cart"></i> Pesanan Saya
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-divider mt-5 mb-5"></li>
+                                                    <li role="presentation">
+                                                        <a href="edit-pass.html">
+                                                            <i class="fa fa-unlock-alt"></i> Ubah Kata Sandi
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-divider mt-5 mb-5"></li>
+                                                    <li role="presentation">
+                                                        <a href="login.html"><i class="fa fa-sign-out"></i>Log Out
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- right content -->
-                        <div class="col-md-9">
+                        <div class="col-md-9 body-content">
                             <div class="well">
                                 <div class="tab-content">
-                                    <div role="tabpanel" class="tab-pane active" id="profil">profil</div>
-                                    <div role="tabpanel" class="tab-pane" id="pesanan">pesanan</div>
+                                    <div role="tabpanel" class="tab-pane active" id="profil">
+                                        <div class="profil-content">
+                                            <h3>Profil Saya</h3>
+                                            <hr>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <a href="#">
+                                                    <img class="media-object" src="./images/email sent.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Mr. Didit Wicaksono</h4>
+                                                    <div class="media-detail text-muted">
+                                                        <p>diditwid@yahoo.com</p>
+                                                        <p>+628123456789</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn btn-warning">Edit</button>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="pesanan">
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
