@@ -227,13 +227,19 @@ footer .foot_sosmed ul li:hover a {
         font-size: 12px;
     }
 }
+@media screen and (min-width: 786px) and (max-width: 855px) { 
+    .navbar-default .navbar-nav>li>a {
+        font-size: 11px;
+        padding: 0px 10px;
+    }    
+}
 
 @media (max-width: 785px) {
     header nav a.navbar-brand img {
         padding-top: 10px;
     }
     .navbar-default .navbar-nav>li>a {
-        font-size: 12px;
+        font-size: 11px;
         padding: 5px 10px;
     }
 }

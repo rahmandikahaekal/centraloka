@@ -64,6 +64,17 @@
 .main_profil_content div#pesanan div.pesanan-content div.tab-content {
     padding-top: 20px    
 }
+.main_profil_content div#pesanan div.pesanan-content ul {
+    border-bottom: 1px solid #ddd;
+}
+.main_profil_content div#pesanan div.pesanan-content .nav-tabs.nav-justified li a {
+    border: none;
+}
+.nav-tabs.nav-justified>.active>a {
+    font-weight: bold;
+    color: #03a9f4;
+    border-bottom: 3px solid #03a9f4 !important;
+}
 .main_profil_content .pesanan-content #pesanan-aktif > div > img {
     margin: 10px 0 20px;
     width: 30%;
@@ -74,5 +85,20 @@
 @media (max-width: 991px) {
     body > main > div > div > div > div > div.visible-xs.visible-sm.mb-10 {
         margin-bottom: 20px;
+    }
+}
+@media (max-width: 785px) {
+    .main_profil_content .profil-content .media {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .main_profil_area .main_profil_content .body-content .well .tab-content {
+        padding: 0;
+    }
+}
+@media (max-width: 439px) {
+    .main_profil_content .profil-content .media .media-left {
+        display: inline-block;
+        padding-bottom: 20px;
     }
 }
