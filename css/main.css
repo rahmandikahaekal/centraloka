@@ -46,7 +46,10 @@ header nav:first-child {
     min-height: 80px !important;
 }
 header nav:first-child ul.nav {
-    display: none;
+    /* display: none; */
+}
+header nav:first-child ul.nav li ul.dropdown-menu {
+    padding: 0;
 }
 header nav a.navbar-brand {
     padding: 5px;
@@ -120,8 +123,11 @@ header nav div div  ul li a.active:before {
     width: 100%;
 }
 #bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a:before,
+#bs-example-navbar-collapse-1 > ul:nth-child(2) > li.dropdown.open > ul > li > a:before,
 #bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a:hover:before,
-#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a.active:before {
+#bs-example-navbar-collapse-1 > ul:nth-child(2) > li.dropdown.open > ul > li > a:hover:before,
+#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li > a.active:before,
+#bs-example-navbar-collapse-1 > ul:nth-child(2) > li.dropdown.open > ul > li > a.active:before {
     border: none;    
 }
 .navbar-default .navbar-toggle,
