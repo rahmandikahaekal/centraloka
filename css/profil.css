@@ -26,6 +26,8 @@
 .main_profil_area .main_profil_content .body-content .well .tab-content {
     padding: 0 40px;
 }
+
+/* Profil Saya */
 .main_profil_area .main_profil_content .well .profil-content h3 {
     color: #259cef;
     font-weight: bold;
@@ -61,6 +63,10 @@
     top: -35px;
     position: relative;
 }
+
+/* Pesanan Saya */
+
+/* Pesanan Aktif */
 .main_profil_content div#pesanan div.pesanan-content div.tab-content {
     padding-top: 20px    
 }
@@ -79,6 +85,49 @@
     margin: 10px 0 20px;
     width: 30%;
     display: inline-block;
+}
+
+/* Pesanan Selesai */
+.main_profil_content .pesanan-content #pesanan-selesai div ul li {
+    width: 30%;
+}
+.main_profil_content .pesanan-content #pesanan-selesai div ul li:first-child p {
+    margin: 0;
+}
+.main_profil_content .pesanan-content #pesanan-selesai div ul li img {
+    width: 75%;
+}
+
+
+/* Ubah Kata sandi */
+.main_profil_area .main_profil_content .well .edit {
+    min-height: 265px;
+}
+.main_profil_area .main_profil_content .well .edit h3 {
+    color: #259cef;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d0d0d0;
+}
+.main_profil_content .well .edit hr {
+    background: #259cef;
+    width: 50px;
+    height: 5px;
+    margin: 0;
+    top: -16px;
+    float: right;
+    position: relative;
+}
+.main_profil_content .well .edit .form-group .form-control {
+    padding: 20px;
+}
+#edit > div > form > button {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 30px;
+    float: right;
+    border-radius: 0;
+    position: relative;
 }
 
 /* Responsive Profil */

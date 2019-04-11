@@ -56,7 +56,14 @@
     position: relative;
 }
 .main_vertifikasi_content .side-right img {
-    wi
+    width: 200px;
+    margin-top: 40px;
+    display: inline-block;
+}
+@media (max-width: 991px) {
+    .main_vertifikasi_area .main_vertifikasi_content .side-right {
+        border-radius: 15px;
+    }
 }
 
 @media (max-width: 785px) { 
@@ -70,5 +77,11 @@
     }
     .main_vertifikasi_area .main_vertifikasi_content .side-right {
         border-radius: 20px;
+    }
+}
+
+@media (max-width: 475px) {
+    .main_vertifikasi_content .side-right img {
+        width: 100%;
     }
 }

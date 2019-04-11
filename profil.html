@@ -114,7 +114,7 @@
                                     </li>
                                     <li class="nav-divider mt-5 mb-5"></li>
                                     <li role="presentation">
-                                        <a href="edit-pass.html">
+                                        <a href="#edit" aria-controls="edit" role="tab" data-toggle="tab">
                                             <i class="fa fa-unlock-alt"></i> Ubah Kata Sandi
                                         </a>
                                     </li>
@@ -148,7 +148,7 @@
                                                     </li>
                                                     <li class="nav-divider mt-5 mb-5"></li>
                                                     <li role="presentation">
-                                                        <a href="edit-pass.html">
+                                                        <a href="#edit" aria-controls="edit" role="tab" data-toggle="tab">
                                                             <i class="fa fa-unlock-alt"></i> Ubah Kata Sandi
                                                         </a>
                                                     </li>
@@ -169,6 +169,8 @@
                         <div class="col-md-9 body-content">
                             <div class="well">
                                 <div class="tab-content">
+
+                                    <!-- Profil Saya -->
                                     <div role="tabpanel" class="tab-pane  active" id="profil">
                                         <div class="profil-content">
                                             <h3>Profil Saya</h3>
@@ -190,6 +192,8 @@
                                             <button type="button" class="btn btn-warning">Edit</button>
                                         </div>
                                     </div>
+
+                                    <!-- Pesanan Saya -->
                                     <div role="tabpanel" class="tab-pane " id="pesanan">
                                         <div class="pesanan-content">
                                             <ul class="nav nav-tabs nav-justified" role="tablist">
@@ -208,12 +212,46 @@
                                                     </div>
                                                 </div>
                                                 <div role="tabpanel" class="tab-pane" id="pesanan-selesai">
-                                                    <h4><i class="fa fa-plane"></i> Jakarta (CGK) - Palembang (SMB)</h4>
+                                                    <h5>Booking ID: 123123</h5>
                                                     <div class="list-pesan">
-
+                                                        <ul class="list-inline">
+                                                            <li>
+                                                                <img class="img-responsive" src="./images/lion-air.png" alt="">
+                                                                <p>Lion JT-12</p>
+                                                                <p class="text-muted">Economy</p>
+                                                            </li>
+                                                            <li>
+                                                                <h5><i class="fa fa-plane"></i> Jakarta(CGK) - Palembang(SMB)</h5>
+                                                                <h5>Kamis, 8 February 2018</h5>
+                                                                <ul class="list-inline">
+                                                                    <li>13:30</li>
+                                                                    <li>14:20</li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Ubah Pass -->
+                                    <div role="tabpanel" class="tab-pane" id="edit">
+                                        <div class="edit">
+                                            <h3>Ubah Password</h3>
+                                            <hr>
+                                            <br>
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="inputPassword1">Password Baru</label>
+                                                    <input type="password" class="form-control" id="inputPassword1" placeholder="Masukan Password Baru">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="inputPassword2">Konfirmasi Password</label>
+                                                    <input type="password" class="form-control" id="inputPassword2" placeholder="Ketik Ulang Password">
+                                                </div>
+                                                <button type="submit" class="btn btn-warning">Submit</button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
