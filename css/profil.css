@@ -198,7 +198,22 @@
 
 
 @media (max-width: 439px) {
-    .main_profil_content .profil-content .media .media-left {
+    .main_profil_content .profil-content .media {
+        text-align: center;
+    }
+    .main_profil_content .profil-content .media .media-object {
+        margin: 0;
+    }
+    .main_profil_content .profil-content button.btn {
+        font-weight: bold;
+        font-size: 18px;
+        width: 100%;
+        padding: 5px 30px;
+        border-radius: 0;
+        float: unset;
+        position: static;
+    }
+        .main_profil_content .profil-content .media .media-left {
         display: inline-block;
         padding-bottom: 20px;
     }
