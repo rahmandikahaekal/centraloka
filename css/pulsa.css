@@ -7,47 +7,83 @@ main {
 
 .main_pulsa_area .main_pulsa_content .well {
     margin: 30px 0;
+    padding: 30px;
+    border-radius: 0;
+    background-color: #fff;
 }
-  
-/* .paymentWrap {
-	padding: 50px;
+.main_pulsa_content .well div.body-form ul.nav.nav-tabs li a {
+    padding: 0 15px;
 }
-
-.paymentWrap .paymentBtnGroup {
-	max-width: 800px;
-	margin: auto;
+.main_pulsa_content .well .body-form div.tab-content {
+    padding-top: 15px;
 }
-
-.paymentWrap .paymentBtnGroup .paymentMethod {
-	padding: 40px;
-	box-shadow: none;
-	position: relative;
+.main_pulsa_content .well .body-form div.tab-content h4 {
+    color: #555;
+    font-weight: bold;
 }
 
-.paymentWrap .paymentBtnGroup .paymentMethod.active {
-	outline: none !important;
+/* Nomor Telp */
+.main_pulsa_content .well .tab-content .number-phone {
+    margin-bottom: 20px;
+}
+.main_pulsa_content .well .tab-content .number-phone input.form-control {
+    width: 30%;
+    padding: 20px;
+    font-size: 18px;
+}
+.main_pulsa_content .well .tab-content .number-phone input.form-control:focus {
+    outline: none;
 }
 
-.paymentWrap .paymentBtnGroup .paymentMethod.active .method {
-	border-color: #4cd264;
-	outline: none !important;
-	box-shadow: 0px 3px 22px 0px #7b7b7b;
+/* Nominal */
+.main_pulsa_content .well .body-form ul.nav-tabs {
+    border-bottom: 1px solid #ababab;
+}
+.main_pulsa_content .well .body-form ul.nav-tabs li a,
+.main_pulsa_content .well .body-form ul.nav-tabs>li.active>a,
+.main_pulsa_content .well .body-form ul.nav-tabs>li.active>a:focus,
+.main_pulsa_content .well .body-form ul.nav-tabs>li.active>a:hover {
+    color: #259cef;
+    background-color: transparent;
+    border: none;
+}
+.main_pulsa_content .well .body-form ul.nav-tabs>li.active>a,
+.main_pulsa_content .well .body-form ul.nav-tabs>li.active>a:focus,
+.main_pulsa_content .well .body-form ul.nav-tabs>li.active>a:hover {
+    border-bottom: 5px solid #259cef !important;
+}
+.main_pulsa_content .well .body-form div.tab-content .option {
+    text-align: left;
+}
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane label div {
+    top: 3px;
+    position: relative;
+}
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane label {
+    outline: none;
+    padding: 2px 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #444;
+    line-height: 1;
+    border-radius: 20px;
+    border-color: #888;
+    background-color: #fff;
+}
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane label:hover,
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane label:active,
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane label.active,
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane label:focus {
+    color: #fff;
+    box-shadow: none;
+    border-color: #ff9600;
+    background-color: #ff9600 !important;
+    transition: all 0.3s ease-in-out;
 }
 
-.paymentWrap .paymentBtnGroup .paymentMethod .method {
-	position: absolute;
-	right: 3px;
-	top: 3px;
-	bottom: 3px;
-	left: 3px;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	border: 2px solid transparent;
-	transition: all 0.5s;
+/* Responsive CSS */
+@media (max-width: 425px) {
+    .main_pulsa_content .well .tab-content .number-phone input.form-control {
+        width: 100%;
+    }
 }
-
-.paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
-	border-color: #4cd264;
-	outline: none !important;
-} */
