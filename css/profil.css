@@ -88,8 +88,14 @@
 }
 
 /* Pesanan Selesai */
+.main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan {
+    min-height: 170px;
+}
 .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan div.list-pesan ul li:first-child {
-    width: 27%;
+    width: 25%;
+}
+.main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan div.list-pesan ul li:nth-child(2) {
+    width: 35%;
 }
 #pesanan > div > div {
     padding: 0;
@@ -115,6 +121,7 @@
     color: #f0ad4e;
     font-weight: bold;
     font-size: 18px;
+    float: right;
 }
 
 
