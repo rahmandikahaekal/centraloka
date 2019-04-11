@@ -24,7 +24,7 @@
     padding-right: 10px;
 }
 .main_profil_area .main_profil_content .body-content .well .tab-content {
-    padding: 0 40px;
+    padding: 0 40px 40px;
 }
 
 /* Profil Saya */
@@ -89,7 +89,7 @@
 
 /* Pesanan Selesai */
 .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan {
-    min-height: 170px;
+    min-height: 200px;
     border-bottom: 2px solid #888;
     margin-bottom: 30px;
 }
@@ -177,6 +177,9 @@
     .main_profil_area .main_profil_content .body-content .well .tab-content {
         padding: 0;
     }
+    .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan {
+        min-height: 240px;
+    }
     .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan div.list-pesan ul li:first-child {
         width: 45%;
     }
@@ -192,6 +195,8 @@
         bottom: 20px;
     }
 }
+
+
 @media (max-width: 439px) {
     .main_profil_content .profil-content .media .media-left {
         display: inline-block;
@@ -208,6 +213,6 @@
         width: 100%;
     }
     .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan {
-        min-height: 295px;
+        min-height: 335px;
     }
 }
