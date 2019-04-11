@@ -88,6 +88,15 @@
 }
 
 /* Pesanan Selesai */
+.main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan div.list-pesan ul li:first-child {
+    width: 27%;
+}
+#pesanan > div > div {
+    padding: 0;
+}
+.main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesan ul.list-inline {
+    border-bottom: 0;
+}
 .main_profil_content .pesanan-content #pesanan-selesai div ul li {
     width: 30%;
 }
@@ -96,6 +105,16 @@
 }
 .main_profil_content .pesanan-content #pesanan-selesai div ul li img {
     width: 75%;
+}
+.main_profil_content .pesanan-content #pesanan-selesai div ul li button.btn {
+    position: relative;
+    top: -65px;
+    border-radius: 0;
+}
+.main_profil_area .pesanan-content #pesanan-selesai div button.btn.btn-link {
+    color: #f0ad4e;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 
