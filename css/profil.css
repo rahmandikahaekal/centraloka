@@ -90,6 +90,12 @@
 /* Pesanan Selesai */
 .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan {
     min-height: 170px;
+    border-bottom: 2px solid #888;
+    margin-bottom: 30px;
+}
+.main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
 }
 .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan div.list-pesan ul li:first-child {
     width: 25%;
@@ -111,6 +117,7 @@
 }
 .main_profil_content .pesanan-content #pesanan-selesai div ul li img {
     width: 75%;
+    padding: 20px 0;
 }
 .main_profil_content .pesanan-content #pesanan-selesai div ul li button.btn {
     position: relative;
@@ -170,10 +177,37 @@
     .main_profil_area .main_profil_content .body-content .well .tab-content {
         padding: 0;
     }
+    .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan div.list-pesan ul li:first-child {
+        width: 45%;
+    }
+    .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan div.list-pesan ul li:nth-child(2) {
+        width: 50%;
+    }
+    .main_profil_content .pesanan-content #pesanan-selesai div ul li button.btn {
+        top: 10px;
+    }
+    .main_profil_area .pesanan-content #pesanan-selesai div button.btn.btn-link {
+        font-size: 16px;
+        position: relative;
+        bottom: 20px;
+    }
 }
 @media (max-width: 439px) {
     .main_profil_content .profil-content .media .media-left {
         display: inline-block;
         padding-bottom: 20px;
+    }
+    .main_profil_content .pesanan-content #pesanan-selesai div ul li {
+        display: block;
+        width: 100%;
+    }
+    .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan div.list-pesan ul li:first-child {
+        width: 100%;
+    }
+    .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan div.list-pesan ul li:nth-child(2) {
+        width: 100%;
+    }
+    .main_profil_content .pesanan-content div.tab-content div#pesanan-selesai div.list-pesanan {
+        min-height: 295px;
     }
 }
