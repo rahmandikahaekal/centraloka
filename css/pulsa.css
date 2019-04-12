@@ -30,9 +30,20 @@ hr {
 .main_pulsa_content .well .tab-content .number-phone input.form-control {
     font-size: 18px;
     padding: 25px;
-    padding-right: 45px;
     width: 100%;
+    border-right: none !important;
     border-radius: 0;
+}
+.main_pulsa_content .well .tab-content .number-phone input.form-control:active,
+.main_pulsa_content .well .tab-content .number-phone input.form-control:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+.main_pulsa_content .well .tab-content .number-phone div.input-group-addon {
+    border-left: none;
+    background-color: #fff;
 }
 .main_pulsa_content .well .body-form div.tab-content div.tab-pane .number-phone label {
     background-color: transparent;
@@ -44,7 +55,6 @@ hr {
     padding: 10px;
     position: absolute;
     right: 0;
-
 }
 
 
