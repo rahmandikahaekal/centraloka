@@ -28,13 +28,24 @@ hr {
     margin-bottom: 20px;
 }
 .main_pulsa_content .well .tab-content .number-phone input.form-control {
-    width: 30%;
-    padding: 20px;
     font-size: 18px;
+    padding: 25px;
+    width: 100%;
+    border-radius: 0;
 }
-.main_pulsa_content .well .tab-content .number-phone input.form-control:focus {
-    outline: none;
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane .number-phone label {
+    background-color: transparent;
+    width: 20%;
+    position: absolute;
+    margin: 0; padding: 0;
 }
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane .number-phone label img {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+
+}
+
 
 /* Nominal */
 .main_pulsa_content .well .body-form ul.nav-tabs {
@@ -60,7 +71,7 @@ hr {
     top: 3px;
     position: relative;
 }
-.main_pulsa_content .well .body-form div.tab-content div#paketdata label {
+.main_pulsa_content .well .body-form div.tab-content div#paketdata .option label {
     padding: 10px 30px;
 }
 .main_pulsa_content .well .body-form div.tab-content div#paketdata label div {
@@ -78,10 +89,10 @@ hr {
     border-color: #888;
     background-color: #fff;
 }
-.main_pulsa_content .well .body-form div.tab-content div.tab-pane label:hover,
-.main_pulsa_content .well .body-form div.tab-content div.tab-pane label:active,
-.main_pulsa_content .well .body-form div.tab-content div.tab-pane label.active,
-.main_pulsa_content .well .body-form div.tab-content div.tab-pane label:focus {
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane div.option label:hover,
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane div.option label:active,
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane div.option label.active,
+.main_pulsa_content .well .body-form div.tab-content div.tab-pane div.option label:focus {
     color: #fff;
     box-shadow: none;
     border-color: #ff9600;
