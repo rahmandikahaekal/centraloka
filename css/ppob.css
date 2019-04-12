@@ -1,0 +1,100 @@
+/* ========= */
+/* ====== ppob CSS ====== */
+main {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,160,255,0)),to(#1a2aa4)));
+    background-image: linear-gradient(-180deg,rgba(0,160,255,0),#1a2aa4);
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+h4 {
+    color: #555;
+    font-weight: bold;
+}
+hr {
+    border-bottom: 1px solid #ababab;
+}
+.main_ppob_area .main_ppob_content .well {
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 0;
+    background-color: #fff;
+}
+.main_ppob_content .well div.body-form ul.nav.nav-tabs li a {
+    padding: 0 15px;
+}
+.main_ppob_content .well .body-form div.tab-content {
+    padding-top: 15px;
+}.main_ppob_content .well .body-form ul.nav-tabs {
+    border-bottom: 1px solid #ababab;
+}
+.main_ppob_content .well .body-form ul.nav-tabs li a,
+.main_ppob_content .well .body-form ul.nav-tabs>li.active>a,
+.main_ppob_content .well .body-form ul.nav-tabs>li.active>a:focus,
+.main_ppob_content .well .body-form ul.nav-tabs>li.active>a:hover {
+    color: #259cef;
+    background-color: transparent;
+    border: none;
+}
+.main_ppob_content .well .body-form ul.nav-tabs>li.active>a,
+.main_ppob_content .well .body-form ul.nav-tabs>li.active>a:focus,
+.main_ppob_content .well .body-form ul.nav-tabs>li.active>a:hover {
+    border-bottom: 5px solid #259cef !important;
+}
+
+/* No Meter */
+.main_ppob_content .well .tab-content div#pln div input.form-control {
+    font-size: 16px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0;
+}
+
+/* Nominal */
+.main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label {
+    outline: none;
+    width: 15%;
+    padding: 15px 35px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #444;
+    line-height: 1;
+    border-radius: 20px;
+    border-color: #888;
+    background-color: #fff;
+}
+.main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label:hover,
+.main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label:focus,
+.main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label.active,
+.main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label:active {
+    color: #fff;
+    box-shadow: none;
+    border-color: #ff9600;
+    background-color: #ff9600 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Info */
+.main_ppob_content .well div.tab-content .bg-info {
+    padding: 20px 30px;
+    background-color: #c1fffe;
+}
+.main_ppob_content .well div.tab-content .bg-info h4 {
+    color: green;
+}
+
+/* Harga */
+.main_ppob_content .well div.tab-content button.btn.btn-warning.pull-right {
+    background-color: #ff9600;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 0;
+    bottom: 20px;
+    position: relative;
+}
+.main_ppob_content .well div.tab-content button.btn.btn-warning.pull-right:active,
+.main_ppob_content .well div.tab-content button.btn.btn-warning.pull-right:focus {
+    outline: none;
+}
