@@ -43,6 +43,10 @@ hr {
     border-bottom: 5px solid #259cef !important;
 }
 
+/* =========== PLN TAB =========== */
+.main_ppob_content .well .tab-content div#pln div.nav.nav-tabs {
+    border: none;
+}
 /* No Meter */
 .main_ppob_content .well .tab-content div#pln div input.form-control {
     font-size: 16px;

@@ -93,10 +93,12 @@
                         <div class="body-form">
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs text-center" role="tablist">
-                                <li role="presentation" class="active"><a href="#pln" aria-controls="pln" role="tab" data-toggle="tab">
-                                    <i class="fa fa-bolt fa-3x"></i><br>
-                                    <h4>PLN</h4>
-                                </a></li>
+                                <li role="presentation" class="active">
+                                    <a href="#pln" aria-controls="pln" role="tab" data-toggle="tab">
+                                        <i class="fa fa-bolt fa-3x"></i><br>
+                                        <h4>PLN</h4>
+                                    </a>
+                                </li>
                                 <li role="presentation"><a href="#telkom" aria-controls="telkom" role="tab" data-toggle="tab">
                                     <i class="fa fa-phone fa-3x"></i>
                                     <h4>Telkom</h4>
@@ -130,14 +132,14 @@
                                     <h4>Beli Token atau Tagihan Listrik</h4>
                                     <div>
                                         <!-- Nav tabs -->
-                                        <ul class="nav nav-tabs">
-                                            <li  class="active"><a href="#tokenlistrik" aria-controls="tokenlistrik" role="tab" data-toggle="tab">
-                                                Token Listrik
-                                            </a></li>
-                                            <li><a href="#tagihanlistrik" aria-controls="tagihanlistrik" role="tab" data-toggle="tab">
-                                                Tagihan Listrik
-                                            </a></li>
-                                        </ul>
+                                        <div class="nav nav-tabs">
+                                            <label class="radio-inline active">
+                                                <input href="#tokenlistrik" type="radio" data-toggle="tab" checked> Token Listrik
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input href="#tagihanlistrik" type="radio" data-toggle="tab"> Tagihan Listrik
+                                            </label>
+                                        </div>
                                         
                                         <!-- Tab panes -->
                                         <div class="tab-content">
@@ -230,7 +232,7 @@
                                                         <li>4.Biaya admin adalah Rp 2500 per tagihan / bulan</li>
                                                     </ul>
                                                 </div>
-                                                <br>
+                                                <br><br>
                                                 <button type="button" class="btn btn-warning pull-right">Bayar</button>
                                             </div>
 
