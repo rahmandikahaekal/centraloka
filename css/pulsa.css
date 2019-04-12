@@ -60,6 +60,12 @@ hr {
     top: 3px;
     position: relative;
 }
+.main_pulsa_content .well .body-form div.tab-content div#paketdata label {
+    padding: 10px 30px;
+}
+.main_pulsa_content .well .body-form div.tab-content div#paketdata label div {
+    position: static;
+} 
 .main_pulsa_content .well .body-form div.tab-content div.tab-pane label {
     outline: none;
     width: 15%;
