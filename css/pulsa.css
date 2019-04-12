@@ -30,12 +30,13 @@ hr {
 .main_pulsa_content .well .tab-content .number-phone input.form-control {
     font-size: 18px;
     padding: 25px;
+    padding-right: 45px;
     width: 100%;
     border-radius: 0;
 }
 .main_pulsa_content .well .body-form div.tab-content div.tab-pane .number-phone label {
     background-color: transparent;
-    width: 20%;
+    width: 21.8%;
     position: absolute;
     margin: 0; padding: 0;
 }
