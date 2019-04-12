@@ -8,7 +8,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     -webkit-appearance: none;
     margin: 0;
 }
-h4 {
+h3,h4 {
     color: #555;
     font-weight: bold;
 }
@@ -44,11 +44,13 @@ hr {
 }
 
 /* =========== PLN TAB =========== */
-.main_ppob_content .well .tab-content div#pln div.nav.nav-tabs {
+.main_ppob_content .well .tab-content div#pln div.nav.nav-tabs,
+.main_ppob_content .well .tab-content div#telkom div.nav.nav-tabs {
     border: none;
 }
 /* No Meter */
-.main_ppob_content .well .tab-content div#pln div input.form-control {
+.main_ppob_content .well .tab-content div#pln div input.form-control,
+.main_ppob_content .well .tab-content div#telkom div input.form-control {
     font-size: 16px;
     padding: 20px;
     width: 100%;

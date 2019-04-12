@@ -129,7 +129,7 @@
                             <div class="tab-content">
                                 <!-- PLN -->
                                 <div role="tabpanel" class="tab-pane active" id="pln">
-                                    <h4>Beli Token atau Tagihan Listrik</h4>
+                                    <h3>Beli Token atau Tagihan Listrik</h3>
                                     <div>
                                         <!-- Nav tabs -->
                                         <div class="nav nav-tabs">
@@ -242,7 +242,51 @@
                                 </div>
                                 <!-- Telkom -->
                                 <div role="tabpanel" class="tab-pane" id="telkom">
-                                    
+                                    <h3>Beli Token atau Tagihan Listrik</h3>
+                                    <div>
+                                        <!-- Nav tabs -->
+                                        <div class="nav nav-tabs">
+                                            <label class="radio-inline active">
+                                                <input href="#indiehome" type="radio" data-toggle="tab" checked> Indie Home
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input href="#telephone" type="radio" data-toggle="tab"> Telephone
+                                            </label>
+                                        </div>
+                                        
+                                        <!-- Tab panes -->
+                                        <div class="tab-content">
+                                            <!-- Indie Home -->
+                                            <div class="tab-pane active" id="indiehome">
+                                                <!-- No Meter -->
+                                                <div class="input-group col-md-3">
+                                                    <label for="inputNoMeter">No. Meter</label>
+                                                    <input type="number" class="form-control" id="inputNoMeter" placeholder="Contoh : 08123456789">
+                                                </div>
+                                                <br>
+                                                <!-- Info -->
+                                                <div class="bg-info">
+                                                    <h4>Keterangan</h4>
+                                                    <p>Khusus untuk pelanggan Speedy, pelunasan internet berbayar dapat dilakukan melalui pembayaran IndiHome.</p>
+                                                </div>
+                                                <br><br>
+                                                <button type="button" class="btn btn-warning pull-right">Beli</button>
+                                            </div>
+
+                                            <!-- Telephone -->
+                                            <div class="tab-pane" id="telephone">
+                                                <!-- No Meter -->
+                                                <div class="input-group col-md-12">
+                                                    <label for="inputNoMeter">No. Telephone / No. Pel</label>
+                                                    <input type="number" class="form-control" id="inputNoMeter" placeholder="Contoh : 08123456789">
+                                                </div>
+                                                <br><br>
+                                                <button type="button" class="btn btn-warning pull-right">Bayar</button>
+                                            </div>
+
+                                        </div>
+                                        
+                                    </div>  
                                 </div>
                             </div>
                         </div>
