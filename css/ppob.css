@@ -19,6 +19,26 @@ h3,h4 {
 hr {
     border-bottom: 1px solid #ababab;
 }
+
+.main_ppob_content .well div.tab-content div.modal-header h3 {
+    color: #259cef;
+}
+.main_ppob_content .well div.tab-content div.modal-dialog dl dt {
+    color: #259cef;
+    text-align: left;
+    line-height: 3;
+}
+.main_ppob_content .well div.tab-content div.modal-dialog dl dd:before {
+    content: ":";
+    float: left;
+    position: relative;
+    right: 30px;
+}
+.main_ppob_content .well div.tab-content div.modal-footer button {
+    border-radius: 0;
+    padding: 6px 25px;
+}
+
 .main_ppob_area .main_ppob_content .well {
     margin: 30px 0;
     padding: 30px;
@@ -123,4 +143,14 @@ hr {
 .main_ppob_content .well div.tab-content button.btn.btn-warning.pull-right:active,
 .main_ppob_content .well div.tab-content button.btn.btn-warning.pull-right:focus {
     outline: none;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 800px;
+        margin: 30px auto;
+    }
+    .dl-horizontal dd {
+        margin-left: 240px;
+    }
 }

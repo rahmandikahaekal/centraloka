@@ -209,7 +209,50 @@
                                                     <h4>Harga</h4>
                                                     <h2><strong>Rp. 25.200</strong></h2>
                                                 </div>
-                                                <button type="button" class="btn btn-warning pull-right">Beli</button>
+                                                <button type="button" class="btn btn-warning pull-right" data-toggle="modal" data-target="#paytokenlistrik">Beli</button>
+                                                
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="paytokenlistrik" role="dialog" aria-labelledby="myModalLabel">
+                                                    <div class="modal-dialog model-lg" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                                <h3 class="modal-title" id="myModalLabel">Detail Pembayaran</h3>
+                                                            </div>
+
+                                                            <div class="modal-body col-md-12">
+                                                                <div class="col-md-5">
+                                                                    <img class="img-responsive" src="./images/logo-telkomsel.jpg" alt="">
+                                                                </div>
+                                                                <div class="col-md-7">
+                                                                    <dl class="dl-horizontal">
+                                                                        <dt>Id Pelanggan</dt>
+                                                                        <dd>12345678</dd>
+
+                                                                        <dt>Nama</dt>
+                                                                        <dd>Susi Susanti</dd>
+
+                                                                        <dt>Priode Tagihan</dt>
+                                                                        <dd>January 2018</dd>
+
+                                                                        <dt>Jumlah Tagihan</dt>
+                                                                        <dd>Rp. 315.721,-</dd>
+
+                                                                        <dt>Biaya Administrasi</dt>
+                                                                        <dd>Rp. 2000</dd>
+
+                                                                        <dt>Total</dt>
+                                                                        <dd>Rp. 317.723</dd>
+                                                                    </dl>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Batalkan</button>
+                                                                <button type="button" class="btn btn-primary">Langkah Selanjutnya</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
 
                                             <!-- Tagihan Listrik -->
