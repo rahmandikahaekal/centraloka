@@ -69,7 +69,8 @@ hr {
 
 /* Nominal */
 .main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label,
-.main_ppob_content .well .tab-content div#vouchergame div.option label {
+.main_ppob_content .well .tab-content div#vouchergame div.option label,
+.main_ppob_content .well .tab-content div#topup div.option label {
     outline: none;
     width: 15%;
     padding: 15px 35px;
@@ -89,10 +90,10 @@ hr {
 .main_ppob_content .well .tab-content div#vouchergame div.option label:focus,
 .main_ppob_content .well .tab-content div#vouchergame div.option label.active,
 .main_ppob_content .well .tab-content div#vouchergame div.option label:active,
-.main_ppob_content .well .tab-content div#topup div#gopay div.option label:hover,
-.main_ppob_content .well .tab-content div#topup div#gopay div.option label:focus,
-.main_ppob_content .well .tab-content div#topup div#gopay div.option label.active,
-.main_ppob_content .well .tab-content div#topup div#gopay div.option label:active, {
+.main_ppob_content .well .tab-content div#topup div.option label:hover,
+.main_ppob_content .well .tab-content div#topup div.option label:focus,
+.main_ppob_content .well .tab-content div#topup div.option label:active,
+.main_ppob_content .well .tab-content div#topup div.option label.active {
     color: #fff;
     box-shadow: none;
     border-color: #ff9600;
