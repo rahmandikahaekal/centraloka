@@ -8,6 +8,10 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     -webkit-appearance: none;
     margin: 0;
 }
+input[name=area-choice]::-webkit-inner-spin-button, input[name=area-choice]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 h3,h4 {
     color: #555;
     font-weight: bold;
@@ -50,7 +54,8 @@ hr {
 }
 /* No Meter */
 .main_ppob_content .well .tab-content div#pln div input.form-control,
-.main_ppob_content .well .tab-content div#telkom div input.form-control {
+.main_ppob_content .well .tab-content div#telkom div input.form-control,
+.main_ppob_content .well .tab-content div#pdam div input.form-control {
     font-size: 16px;
     padding: 20px;
     width: 100%;

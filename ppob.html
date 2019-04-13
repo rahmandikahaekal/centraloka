@@ -107,15 +107,15 @@
                                     <i class="fa fa-tint fa-3x"></i>
                                     <h4>PDAM</h4>
                                 </a></li>
-                                <li role="presentation"><a href="#tv" aria-controls="tv" role="tab" data-toggle="tab">
+                                <li role="presentation"><a href="#tvberbayar" aria-controls="tv" role="tab" data-toggle="tab">
                                     <i class="fa fa-television fa-3x"></i>
                                     <h4>TV Berbayar</h4>
                                 </a></li>
-                                <li role="presentation"><a href="#tagihan" aria-controls="tagihan" role="tab" data-toggle="tab">
+                                <li role="presentation"><a href="#tagihankredit" aria-controls="tagihan" role="tab" data-toggle="tab">
                                     <i class="fa fa-credit-card fa-3x"></i>
                                     <h4>Tagihan Kredit</h4>
                                 </a></li>
-                                <li role="presentation"><a href="#voucher" aria-controls="voucher" role="tab" data-toggle="tab">
+                                <li role="presentation"><a href="#vouchergame" aria-controls="voucher" role="tab" data-toggle="tab">
                                     <i class="fa fa-gamepad fa-3x"></i>
                                     <h4>Voucher Game</h4>
                                 </a></li>
@@ -130,7 +130,7 @@
                                 <!-- PLN -->
                                 <div role="tabpanel" class="tab-pane active" id="pln">
                                     <h3>Beli Token atau Tagihan Listrik</h3>
-                                    <div>
+                                    <div class="container" style="width: auto">
                                         <!-- Nav tabs -->
                                         <div class="nav nav-tabs">
                                             <label class="radio-inline active">
@@ -240,10 +240,12 @@
                                         
                                     </div>                                    
                                 </div>
+                                <!-- End PLN -->
+
                                 <!-- Telkom -->
                                 <div role="tabpanel" class="tab-pane" id="telkom">
-                                    <h3>Beli Token atau Tagihan Listrik</h3>
-                                    <div>
+                                    <h3>Beli Tagihan Telkom Anda</h3>
+                                    <div class="container" style="width: auto">
                                         <!-- Nav tabs -->
                                         <div class="nav nav-tabs">
                                             <label class="radio-inline active">
@@ -283,11 +285,78 @@
                                                 <br><br>
                                                 <button type="button" class="btn btn-warning pull-right">Bayar</button>
                                             </div>
-
                                         </div>
                                         
                                     </div>  
                                 </div>
+                                <!-- End Telkom -->
+
+                                <!-- PDAM -->
+                                <div role="tabpanel" class="tab-pane" id="pdam">
+                                    <h3>Beli Tagihan Air</h3>
+                                    <div class="container">
+
+                                        <form>
+                                            <div class="input-group col-md-4">
+                                                <label for="area-choice">Wilayah</label>
+                                                <input list="area-districts" id="area-choice" name="area-choice" class="form-control" placeholder="Area Jakarta" />
+                                                
+                                                <datalist id="area-districts">
+                                                    <option value="Duren Sawit">
+                                                    <option value="Kampung Sumur">
+                                                    <option value="Kampung Melayu">
+                                                    <option value="Kampung Rambutan">
+                                                    <option value="Klender">
+                                                </datalist>
+                                            </div>
+                                        </form>
+                                        <br>
+                                        <form>
+                                            <div class="input-group col-md-4">
+                                                <div class="input-group col-md-12">
+                                                    <label for="inputTelephonePel">No. Telephone / No. Pel</label>
+                                                    <input type="number" class="form-control" id="inputTelephonePel" placeholder="Contoh : 08123456789">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <br><br>
+                                    <button type="button" class="btn btn-warning pull-right">Bayar</button>
+                                </div>
+                                <!-- End PDAM -->
+
+                                <div role="tabpanel" class="tab-pane" id="tvberbayar">
+                                    <h3>Bayar Tagihan TV Kabel</h3>
+                                    <div class="container">
+
+                                        <form>
+                                            <div class="input-group col-md-4">
+                                                <label for="area-choice">Layanan TV Kabel</label>
+                                                <input list="area-districts" id="area-choice" name="area-choice" class="form-control" placeholder="CBN" />
+                                                
+                                                <datalist id="area-districts">
+                                                    <option value="First Media">
+                                                    <option value="MNC Sky Vision">
+                                                    <option value="Orange">
+                                                    <option value="TransVision">
+                                                    <option value="MyRepublic">
+                                                </datalist>
+                                            </div>
+                                        </form>
+                                        <br>
+                                        <form>
+                                            <div class="input-group col-md-4">
+                                                <div class="input-group col-md-12">
+                                                    <label for="inputNoPelanggan">No. Pelanggan </label>
+                                                    <input type="number" class="form-control" id="inputNoPelanggan" placeholder="Contoh : 08123456789">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <br><br>
+                                    <button type="button" class="btn btn-warning pull-right">Bayar</button>
+                                </div>
+
                             </div>
                         </div>
 
