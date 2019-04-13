@@ -325,6 +325,7 @@
                                 </div>
                                 <!-- End PDAM -->
 
+                                <!-- TV Berbayar  -->
                                 <div role="tabpanel" class="tab-pane" id="tvberbayar">
                                     <h3>Bayar Tagihan TV Kabel</h3>
                                     <div class="container">
@@ -355,6 +356,220 @@
                                     </div>
                                     <br><br>
                                     <button type="button" class="btn btn-warning pull-right">Bayar</button>
+                                </div>
+                                <!-- End TV Berbayar -->
+
+                                <!-- Tagihan Kredit -->
+                                <div role="tabpanel" class="tab-pane" id="tagihankredit">
+                                    <h3>Bayar Tagihan Kredit</h3>
+                                    <div class="container">
+
+                                        <form>
+                                            <div class="input-group col-md-4">
+                                                <label for="credit-choice">Penyedia Pinjaman</label>
+                                                <input list="credit-districts" id="credit-choice" name="credit-choice" class="form-control" placeholder="AEON Credit Service Indonesia" />
+                                                
+                                                <datalist id="credit-districts">
+                                                    <option value="AEON Credit Service Indonesia">
+                                                    <option value="AEON Credit Service Indonesia">
+                                                    <option value="AEON Credit Service Indonesia">
+                                                    <option value="AEON Credit Service Indonesia">
+                                                    <option value="AEON Credit Service Indonesia">
+                                                </datalist>
+                                            </div>
+                                        </form>
+                                        <br>
+                                        <form>
+                                            <div class="input-group col-md-4">
+                                                <div class="input-group col-md-12">
+                                                    <label for="inputTelephonePel">No. Pelanggan</label>
+                                                    <input type="number" class="form-control" id="inputTelephonePel" placeholder="Contoh : 08123456789">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <br><br>
+                                    <button type="button" class="btn btn-warning pull-right">Bayar</button>
+                                </div>
+                                <!-- End Tagihan Kredit -->
+
+                                <!-- Voucher Game -->
+                                <div role="tabpanel" class="tab-pane" id="vouchergame">
+                                    <h3>Beli Voucher Game</h3>
+                                    <div class="container" style="width: auto">
+                                        <!-- No Meter -->
+                                        <div class="input-group col-md-6">
+                                            <label for="voucher-choice">Jenis Voucher</label>
+                                            <input list="voucher-districts" id="voucher-choice" name="voucher-choice" class="form-control" placeholder="Pilih Jenis Voucher" />
+                                            
+                                            <datalist id="voucher-districts">
+                                                <option value="Steam Wallet">
+                                            </datalist>
+                                        </div>
+
+                                        <br>
+                                        <!-- Nominal -->
+                                        <div class="option" data-toggle="buttons">
+                                            <h4>Nominal</h4>
+                                            <label class="btn btn-warning">
+                                                <input type="radio" name="options" id="option1"> 
+                                                <div>
+                                                    <strong>25.000</strong>
+                                                </div>
+                                            </label>
+                                            <label class="btn btn-warning">
+                                                <input type="radio" name="options" id="option2">
+                                                <div>
+                                                    <strong>40.000</strong>
+                                                </div>
+                                            </label>
+                                            <label class="btn btn-warning">
+                                                <input type="radio" name="options" id="option3">
+                                                <div>
+                                                    <strong>50.000</strong>
+                                                </div>
+                                            </label>
+                                            <label class="btn btn-warning">
+                                                <input type="radio" name="options" id="option4">
+                                                <div>
+                                                    <strong>100.000</strong>
+                                                </div>
+                                            </label>
+                                            <label class="btn btn-warning">
+                                                <input type="radio" name="options" id="option5">
+                                                <div>
+                                                    <strong>150.000</strong>
+                                                </div>
+                                            </label>
+                                            <label class="btn btn-warning">
+                                                <input type="radio" name="options" id="option5">
+                                                <div>
+                                                    <strong>200.000</strong>
+                                                </div>
+                                            </label>
+                                            <label class="btn btn-warning">
+                                                <input type="radio" name="options" id="option4">
+                                                <div>
+                                                    <strong>300.000</strong>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <hr>
+                                        <div class="price">
+                                            <h4>Harga</h4>
+                                            <h2><strong>Rp. 25.200</strong></h2>
+                                        </div>
+                                        <button type="button" class="btn btn-warning pull-right">Beli</button>
+                                    </div>
+                                </div>
+                                <!-- End Voucher Game -->
+
+                                <div role="tabpanel" class="tab-pane" id="topup">
+                                    <h3>Top Up Gojek / Grab</h3>
+                                    <div class="container" style="width: auto">
+                                        <!-- Nav tabs -->
+                                        <div class="nav nav-tabs">
+                                            <label class="radio-inline active">
+                                                <input href="#gopay" type="radio" data-toggle="tab" checked>Go Pay
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input href="#grabpay" type="radio" data-toggle="tab">Grab Pay
+                                            </label>
+                                        </div>
+                                        
+                                        <!-- Tab panes -->
+                                        <div class="tab-content">
+
+                                            <!-- Go Pay -->
+                                            <div class="tab-pane active" id="gopay">
+                                                <!-- No Meter -->
+                                                <div class="input-group col-md-3">
+                                                    <label for="inputNoPelanggan">No. Pelanggan</label>
+                                                    <input type="number" class="form-control" id="inputNoPelanggan" placeholder="Contoh : 08123456789">
+                                                </div>
+
+                                                <br>
+                                                <!-- Nominal -->
+                                                <div class="option" data-toggle="buttons">
+                                                    <h4>Nominal</h4>
+                                                    <label class="btn btn-warning">
+                                                        <input type="radio" name="options" id="option1"> 
+                                                        <div>
+                                                            <strong>25.000</strong>
+                                                        </div>
+                                                    </label>
+                                                    <label class="btn btn-warning">
+                                                        <input type="radio" name="options" id="option2">
+                                                        <div>
+                                                            <strong>40.000</strong>
+                                                        </div>
+                                                    </label>
+                                                    <label class="btn btn-warning">
+                                                        <input type="radio" name="options" id="option3">
+                                                        <div>
+                                                            <strong>50.000</strong>
+                                                        </div>
+                                                    </label>
+                                                    <label class="btn btn-warning">
+                                                        <input type="radio" name="options" id="option4">
+                                                        <div>
+                                                            <strong>100.000</strong>
+                                                        </div>
+                                                    </label>
+                                                    <label class="btn btn-warning">
+                                                        <input type="radio" name="options" id="option5">
+                                                        <div>
+                                                            <strong>150.000</strong>
+                                                        </div>
+                                                    </label>
+                                                    <label class="btn btn-warning">
+                                                        <input type="radio" name="options" id="option5">
+                                                        <div>
+                                                            <strong>200.000</strong>
+                                                        </div>
+                                                    </label>
+                                                    <label class="btn btn-warning">
+                                                        <input type="radio" name="options" id="option4">
+                                                        <div>
+                                                            <strong>300.000</strong>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                                <hr>
+                                                <div class="price">
+                                                    <h4>Harga</h4>
+                                                    <h2><strong>Rp. 25.200</strong></h2>
+                                                </div>
+                                                <button type="button" class="btn btn-warning pull-right">Beli</button>
+                                            </div>
+
+                                            <!-- Grab Pay -->
+                                            <div class="tab-pane" id="grabpay">
+                                                    <!-- No Meter -->
+                                                    <div class="input-group col-md-3">
+                                                    <label for="inputNoMeter">No. Meter</label>
+                                                    <input type="number" class="form-control" id="inputNoMeter" placeholder="Contoh : 08123456789">
+                                                </div>
+                                                <br>
+                                                <!-- Info -->
+                                                <div class="bg-info">
+                                                    <h4>Keterangan</h4>
+                                                    <ul>
+                                                        <li>1.Pembayaran tagihan listrik tidak dapat dilakukan pada pukul 23:45-00:30 WIB
+                                                            sesuai dengan ketentuan PLN
+                                                        </li>
+                                                        <li>2.Proses vertifikasi pembayaran membutuhkan waktu maksimum 2x24jam</li>
+                                                        <li>3.Total tagihan yang tertera sudah terasuk denda (bila ada)</li>
+                                                        <li>4.Biaya admin adalah Rp 2500 per tagihan / bulan</li>
+                                                    </ul>
+                                                </div>
+                                                <br><br>
+                                                <button type="button" class="btn btn-warning pull-right">Bayar</button>
+                                            </div>
+
+                                        </div>
+                                        
+                                    </div>     
                                 </div>
 
                             </div>

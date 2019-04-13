@@ -49,13 +49,18 @@ hr {
 
 /* =========== PLN TAB =========== */
 .main_ppob_content .well .tab-content div#pln div.nav.nav-tabs,
-.main_ppob_content .well .tab-content div#telkom div.nav.nav-tabs {
+.main_ppob_content .well .tab-content div#telkom div.nav.nav-tabs,
+.main_ppob_content .well .tab-content div#topup div.nav.nav-tabs {
     border: none;
 }
 /* No Meter */
 .main_ppob_content .well .tab-content div#pln div input.form-control,
 .main_ppob_content .well .tab-content div#telkom div input.form-control,
-.main_ppob_content .well .tab-content div#pdam div input.form-control {
+.main_ppob_content .well .tab-content div#pdam div input.form-control,
+.main_ppob_content .well .tab-content div#tvberbayar div input.form-control,
+.main_ppob_content .well .tab-content div#tagihankredit div input.form-control,
+.main_ppob_content .well .tab-content div#vouchergame div input.form-control,
+.main_ppob_content .well .tab-content div#topup div input.form-control {
     font-size: 16px;
     padding: 20px;
     width: 100%;
@@ -63,7 +68,8 @@ hr {
 }
 
 /* Nominal */
-.main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label {
+.main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label,
+.main_ppob_content .well .tab-content div#vouchergame div.option label {
     outline: none;
     width: 15%;
     padding: 15px 35px;
@@ -78,7 +84,15 @@ hr {
 .main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label:hover,
 .main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label:focus,
 .main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label.active,
-.main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label:active {
+.main_ppob_content .well .tab-content div#pln div#tokenlistrik div.option label:active,
+.main_ppob_content .well .tab-content div#vouchergame div.option label:hover,
+.main_ppob_content .well .tab-content div#vouchergame div.option label:focus,
+.main_ppob_content .well .tab-content div#vouchergame div.option label.active,
+.main_ppob_content .well .tab-content div#vouchergame div.option label:active,
+.main_ppob_content .well .tab-content div#topup div#gopay div.option label:hover,
+.main_ppob_content .well .tab-content div#topup div#gopay div.option label:focus,
+.main_ppob_content .well .tab-content div#topup div#gopay div.option label.active,
+.main_ppob_content .well .tab-content div#topup div#gopay div.option label:active, {
     color: #fff;
     box-shadow: none;
     border-color: #ff9600;
