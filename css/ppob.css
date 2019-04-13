@@ -19,14 +19,26 @@ h3,h4 {
 hr {
     border-bottom: 1px solid #ababab;
 }
+/* Navigation Tabs */
+.main_ppob_area .main_ppob_content .well .body-form ul.nav {
+    text-align: center;
+}
+.main_ppob_area .main_ppob_content .well .body-form ul.nav li {
+    float: none;
+    display: inline-block;
+}
 
+/* Modal Payments */
 .main_ppob_content .well div.tab-content div.modal-header h3 {
     color: #259cef;
+}
+.main_ppob_content .well div.tab-content div.modal-dialog dl dt,
+.main_ppob_content .well div.tab-content div.modal-dialog dl dd {
+    line-height: 3;
 }
 .main_ppob_content .well div.tab-content div.modal-dialog dl dt {
     color: #259cef;
     text-align: left;
-    line-height: 3;
 }
 .main_ppob_content .well div.tab-content div.modal-dialog dl dd:before {
     content: ":";
