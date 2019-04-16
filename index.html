@@ -12,6 +12,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- Bootstrap DatePicker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
@@ -91,7 +94,55 @@
     </header>
 
     <main>
-        <section id="search-box"></section>
+
+        <!-- Search Box -->
+        <section id="search-box">
+            <div class="container">
+                <div class="row">
+                    <div class="main_content">
+                        <ul class="list-inline">
+                            <li>
+                                <div class="form-group">
+                                    <label for="inputDestiny">Hotel / Kota</label>
+                                    <input type="search" class="form-control" id="inputDestiny" placeholder="Bali">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-group">
+                                    <label for="date1">Check In</label>
+                                    <div class="form-inline">
+                                        <input class="form-control" id="date1" name="date1" placeholder="MM/DD/YYY" type="text"/>
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-group">
+                                    <label for="date2">Check Out</label>
+                                    <div class="form-inline">
+                                        <input class="form-control" id="date2" name="date2" placeholder="MM/DD/YYY" type="text"/>
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-group">
+                                    <label for="">Kamar</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="">1 Kamar</option>
+                                        <option value="">2 Kamar</option>
+                                        <option value="">3 Kamar</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="btn btn-warning" type="button">Cari</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Slider Image -->
         <section id="slider-image">
@@ -175,7 +226,7 @@
                                                     <div class="input-group-addon"><i class="fa fa-envelope-o"></i></div>
                                                     <input type="text" class="form-control">
                                                     <span class="input-group-btn">
-                                                            <button class="btn btn-default" type="button">Kirim Email</button>
+                                                        <button class="btn btn-warning" type="button">Kirim Email</button>
                                                     </span>
                                                 </div>
                                             </li>
@@ -184,7 +235,7 @@
                                                     <div class="input-group-addon"><i class="fa fa-phone"></i></div>
                                                     <input type="text" class="form-control">
                                                     <span class="input-group-btn">
-                                                            <button class="btn btn-default" type="button">Kirim Sms</button>
+                                                        <button class="btn btn-warning" type="button">Kirim Sms</button>
                                                     </span>
                                                 </div>
                                             </li>
@@ -386,6 +437,8 @@
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap DatePicker -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
     <!-- Owl Carousel -->
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
