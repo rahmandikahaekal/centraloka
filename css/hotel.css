@@ -14,7 +14,8 @@ section {
     padding-left: 50px;
     padding-bottom: 30px
 }
-#download-aplikasi .download-body .side-left img {
+/* Side Left */
+#download-aplikasi .download-body img {
     width: 80%;
     display: inline-block
 }
@@ -23,13 +24,51 @@ section {
     font-size: 20px;
     position: relative;
     top: 40px;
-
 }
 #download-aplikasi .download-body .side-left ul li img {
     width: 100%;
 }
 #download-aplikasi .download-body .side-left ul li:first-child {
     padding-bottom: 20px;
+}
+/* Side Right */
+#download-aplikasi .download-body .side-right img {
+    position: relative;
+    bottom: 13px;
+    width: 50%;
+}
+#download-aplikasi .download-body .side-right ul li div.input-group-addon {
+    background-color: transparent;
+    border-right: none !important;
+}
+#download-aplikasi .download-body .side-right ul li input {
+    border-left: none;
+}
+#download-aplikasi .download-body .side-right ul li input:visited,
+#download-aplikasi .download-body .side-right ul li input:focus,
+#download-aplikasi .download-body .side-right ul li input.active,
+#download-aplikasi .download-body .side-right ul li input:active {
+    outline: none;
+    border-color: #ccc;
+    box-shadow: none;
+}
+#download-aplikasi .download-body .side-right ul li:first-child {
+    padding-bottom: 20px;
+}
+#download-aplikasi .download-body .side-right ul li input {
+    padding: 19px 10px;
+    padding-right: 0;
+    border-radius: 0;
+}
+#download-aplikasi .download-body .side-right ul li:first-child button {
+    padding: 8px 18px;
+}
+#download-aplikasi .download-body .side-right ul li button {
+    color: #fff;
+    background-color: #ff9600;
+    font-size: 16px;
+    padding: 8px 22px;
+    border-radius: 0;
 }
 
 
