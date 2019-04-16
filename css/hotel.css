@@ -7,9 +7,28 @@ section {
 /* Search Box */
 #search-box {
     background-color: #28a1e6;
+    padding: 20px 0;
 }
 #search-box ul {
     text-align: center
+}
+#search-box .main_content ul li div.form-group label {
+    text-align: left !important;
+}
+#search-box .main_content ul li div.form-inline .input-group-addon {
+    width: 1%;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+}
+#search-box .main_content ul li div.form-inline .input-group-addon i {
+    font-size: 20px;
+}
+#search-box .main_content ul li div.form-inline input {
+    padding: 6px 12px;
+}
+#search-box .main_content ul li:first-child div.form-inline input {
+    padding-left: 30px;
 }
 #search-box .main_content ul li button {
     color: #fff;
