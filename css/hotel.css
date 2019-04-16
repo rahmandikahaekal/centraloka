@@ -1,0 +1,92 @@
+/* ========= */
+/* ====== Hotel CSS ====== */
+section {
+    padding: 30px 0 40px;
+}
+
+/* Alasan Membeli */
+#alasan-pembelian {
+    background-color: #28a1e6;
+    color: #fff;
+}
+#alasan-pembelian h3 {
+    font-weight: bold;
+}
+#alasan-pembelian .main_content .cara-body {
+    padding-top: 30px;
+    text-align: center;
+}
+#alasan-pembelian img {
+    width: 40%;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+#alasan-pembelian .main_content .cara-body div:nth-child(2) img {
+    width: 45%;
+}
+#alasan-pembelian .main_content .cara-body div p {
+    text-align: left;
+}
+
+
+/* Partner Centraloka.com */
+#partner {
+    font-weight: bold;
+    color: #222;
+    background-color: #fff;
+}
+#partner h3 {
+    font-weight: bold;
+}
+#partner ul li {
+    width: 13%;
+}
+#partner ul li img {
+    width: 85%;
+}
+#partner ul li:nth-child(5),
+#partner ul li:nth-child(6) {
+    width: 10%
+}
+#partner ul li:last-child {
+    width: 10%;
+}  
+#partner button {
+    background-color: #ff9600;
+    font-size: 16px;
+    padding: 8px 26px;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+/* Cara Pemesanan */
+#cara-pemesanan {
+    font-weight: bold;
+    color: #222;
+    background-color: #d4ebf9;
+}
+#cara-pemesanan h3 {
+    font-weight: bold;
+}
+#cara-pemesanan .main_content .cara-body {
+    text-align: center;
+    padding-top: 30px
+}
+#cara-pemesanan img {
+    width: 40%;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+#cara-pemesanan .main_content .cara-body div:nth-child(2) img {
+    width: 29%;
+}
+#cara-pemesanan .main_content ul li {
+    font-weight: bold;
+    font-size: 20px;
+}
+#cara-pemesanan .main_content ul li:first-child span {
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background-color: #ffb833;
+}
