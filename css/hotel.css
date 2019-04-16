@@ -4,6 +4,24 @@ section {
     padding: 30px 0 40px;
 }
 
+/* Tujuan Wisata */
+#tujuan-wisata {
+    font-weight: bold;
+    background-color: #d4ebf9;
+}
+#tujuan-wisata h3 {
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+#tujuan-wisata .main_content .tujuan-body div div {
+    padding-bottom: 40px;
+}
+#tujuan-wisata .main_content .tujuan-body img {
+    width: 80%;
+    display: inline-block;
+}
+
 /* Download Aplikasi */
 #download-aplikasi {
     background-color: #fff;
