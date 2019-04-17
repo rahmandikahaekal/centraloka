@@ -1,0 +1,49 @@
+/* ========= */
+/* ====== Payment CSS ====== */
+main {
+    background-color: #f2f2f2 !important;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 0;
+    display: none;
+}
+/* Main Payment Area */
+.main_payment_area {
+    padding: 40px 0;
+}
+.text-orange {
+    color: #ff9600;
+}
+.text-blue {
+    color: #00a3fe;
+}
+
+/* Side Left */
+.main_payment_area div div div.main_content div.side-left div.panel ul li div.option label {
+    min-width: 130px;
+    padding: 15px 25px;
+    border-radius: 0;
+}
+.main_payment_area div div div.main_content div.side-left div.panel ul li div.option label:hover,
+.main_payment_area div div div.main_content div.side-left div.panel ul li div.option label:focus,
+.main_payment_area div div div.main_content div.side-left div.panel ul li div.option label.active {
+    background-color: #ff9600;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.main_payment_area div div div.main_content div.side-left div.panel ul li div.option label.active {
+    outline: none;
+}
+
+/* Side Right */
+.main_payment_area div div div.main_content div div.panel {
+    border-color: transparent;
+}
+.main_payment_area div div div.main_content div div.panel .panel-heading {
+    border-radius: 0;
+    background-color: #00a3fe;
+    border-color: #00a3fe;
+}
+.main_payment_area div div div.main_content div div.panel .panel-heading h3 {
+    font-weight: bold;
+}
