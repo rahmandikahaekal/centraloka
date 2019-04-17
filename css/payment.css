@@ -19,6 +19,8 @@ input[type=checkbox], input[type=radio] {
 }
 
 /* Side Left */
+
+/* Pilih Metode Pembayaran */
 .main_payment_area div div div.main_content div.side-left div.panel ul li div.option label {
     min-width: 130px;
     padding: 15px 25px;
@@ -35,6 +37,34 @@ input[type=checkbox], input[type=radio] {
     outline: none;
 }
 
+/* Pilih Rekening */
+.main_payment_area div div div.main_content div.side-left div.panel ul li:nth-child(2) p i {
+    color: green;
+}
+.main_payment_area div div div.main_content div.side-left div.panel ul li.list-group-item.pilih-rek {
+    padding-top: 20px;
+}
+
+/* Info Penting & Pembayaran */
+.main_payment_area div div div.main_content div.side-left div.panel ul li.list-group-item.info-pembayaran div.row {
+    padding: 20px 0;
+}
+.main_payment_area div div div.main_content div.side-left div.panel ul li.list-group-item.info-pembayaran .info-penting hr {
+    border-color: #333
+}
+.main_payment_area div div div.main_content div.side-left div.panel ul li.list-group-item.info-pembayaran .info-penting ul:nth-child(2) {
+    padding-left: 30px;
+    list-style-type: circle;
+}
+.main_payment_area div div div.main_content div.side-left div.panel ul li.list-group-item.info-pembayaran .info-penting ul {
+    list-style: none;
+}
+.main_payment_area div div div.main_content div.side-left div.panel ul li.list-group-item.info-pembayaran .info-penting button {
+    background-color: #ff9600;
+    font-weight: bold;
+    border-radius: 0;
+}
+
 /* Side Right */
 .main_payment_area div div div.main_content div div.panel {
     border-color: transparent;
@@ -43,7 +73,7 @@ input[type=checkbox], input[type=radio] {
     border-radius: 0;
     background-color: #00a3fe;
     border-color: #00a3fe;
-}
+}html
 .main_payment_area div div div.main_content div div.panel .panel-heading h3 {
     font-weight: bold;
 }
