@@ -41,6 +41,9 @@ input[type=checkbox], input[type=radio] {
 }
 
 /* Pilih Rekening */
+.main_content .side-left div.panel ul li.pilih-rek {
+    padding-top: 30px;
+}
 .main_content .side-left div.panel ul li.pilih-rek label {
     padding: 0 !important;
 }
@@ -85,8 +88,8 @@ input[type=checkbox], input[type=radio] {
     font-weight: bold;
     border-radius: 0;
 }
-.main_content .side-left div.panel ul li.info-pembayaran .info-penting ul:nth-child(2) p:nth-child(2) img {
-    width: 50%;
+.main_content .side-left div.panel ul li.info-pembayaran .info-penting ul:last-child p img {
+    width: 10em;
 }
 
 /* Side Right */
