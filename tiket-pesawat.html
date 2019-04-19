@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Hotel CSS -->
-    <link rel="stylesheet" href="css/hotel.css">
+    <link rel="stylesheet" href="css/tiket-pesawat.css">
     
     <!-- Theme CSS -->
     <link rel="stylesheet" href="css/main.css">
@@ -70,8 +70,8 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a class="active" href="index.html">Hotel</a></li>
-                    <li><a href="tiket-pesawat.html">Tiket Pesawat</a></li>
+                    <li><a href="index.html">Hotel</a></li>
+                    <li><a class="active" href="tiket-pesawat.html">Tiket Pesawat</a></li>
                     <li><a href="#">Kereta Api</a></li>
                     <li><a href="pulsa.html">Pulsa & Paket Data</a></li>
                     <li><a href="ppob.html">PPOB</a></li>
@@ -99,51 +99,83 @@
         <section id="search-box">
             <div class="container">
                 <div class="row">
-                    <div class="main_content">
-                        <ul class="list-inline">
-                            <li>
-                                <div class="form-group">
-                                    <label for="inputDestiny">Hotel / Kota</label>
-                                    <div class="form-inline">
+                    <div class="main_content col-md-12">
+                        <div class="col-md-4 destiny">
+                            <div class="box-from form-group">
+                                <label for="inputDestiny">Dari</label>
+                                <div class="form-inline">
+                                    <div class="form-group">
+                                        <div class="input-group-addon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <input type="search" class="form-control" id="inputDestiny" placeholder="Bali">
+                                    </div>
+                                    <!-- <i class="fa fa-exchange"></i> -->
+                                </div>
+                            </div>
+                            <div class="box-to form-group">
+                                <label for="inputDestiny">Ke</label>
+                                <div class="form-inline">
+                                    <div class="form-group">
                                         <div class="input-group-addon">
                                             <i class="fa fa-map-marker"></i>
                                         </div>
                                         <input type="search" class="form-control" id="inputDestiny" placeholder="Bali">
                                     </div>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="form-group">
-                                    <label for="date1">Check In</label>
-                                    <div class="form-inline">
-                                        <input class="form-control" id="date1" name="date1" placeholder="MM/DD/YYY" type="text"/>
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="date1">Pergi</label>
+                                <div class="form-inline">
+                                    <input class="form-control" id="date1" name="date1" placeholder="MM/DD/YY" type="text"/>
+                                    <i class="fa fa-calendar"></i>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="form-group">
-                                    <label for="date2">Check Out</label>
-                                    <div class="form-inline">
-                                        <input class="form-control" id="date2" name="date2" placeholder="MM/DD/YYY" type="text"/>
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="date2">Pulang</label>
+                                <div class="form-inline">
+                                    <input class="form-control" id="date2" name="date2" placeholder="MM/DD/YY" type="text"/>
+                                    <i class="fa fa-calendar"></i>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="form-group">
-                                    <label for="">Kamar</label>
-                                    <select name="" id="" class="form-control">
-                                        <option value="">1 Kamar</option>
-                                        <option value="">2 Kamar</option>
-                                        <option value="">3 Kamar</option>
-                                    </select>
-                                </div>
-                            </li>
-                            <li>
-                                <button class="btn btn-warning" type="button">Cari</button>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="form-group">
+                                <label for="">Dewasa</label>
+                                <select name="" id="" class="form-control">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="form-group">
+                                <label for="">Anak</label>
+                                <select name="" id="" class="form-control">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="form-group">
+                                <label for="">Infant</label>
+                                <select name="" id="" class="form-control">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <button class="btn btn-warning" type="button">Cari</button>
+                        </div>
                     </div>
                 </div>
             </div>
