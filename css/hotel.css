@@ -8,6 +8,8 @@ section {
 #search-box {
     background-color: #28a1e6;
     padding: 20px 0;
+    font-size: 12px;
+    color: #fff;
 }
 #search-box ul {
     text-align: center
@@ -29,6 +31,11 @@ section {
 }
 #search-box .main_content ul li:first-child div.form-inline input {
     padding-left: 30px;
+}
+#search-box div.main_content ul li div.form-group i.fa.fa-calendar {
+    font-size: 25px;
+    position: relative;
+    top: 5px;
 }
 #search-box .main_content ul li button {
     color: #fff;

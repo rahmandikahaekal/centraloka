@@ -6,12 +6,14 @@ section {
 
 
 /* Search Box */
+#search-box {
+    font-size: 12px;
+    color: #fff;
+    padding: 20px 0;
+    background-color: #28a1e6;
+}
 #search-box .col-md-4, #search-box .col-md-2, #search-box .col-md-1 {
     padding: 0 5px;
-}
-#search-box {
-    background-color: #28a1e6;
-    padding: 20px 0;
 }
 #search-box div.main_content div.destiny .box-from, #search-box div.main_content div.destiny .box-to { width: 50% }
 #search-box div.main_content div.destiny .form-group:first-child { float: left }
@@ -33,6 +35,11 @@ section {
 #date1, #date2 {
     width: 85%
 }
+#search-box div.main_content div .form-group i.fa.fa-calendar {
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}   
 #search-box div.main_content div button {
     position: relative;
     top: 27px;
