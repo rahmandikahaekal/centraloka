@@ -7,6 +7,10 @@ input[type=checkbox], input[type=radio] {
     margin: 0;
     display: none;
 }
+.flip-clock-wrapper ul li a div div.inn {
+    background-color: #00a4ff;
+}
+
 /* Main Payment Area */
 .main_payment_area {
     padding: 40px 0;
