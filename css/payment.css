@@ -28,6 +28,9 @@ input[type=checkbox], input[type=radio] {
 .main_content .side-left ul li.pilih-metode {
     padding: 30px 15px;
 }
+.main_content div.side-left div.panel ul li div.option {
+    padding-top: 20px;
+}
 .main_content div.side-left div.panel ul li div.option label {
     min-width: 130px;
     padding: 15px 25px;
