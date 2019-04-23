@@ -22,35 +22,38 @@ section {
 
 /* Destinasi Penerbangan */
 /* Blue Bar */
-#destinasi-penerbangan .col-md-8 .blue-box.row {
+#destinasi-penerbangan .col-md-8 .blue-box.row,
+#destinasi-penerbangan .col-md-4 .blue-box.row {
     margin-left: 0;
     margin-right: 0;
     padding: 25px 15px;
     padding-top: 10px;
 }
-#destinasi-penerbangan .col-md-8 .blue-box.row ul li h1 {
+#destinasi-penerbangan .col-md-8 .blue-box.row ul li h1,
+#destinasi-penerbangan .col-md-4 .blue-box.row ul li h1 {
     font-size: 4em;
+    padding: 10px 20px;
+    border-right: 5px solid #fff;
 }
-#destinasi-penerbangan .col-md-8 .blue-box.row ul li.border-right {
-    border-right: 3px solid #fff;
-    padding: 0 20px;
-}
-#destinasi-penerbangan .col-md-8 .blue-box.row  ul li ul ul li:first-child {
-    padding-left: 0;
-}
-#destinasi-penerbangan .col-md-8 .blue-box.row ul li ul {
-    padding-left: 20px;
-}
-#destinasi-penerbangan .col-md-8 .blue-box.row ul li ul li {
-    line-height: 2.3;
-    top: 8px;
+#destinasi-penerbangan .col-md-8 .blue-box.row ul.desc-destinasi,
+#destinasi-penerbangan .col-md-4 .blue-box.row ul.desc-destinasi {
+    line-height: 2;
+    padding-left: 10px;
+    top: 15px;
     position: relative;
 }
-#destinasi-penerbangan .col-md-8 .blue-box.row ul li ul ul {
-    padding: 0;
+#destinasi-penerbangan .col-md-4 .blue-box.row,
+#destinasi-penerbangan .col-md-4 .list-destinasi {
+    user-select: none;
+    opacity: 0.2;
 }
-#destinasi-penerbangan .col-md-8 .blue-box.row  ul li ul ul li:last-child {
-    padding-left: 20px;
+#destinasi-penerbangan .col-md-4 .blue-box.row ul.desc-destinasi {
+    position: absolute;
+    width: fit-content;
+    top: 30px;
+}
+#destinasi-penerbangan .col-md-4 .list-destinasi li.list .container {
+    width: auto;
 }
 #destinasi-penerbangan .col-md-8 .blue-box.row button {
     font-size: 14px;
@@ -65,35 +68,43 @@ section {
 }
 
 /* List Destinasi */
-#destinasi-penerbangan .col-md-8 .list-destinasi {
+#destinasi-penerbangan .col-md-8 .list-destinasi,
+#destinasi-penerbangan .col-md-4 .list-destinasi {
     padding-top: 20px;
 }
-#destinasi-penerbangan .col-md-8 .list-destinasi .box-destinasi div.head {
+#destinasi-penerbangan .col-md-8 .list-destinasi .box-destinasi div.head,
+#destinasi-penerbangan .col-md-4 .list-destinasi .box-destinasi div.head {
     padding-bottom: 20px;
 }
-#destinasi-penerbangan .col-md-8 .list-destinasi ul li.list.row {
+#destinasi-penerbangan .col-md-8 .list-destinasi ul li.list.row,
+#destinasi-penerbangan .col-md-4 .list-destinasi ul li.list.row {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #777;
 }
-#destinasi-penerbangan .col-md-8 .list-destinasi ul li.list div div img {
+#destinasi-penerbangan .col-md-8 .list-destinasi ul li.list div div img,
+#destinasi-penerbangan .col-md-4 .list-destinasi ul li.list div div img {
     text-align: center;
 }
-#destinasi-penerbangan .col-md-8 .list-destinasi ul li i.fa {
+#destinasi-penerbangan .col-md-8 .list-destinasi ul li i.fa,
+#destinasi-penerbangan .col-md-4 .list-destinasi ul li i.fa {
     color: green;
 }
-#destinasi-penerbangan .col-md-8 .list-destinasi ul li.list div h3 {
+#destinasi-penerbangan .col-md-8 .list-destinasi ul li.list div h3,
+#destinasi-penerbangan .col-md-4 .list-destinasi ul li.list div h3 {
     font-weight: bold;
     color: #ff9600;
     margin: 0;
     margin-bottom: 10px;
 }
-#destinasi-penerbangan .col-md-8 .list-destinasi ul li.list div button {
+#destinasi-penerbangan .col-md-8 .list-destinasi ul li.list div button,
+#destinasi-penerbangan .col-md-4 .list-destinasi ul li.list div button {
     border-radius: 0;
     background-color: orange;
 }
-#destinasi-penerbangan .col-md-8 .list-destinasi ul li a {
+#destinasi-penerbangan .col-md-8 .list-destinasi ul li a,
+#destinasi-penerbangan .col-md-4 .list-destinasi ul li a {
     color: #28a1e6;
 }
