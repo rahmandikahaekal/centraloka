@@ -3,7 +3,9 @@
 section {
     padding: 30px 0;
 }
+.bg-orange { background-color: orange; color: #fff }
 .bg-blue { background-color:#28a1e6; color: #fff }
+.text-blue { color: #28a1e6 }
 
 /* Blue Bar */
 #search-box, #search-box a {
@@ -129,4 +131,79 @@ section {
 #destinasi-penerbangan .col-md-8 .list-destinasi ul li a,
 #destinasi-penerbangan .col-md-4 .list-destinasi ul li a {
     color: #28a1e6;
+}
+
+/* Modal Popup */
+#paymentDestinasi div.modal-content {
+    padding: 0 20px;
+    border-radius: 0;
+}
+#paymentDestinasi div.modal-content .modal-header {
+    padding: 15px 0;
+}
+#paymentDestinasi div.modal-content .modal-header h4 {
+    color: #03A9F4;
+    font-weight: bold;
+}
+#paymentDestinasi div.modal-content .modal-header .close {
+    display: none;
+}
+#paymentDestinasi div.modal-content hr {
+    border-top: 5px solid #03A9F4;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+#paymentDestinasi div.modal-content .modal-body {
+    padding: 5px;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .panel-default {
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 10px;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-12,
+#paymentDestinasi div.modal-content .modal-body div.col-md-6,
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .col-md-4 {
+    padding: 0 5px;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .col-md-4 img {
+    width: 80%;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .col-md-4 p {
+    font-size: 12px;
+    margin: 0;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .col-md-4 .list-inline li {
+    font-size: 12px;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .panel-jumlah{
+    padding: 0;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .table {
+    margin-bottom: 0;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .table>tbody>tr>td {
+    border-top: 0;
+    font-size: 12px;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .table>tbody>tr>td:last-child {
+    text-align: center;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-6 .table>tbody>tr:last-child>td {
+    border-top: 1px solid #ddd;
+}
+#paymentDestinasi div.modal-content .modal-body div.col-md-12 div {
+    padding: 1px;
+    margin-top: 15px;
+}
+
+
+#paymentDestinasi div.modal-content .modal-footer {
+    text-align: center;
+    border-top: 0;
+}
+#paymentDestinasi div.modal-content .modal-footer button {
+    border-radius: 0;
 }

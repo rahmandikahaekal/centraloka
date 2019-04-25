@@ -259,7 +259,12 @@
                                                         <h3>Rp. 512.000</h3>
                                                     </li>
                                                     <li>
-                                                        <button class="btn btn-warning">Pesan Sekarang</button>
+                                                        <button
+                                                            type="button" 
+                                                            class="btn btn-warning"
+                                                            data-toggle="modal"
+                                                            data-target="#paymentDestinasi"
+                                                        >Pesan Sekarang</button>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -416,6 +421,191 @@
                                     </div>
                                 </li>
                             </ul>
+                        </div>
+
+                        <div class="modal fade" id="paymentDestinasi" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">Rincian Penerbangan</h4>
+                                    </div>
+                                    <hr>
+                                    <div class="modal-body row">
+                                        <div class="col-md-6 pull-left">
+                                            <p><span class="text-blue">Penerbangan Berangkat</span> Economy - SubClass (G)</p>
+                                            <div class="panel-default row">
+                                                <div class="col-md-4">
+                                                    <ul>
+                                                        <li>
+                                                            <img class="img-responsive" src="./images/lion-air.png" alt="">
+                                                        </li>
+                                                        <li>
+                                                            <small>Lion JT-12</small>
+                                                        </li>
+                                                        <li>
+                                                            <small class="text-muted">Economy</small>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <strong>Jakarta(CGK)</strong>     
+                                                    <p>Bandara International Soekarno Hatta</p>
+                                                    <ul class="list-inline">
+                                                        <li>
+                                                            <strong>8 Feb</strong>
+                                                        </li>
+                                                        <li>
+                                                            <strong>13:30</strong> WIB
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <strong>Palembang(PLM)</strong>     
+                                                    <p>Bandara Sultan Mahmud Badaruddin II</p>
+                                                    <ul class="list-inline">
+                                                        <li>
+                                                            <strong>8 Feb</strong>
+                                                        </li>
+                                                        <li>
+                                                            <strong>14:20</strong> WIB
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <br>
+
+                                            <div class="panel-default panel-jumlah">
+                                                <table class="table">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td>1 Dewasa</td>
+                                                        <td>@ 512.000</td>
+                                                        <td>Rp.</td>
+                                                        <td>512.000</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>0 Anak-anak</td>
+                                                        <td>@ 0</td>
+                                                        <td>Rp.</td>
+                                                        <td>0</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>0 infant</td>
+                                                        <td>@ 0</td>
+                                                        <td>Rp.</td>
+                                                        <td>0</td>
+                                                      </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <br>
+
+                                            <div class="panel-default">
+                                                <ul class="list-inline">
+                                                    <li>
+                                                        Total Biaya Penerbangan Berangkat =
+                                                    </li>
+                                                    <li>
+                                                        Rp. 512.000
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                         </div>
+                                         <div class="col-md-6 pull-right">
+                                            <p><span class="text-blue">Penerbangan Kembali</span> Economy - SubClass (G)</p>
+                                            <div class="panel-default row">
+                                                <div class="col-md-4">
+                                                    <ul>
+                                                        <li>
+                                                            <img class="img-responsive" src="./images/lion-air.png" alt="">
+                                                        </li>
+                                                        <li>
+                                                            <small>Lion JT-12</small>
+                                                        </li>
+                                                        <li>
+                                                            <small class="text-muted">Economy</small>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <strong>Palembang(PLM)</strong>     
+                                                    <p>Bandara Sultan Mahmud Badaruddin II</p>
+                                                    <ul class="list-inline">
+                                                        <li>
+                                                            <strong>9 Feb</strong>
+                                                        </li>
+                                                        <li>
+                                                            <strong>14:20</strong> WIB
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <strong>Jakarta(CGK)</strong>     
+                                                    <p>Bandara International Soekarno Hatta</p>
+                                                    <ul class="list-inline">
+                                                        <li>
+                                                            <strong>9 Feb</strong>
+                                                        </li>
+                                                        <li>
+                                                            <strong>13:30</strong> WIB
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <br>
+
+                                            <div class="panel-default panel-jumlah">
+                                                <table class="table">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td>1 Dewasa</td>
+                                                        <td>@ 512.000</td>
+                                                        <td>Rp.</td>
+                                                        <td>512.000</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>0 Anak-anak</td>
+                                                        <td>@ 0</td>
+                                                        <td>Rp.</td>
+                                                        <td>0</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>0 infant</td>
+                                                        <td>@ 0</td>
+                                                        <td>Rp.</td>
+                                                        <td>0</td>
+                                                      </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <br>
+
+                                            <div class="panel-default">
+                                                <ul class="list-inline">
+                                                    <li>
+                                                        Total Biaya Penerbangan Berangkat =
+                                                    </li>
+                                                    <li>
+                                                        Rp. 512.000
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="panel-default text-center bg-orange">
+                                                <h4>
+                                                    <strong>Total Biaya Penerbangan = Rp. 1.024.000</strong>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Pilih Penerbangan Lainnya</button>
+                                        <button type="button" class="btn btn-primary">Langkah Selanjutnya</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
