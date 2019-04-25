@@ -135,8 +135,9 @@ section {
 
 /* Modal Popup */
 #paymentDestinasi div.modal-content {
-    padding: 0 20px;
+    padding: 0 30px;
     border-radius: 0;
+    user-select: none;
 }
 #paymentDestinasi div.modal-content .modal-header {
     padding: 15px 0;

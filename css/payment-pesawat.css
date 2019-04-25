@@ -1,0 +1,172 @@
+/* ========= */
+/* ====== Payment CSS ====== */
+main {
+    background-color: #f2f2f2 !important;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 0;
+    display: none;
+}
+.flip-clock-wrapper ul li a div div.inn {
+    background-color: #00a4ff;
+}
+
+/* Main Payment Area */
+.main_payment_area {
+    padding: 40px 0;
+}
+.text-orange {
+    color: #ff9600;
+}
+.text-blue {
+    color: #00a3fe;
+}
+
+/* Side Left */
+
+/* Pilih Metode Pembayaran */
+.main_content .side-left ul li.pilih-metode {
+    padding: 30px 15px;
+}
+.main_content div.side-left div.panel ul li div.option {
+    padding-top: 20px;
+}
+.main_content div.side-left div.panel ul li div.option label {
+    min-width: 130px;
+    padding: 15px 25px;
+    border-radius: 0;
+}
+.main_content div.side-left ul li div.option label:hover,
+.main_content div.side-left ul li div.option label:focus,
+.main_content div.side-left ul li div.option label.active {
+    background-color: #ff9600;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.main_content div.side-left div.panel ul li div.option label.active {
+    outline: none;
+}
+
+/* Pilih Rekening */
+.main_content .side-left div.panel ul li.pilih-rek {
+    padding-top: 30px;
+}
+.main_content .side-left div.panel ul li.pilih-rek label {
+    padding: 0 !important;
+}
+.main_content .side-left div.panel ul li.pilih-rek label:hover,
+.main_content .side-left div.panel ul li.pilih-rek label:focus,
+.main_content .side-left div.panel ul li.pilih-rek label:active,
+.main_content .side-left div.panel ul li.pilih-rek label.active {
+    color: #333;
+    border-color: #ff9600;
+    border: 4px solid #ff9600;
+    background-color: #fff;
+}
+.main_content .side-left div.panel ul li.pilih-rek label:hover ~ strong,
+.main_content .side-left div.panel ul li.pilih-rek label:focus ~ strong,
+.main_content .side-left div.panel ul li.pilih-rek label:active ~ strong,
+.main_content .side-left div.panel ul li.pilih-rek label.active ~ strong {
+    color: #ff9600;
+}
+.main_content .side-left div.panel ul li p i {
+    color: green;
+}
+.main_content .side-left div.panel ul li.pilih-rek .option {
+    padding-bottom: 20px
+}
+
+/* Info Penting & Pembayaran */
+.main_content .side-left div.panel ul li.info-pembayaran div.row {
+    padding: 20px 0;
+}
+.main_content .side-left div.panel ul li.info-pembayaran .info-penting hr {
+    border-color: #333
+}
+.main_content .side-left div.panel ul li.info-pembayaran .info-penting ul:nth-child(2) {
+    padding-left: 30px;
+    list-style-type: circle;
+}
+.main_content .side-left div.panel ul li.info-pembayaran .info-penting ul {
+    list-style: none;
+}
+.main_content .side-left div.panel ul li.info-pembayaran .info-penting button {
+    background-color: #ff9600;
+    font-weight: bold;
+    border-radius: 0;
+}
+.main_content .side-left div.panel ul li.info-pembayaran .info-penting ul:last-child p img {
+    width: 10em;
+}
+
+/* Side Right */
+.main_payment_area div div div.main_content div div.panel {
+    border-color: transparent;
+}
+.main_payment_area div div div.main_content div div.panel .panel-heading {
+    border-radius: 0;
+    background-color: #00a3fe;
+    border-color: #00a3fe;
+}
+.main_payment_area div div div.main_content div div.panel .panel-heading h3 {
+    font-weight: bold;
+
+}
+.main_payment_area .side-right .panel.panel-primary .panel-body img {
+    width: 60%;
+}
+.main_payment_area .side-right .panel.panel-primary .panel-body p:nth-child(3) {
+    margin: 0;
+}
+.main_payment_area .side-right .panel.panel-primary .panel-body span,
+.main_payment_area .side-right .panel.panel-primary .panel-body ul li{
+    font-size: 14px;
+}
+.main_payment_area .side-right .panel.panel-primary hr {
+    margin-top: 10px; margin-bottom: 10px;
+    width: 75%;
+    border-color: #888;
+}
+.main_payment_area .side-right .panel .panel-body .take-off.row {
+    margin: 0;
+}
+.main_payment_area .side-right .panel .panel-body .take-off ul.col-md-12::before{
+    margin-left: 50%;
+    height: 70%;
+    width: 2px;
+    content: " ";
+    background-color: #4CAF50;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.main_payment_area .side-right .panel .panel-body .take-off ul.col-md-12 li:first-child ul li:first-child::before {
+    margin-left: 46%;
+    width: 20px;height: 20px;
+    content: " ";
+    background-color: #fff;
+    border: 1px solid #4CAF50;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.main_payment_area .side-right .panel .panel-body .take-off ul.col-md-12 li:last-child ul li:first-child::before {
+    margin-left: 46%;
+    width: 20px;height: 20px;
+    content: " ";
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    position: absolute;
+}
+.main_payment_area .side-right .panel .panel-body .col-md-12 {
+    padding-bottom: 20px;
+}
