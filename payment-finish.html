@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/flipclock.css">
     
     <!-- Custom Page CSS -->
-    <link rel="stylesheet" href="css/payment-pesawat.css">
+    <link rel="stylesheet" href="css/payment-finish.css">
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="css/main.css">
@@ -98,155 +98,55 @@
                         <div class="col-md-9 side-left">
                             <div class="panel panel-default">
                                 <ul class="list-group">
-                                    <li class="list-group-item flipcount">
+                                    <li class="list-group-item head border-none">
+                                        <h3 class="text-blue">
+                                            <strong>Selamat! Pemesanan Anda Telah Berhasil.</strong>
+                                        </h3>
+                                        <hr>
+                                    </li>
+                                    <li class="list-group-item flipcount border-none">
                                         <div class="clock" style="margin:3em 0em;"></div>
                                     </li>
-                                    <li class="list-group-item pilih-metode">
-                                        <h4 class="text-blue col-md-12">
-                                            <strong>Pilih Metode Pembayaran</strong>
-                                        </h4>
-                                        <div class="row">
-                                            <div class="option col-md-12 " data-toggle="buttons">
-                                                <div class="col-md-4 col-sm-4 text-center">
-                                                    <label class="btn btn-default">
-                                                        <input type="radio" name="options" id="option1"> 
-                                                        <div>
-                                                            <strong>Transfer</strong>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                                <div class="col-md-4 col-sm-4 text-center">
-                                                    <label class="btn btn-default">
-                                                        <input type="radio" name="options" id="option2">
-                                                        <div>
-                                                            <strong>Credit Card</strong>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                                <div class="col-md-4 col-sm-4 text-center">
-                                                    <label class="btn btn-default">
-                                                        <input type="radio" name="options" id="option3">
-                                                        <div>
-                                                            <strong>Virtual Account</strong>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item pilih-rek">
-                                        <div class="notice text-center">
-                                            <div class="option col-md-12 " data-toggle="buttons">
-                                                <div class="col-md-3 col-sm-3 text-center">
-                                                    <label class="btn btn-default">
-                                                        <input type="radio" name="options" id="option1"> 
-                                                        <div>
-                                                            <img class="img-responsive" src="./images/master.jpg" alt="">
-                                                        </div>
-                                                    </label><br>
-                                                    <strong>Bank BCA</strong>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 text-center">
-                                                    <label class="btn btn-default">
-                                                        <input type="radio" name="options" id="option2">
-                                                        <div>
-                                                            <img class="img-responsive" src="./images/visa.jpg" alt="">
-                                                        </div>
-                                                    </label><br>
-                                                    <strong>Bank Mandiri</strong>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 text-center">
-                                                    <label class="btn btn-default">
-                                                        <input type="radio" name="options" id="option3">
-                                                        <div>
-                                                            <img class="img-responsive" src="./images/comodo.jpg" alt="" >
-                                                        </div>
-                                                    </label><br>
-                                                    <strong>Bank BRI</strong>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 text-center">
-                                                    <label class="btn btn-default">
-                                                        <input type="radio" name="options" id="option3">
-                                                        <div>
-                                                            <img class="img-responsive" src="./images/master.jpg" alt="">
-                                                        </div>
-                                                    </label><br>
-                                                    <strong>Bank BNI</strong>
-                                                </div>
-                                            </div>
-                                            <p>
-                                                <i class="fa fa-exclamation-circle"></i> Metode pembayaran ini menerima transfer melalui ATM,
-                                                internet banking, mobile banking & SMS banking
-                                            </p>
-                                        </div>
-                                    </li>
                                     <li class="list-group-item info-pembayaran">
+                                        <div class="tf-pembayaran">
+                                            <h4 class="text-blue">
+                                                <strong>Transfer Pembayaran</strong>
+                                            </h4>
+                                            <ol>
+                                                <li>Pembayaran dapat dilakukan melalui jaringan ATM Bersama & Prima</li>
+                                                <li>8 Digit terakhir nomor Virtual Account adalah order id anda</li>
+                                                <li>Bank tertentu menetapkan jumlah minimum untuk transfer melalui ATM,
+                                                    harap anda memperhatikan ketentuan ini pada ATM yang anda gunakan
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <div class="pembayaran-atm">
+                                            <h4 class="text-blue">
+                                                <strong>Pembayaran melalui ATM BCA/Bank sejenis dalam jaringan PRIMA</strong>
+                                            </h4>
+                                            <ol>
+                                                <li></li>
+                                            </ol>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item button-ganti">
                                         <div class="row">
-                                            <div class="info-penting col-md-10 col-md-offset-1">
-                                                <h5 class="text-blue">
-                                                    <strong>Informasi Penting</strong>
-                                                </h5>
-                                                <ul>
-                                                    <li>Metode pembayaran ini hanya untuk pembayaran melalui mesin ATM</li>
-                                                    <li>Bank tertentu menetapkan jumlah minimum untuk transfer melalui ATM, harap
-                                                        anda memperhatikan ketentuan ini pada ATM yang anda gunakan
-                                                    </li>
-                                                    <li>E-Tiket atau voucher akan dikirimkan melalui email setelah pembayaran
-                                                        selesai dilakukan
-                                                    </li>
-                                                </ul>
-
-                                                <hr>
-
-                                                <ul>
-                                                    <li>
-                                                        <div class="media">
-                                                            <div class="media-left pull-left">
-                                                                <strong>Kode Unik Transfer</strong>
-                                                            </div>
-                                                            
-                                                            <div class="media-right pull-right">
-                                                                <strong>Rp. -5.00</strong>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <br>
-                                                    <li>
-                                                        <div class="media">
-                                                            <div class="media-left pull-left">
-                                                                <strong>Total Bayar</strong>
-                                                            </div>
-                                                            <div class="media-right pull-right">
-                                                                <strong>Rp. 599.995</strong>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-
-                                                    <hr>
-
-                                                    <li>
-                                                        <p class="text-muted">
-                                                            Jika anda setuju dengan <span class="text-blue">Syarat & Ketentuan</span> 
-                                                            dan <span class="text-blue">Kebijakan Privasi</span>, silahkan klik tombol
-                                                            `selesaikan pemesanan` untuk mengkonfirmasi pesanan anda
-                                                        </p>
-                                                        <br>
-                                                        <button class="btn btn-warning pull-right">Selesaikan Pemesanan</button>
-                                                    </li>
-                                                    <br><br>
-                                                    <hr>
-
-                                                    <p class="pull-left">
+                                            <button class="btn btn-warning pull-right">Ganti Pembayaran</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item footer">
+                                        <div class="row">
+                                            <ul class="list-inline">
+                                                <li class="pull-left">
+                                                    <p>
                                                         <i class="fa fa-lock"></i> Transaksi 100% aman
                                                     </p>
-                                                    <p class="pull-right">
-                                                        <img class="img-responsive" src="./images/comodo.jpg" alt="">
-                                                    </p>
-                                                </ul>
-
-                                            </div>
+                                                </li>
+                                                <li class="pull-right">
+                                                    <img class="img-responsive pull-right" src="./images/comodo.jpg" alt="">
+                                                </li>
+                                            </ul>
                                         </div>
-
                                     </li>
                                 </ul>
                             </div>
