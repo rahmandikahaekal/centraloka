@@ -47,12 +47,44 @@ input[type=checkbox], input[type=radio] {
     right: 15px;
 }
 
+/* FlipCount */
+.main_content .side-left li.flipcount .flip-clock-wrapper {
+    width: 78%;
+}
+.main_content .side-left li.flipcount div.clock {
+    margin: 3em 8em;
+}
+
 /* Nominal Pembayaran */
+.main_content .side-left li.nominal-pembayaran.row {
+    margin: 0;
+}
 .main_content .side-left li.nominal-pembayaran {
     padding: 10px 30px;
 }
-.main_content .side-left li.nominal-pembayaran ul li:last-child ul {
+.main_content .side-left li.nominal-pembayaran ul li:nth-child(3) {
+    border-bottom: 0;
+}
+.main_content .side-left li.nominal-pembayaran ul li:nth-child(3) ul {
     list-style: none;
+}
+.main_content .side-left li.nominal-pembayaran ul p:before {
+    width: 0;
+    height: 0;
+    right: 45px;
+    bottom: 55px;
+    position: absolute;
+    content: '';
+    border-style: solid;
+    border-width: 15px;
+    border-color: transparent transparent #02ab87 transparent;
+}
+.main_content .side-left li.nominal-pembayaran ul p {
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #02ab87;
 }
 
 /* Info Pembayaran */
