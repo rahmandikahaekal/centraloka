@@ -43,8 +43,8 @@ input[type=checkbox], input[type=radio] {
     border-top: 7px solid #03A9F4;
     width: 60px;
     position: absolute;
-    top: 22px;
     right: 15px;
+    bottom: 0;
 }
 
 /* FlipCount */
