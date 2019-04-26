@@ -47,6 +47,14 @@ input[type=checkbox], input[type=radio] {
     right: 15px;
 }
 
+/* Nominal Pembayaran */
+.main_content .side-left li.nominal-pembayaran {
+    padding: 10px 30px;
+}
+.main_content .side-left li.nominal-pembayaran ul li:last-child ul {
+    list-style: none;
+}
+
 /* Info Pembayaran */
 .main_content .side-left li.info-pembayaran {
     padding: 20px 30px;
