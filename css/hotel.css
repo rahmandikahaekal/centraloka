@@ -11,8 +11,8 @@ section {
     font-size: 12px;
     color: #fff;
 }
-#search-box ul {
-    text-align: center
+#search-box ul.list-inline {
+    text-align: center;
 }
 #search-box .main_content ul li div.form-group label {
     text-align: left !important;

@@ -1,0 +1,68 @@
+/* ========= */
+/* ====== Hotel CSS ====== */
+body {
+    background-color: #fff !important;
+}
+section {
+    padding: 30px 0 40px;
+}
+hr {
+    margin-top: 5px;margin-bottom: 5px;
+    border-top: 1px solid #ddd;
+
+}
+.text-orange {
+    color: #ff9600;
+}
+.text-blue {
+    color: #00a3fe;
+}
+.list-group-item {
+    border: none;
+}
+/* Search Box */
+#search-box {
+    background-color: #28a1e6;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #fff;
+}
+#search-box ul.list-inline {
+    text-align: center;
+}
+#search-box .main_content ul li div.form-group label {
+    text-align: left !important;
+}
+#search-box .main_content ul li div.form-inline .input-group-addon {
+    width: 1%;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+}
+#search-box .main_content ul li div.form-inline .input-group-addon i {
+    font-size: 20px;
+}
+#search-box .main_content ul li div.form-inline input {
+    padding: 6px 12px;
+}
+#search-box .main_content ul li:first-child div.form-inline input {
+    padding-left: 30px;
+}
+#search-box div.main_content ul li div.form-group i.fa.fa-calendar {
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+#search-box .main_content ul li button {
+    color: #fff;
+    background-color: #ff9600;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 0;
+}
+
+/* Side Left */
+.side-left div ul li div div.row {
+    margin: 0;
+}

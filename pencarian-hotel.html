@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Centraloka.com memberikan solusi kebutuhan wisata Anda, tiket pesawat, hotel &amp; penginapan, kereta api, bus, rental mobil, kuliner, pembayaran dll.">
+    <title>Centraloka</title>
+
+    <link rel="shortcuts icon" href="images/centraloka-favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap DatePicker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Hotel CSS -->
+    <link rel="stylesheet" href="css/pencarian-hotel.css">
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-responsive" alt="Brand" src="./images/logo.png">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right nav-cl">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> Currency <span class="fa fa-caret-down"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">IDR</a></li>
+                            <li><a href="#">USD</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="images/flag.png" alt=""> <span class="fa fa-caret-down"></span></a>
+                        
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a class="active" href="index.html">Hotel</a></li>
+                    <li><a href="tiket-pesawat.html">Tiket Pesawat</a></li>
+                    <li><a href="kereta-api.html">Kereta Api</a></li>
+                    <li><a href="pulsa.html">Pulsa & Paket Data</a></li>
+                    <li><a href="ppob.html">PPOB</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lainnya <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">Cek Pemesanan</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Search Box -->
+        <section id="search-box">
+            <div class="container">
+                <div class="row">
+                    <div class="main_content">
+                        <ul class="list-inline">
+                            <li>
+                                <div class="form-group">
+                                    <label for="inputDestiny">Hotel / Kota</label>
+                                    <div class="form-inline">
+                                        <div class="input-group-addon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <input type="search" class="form-control" id="inputDestiny" placeholder="Bali">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-group">
+                                    <label for="date1">Check In</label>
+                                    <div class="form-inline">
+                                        <input class="form-control" id="date1" name="date1" placeholder="MM/DD/YYY" type="text"/>
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-group">
+                                    <label for="date2">Check Out</label>
+                                    <div class="form-inline">
+                                        <input class="form-control" id="date2" name="date2" placeholder="MM/DD/YYY" type="text"/>
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-group">
+                                    <label for="">Kamar</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="">1 Kamar</option>
+                                        <option value="">2 Kamar</option>
+                                        <option value="">3 Kamar</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="btn btn-warning" type="button">Cari</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="body-pencarian">
+            <div class="container">
+                <div class="row">
+
+                    <div class="side-left">
+                        <div class="col-md-3">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    Filter Pencarian
+                                </li>
+                                <hr>
+                                <li class="list-group-item">
+                                    <div class="form-group">
+                                        <label class="text-blue pull-left">Nama Hotel</label>
+                                        <label class="text-blue pull-right"><i class="fa fa-caret-down"></i></label>
+                                        <input type="text" class="form-control" id="inputNameHotel" placeholder="">
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-group-item">
+                                    <div class="form-group">
+                                        <label class="text-blue">Harga Permalam</label>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-group-item">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label class="text-blue pull-left">Bintang</label>
+                                            <label class="text-blue pull-right"><i class="fa fa-caret-down"></i></label>
+                                        </div>
+                                        <p>Semua</p>
+                                        <div class="form-check">
+                                            <label>
+                                                <input type="checkbox" name="check" value="star5"> Hotel Bintang - 5
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="check" value="star4"> Hotel Bintang - 4
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="check" value="star3"> Hotel Bintang - 3
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="check" value="star2"> Hotel Bintang - 2
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="check" value="star1"> Hotel Bintang - 1
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <ul class="list-group">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="foot_link">
+                        <h4>Perusahaan</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">Aplikasi Mobile</a></li>
+                            <li><a href="">Situs Mobile</a></li>
+                            <li><a href="">Tentang Kami</a></li>
+                            <li><a href="">Affiliasi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                    
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="foot_link">
+                        <h4>Bantuan</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">Cara Pesan</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Kebijakan dan Privasi</a></li>
+                            <li><a href="">Syarat dan Ketentuan</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="foot_link">
+                        <h4>Keamanan Transaksi</h4>
+                        <ul class="list-unstyled">
+                            <li><img class="img-responsive" src="images/visa.jpg" alt=""></li>
+                            <li><img class="img-responsive" src="images/master.jpg" alt=""></li>
+                            <li><img class="img-responsive" src="images/comodo.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6  ">
+                    <div class="foot_link">
+                        <h4>Customer Service</h4>
+                        <ul class="foot_contact list-unstyled">
+                            <li><a href=""><i class="fa fa-phone"></i> +62 123 4567 7712</a></li>
+                            <li><a href=""><i class="fa fa-envelope-o"></i> cs@centraloka.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row foot_sosmed">
+                <div class="text-center">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap DatePicker -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+     <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

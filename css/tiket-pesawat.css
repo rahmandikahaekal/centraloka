@@ -9,7 +9,6 @@ section {
 #search-box, #search-box a {
     font-size: 12px;
     color: #fff;
-    padding: 20px 0;
     background-color: #28a1e6;
 }
 #search-box a i {
@@ -18,6 +17,10 @@ section {
 }
 #search-box .col-md-4, #search-box .col-md-2, #search-box .col-md-1 {
     padding: 0 5px;
+}
+#search-box {
+    background-color: #28a1e6;
+    padding: 20px 0;
 }
 #search-box div.main_content div.destiny .box-from, #search-box div.main_content div.destiny .box-to { width: 50% }
 #search-box div.main_content div.destiny .form-group:first-child { float: left }
@@ -46,7 +49,7 @@ section {
 }   
 #search-box div.main_content div button {
     position: relative;
-    top: 27px;
+    top: 22px;
     font-size: 16px;
     font-weight: bold;
     padding: 5px 25px;
