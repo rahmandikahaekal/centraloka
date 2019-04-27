@@ -11,12 +11,9 @@ hr {
     border-top: 1px solid #ddd;
 
 }
-.text-orange {
-    color: #ff9600;
-}
-.text-blue {
-    color: #00a3fe;
-}
+.text-orange { color: #ff9600; }
+.text-blue { color: #00a3fe; }
+.text-red { color: red; }
 .list-group-item {
     border: none;
 }
@@ -92,6 +89,9 @@ hr {
 }
 
 /* Side Mid */
+.side-mid ul.list-group:nth-child(2) hr {
+    width: 95%;
+}
 .side-mid ul.list-group:first-child {
     margin: 0;
 }
@@ -109,6 +109,37 @@ hr {
 }
 .side-mid .category-hotel ul {
     padding-bottom: 10px;
+}
+.side-mid .list-hotel li ul li.pitc {
+    width: 40%;
+}
+.side-mid .list-hotel li ul li.detail ul.list-unstyled:first-child {
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+    bottom: 7px;
+    position: relative;
+}
+.side-mid .list-hotel li ul li i.fa.fa-star {
+    color: #ff9600;
+}
+.side-mid .list-hotel li ul li.detail ul li small i {
+    color: #1eb18d;
+    width: 15px;
+    padding-right: 10px;
+}
+.side-mid .list-hotel li ul li.price {
+    position: absolute;
+    top: 10px;
+}
+.side-mid .list-hotel li ul li.price h3 {
+    margin: 5px 0 15px;
+}
+.side-mid .list-hotel li ul li.price button {
+    font-weight: bold;
+    width: 100%;
+    border-radius: 0;
+    color: #fff;
+    background-color: orange;
 }
 
 /* Side Right */
