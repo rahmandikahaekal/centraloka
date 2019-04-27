@@ -63,6 +63,20 @@ hr {
 }
 
 /* Side Left */
+.side-left div ul {
+    padding: 0 20px;
+    border-right: 1px solid #888;
+}
 .side-left div ul li div div.row {
     margin: 0;
+}
+.side-left .hotel-star label, 
+.side-left .hotel-fasilitas label,
+.side-left .hotel-lokasi label {
+    font-weight: normal;
+}
+.side-left .hotel-star label,
+.side-left .hotel-fasilitas label,
+.side-left .hotel-lokasi label {
+    display: block;
 }
