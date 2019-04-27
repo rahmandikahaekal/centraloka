@@ -20,6 +20,11 @@ hr {
 .list-group-item {
     border: none;
 }
+.side-left .col-md-2,
+.side-mid .col-md-7,
+.side-right .col-md-3 {
+    padding: 0;
+}
 /* Search Box */
 #search-box {
     background-color: #28a1e6;
@@ -63,9 +68,6 @@ hr {
 }
 
 /* Side Left */
-.side-left .col-md-2 {
-    padding: 0;
-}
 .side-left div ul {
     border-right: 1px solid #888;
 }
@@ -89,9 +91,35 @@ hr {
     display: block;
 }
 
+/* Side Mid */
+.side-mid ul.list-group:first-child {
+    margin: 0;
+}
+.side-mid .head-title h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #888;
+}
+.side-mid .head-title hr {
+    border-top: 5px solid #03A9F4;
+    width: 50px;
+    position: absolute;
+    right: 15px;
+    bottom: 5px
+}
+.side-mid .category-hotel ul {
+    padding-bottom: 10px;
+}
+
 /* Side Right */
 .side-right table.table-bordered tbody tr td {
     border: 3px solid blue;
+}
+.side-right table.table-bordered tbody tr:first-child td {
+    padding: 0;
+}
+.side-right table.table-bordered tbody tr:first-child td p {
+    margin: 0;
 }
 .side-right table.table-bordered tbody tr td ul li:nth-child(5) {
     padding-top: 20px;
