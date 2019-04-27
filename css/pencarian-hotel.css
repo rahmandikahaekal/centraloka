@@ -63,12 +63,20 @@ hr {
 }
 
 /* Side Left */
+.side-left .col-md-2 {
+    padding: 0;
+}
 .side-left div ul {
-    padding: 0 20px;
     border-right: 1px solid #888;
 }
 .side-left div ul li div div.row {
     margin: 0;
+}
+.side-left .name-hotel div.form-group {
+    margin: 0;
+}
+.side-left .nama-hotel input {
+    border-radius: 0;
 }
 .side-left .hotel-star label, 
 .side-left .hotel-fasilitas label,
@@ -79,4 +87,19 @@ hr {
 .side-left .hotel-fasilitas label,
 .side-left .hotel-lokasi label {
     display: block;
+}
+
+/* Side Right */
+.side-right table.table-bordered tbody tr td {
+    border: 3px solid blue;
+}
+.side-right table.table-bordered tbody tr td ul li:nth-child(5) {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.side-right table.table-bordered tbody tr td button {
+    font-weight: bold;
+    color: #fff;
+    background-color: orange;
+    border-radius: 0;
 }
