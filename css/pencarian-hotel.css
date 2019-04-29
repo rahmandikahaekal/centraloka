@@ -116,6 +116,7 @@ hr {
 .side-mid .list-hotel li ul li.detail ul.list-unstyled:first-child {
     border-right: 1px solid #ddd;
     padding-right: 20px;
+    min-width: 240px;
     bottom: 7px;
     position: relative;
 }
