@@ -12,6 +12,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- Bootstrap Rating -->
+    <link rel="stylesheet" href="css/bootstrap-rating.css">
+
+    <!-- Slider BQworks -->
+    <link rel="stylesheet" href="css/slider-pro.min.css">
+
     <!-- Bootstrap DatePicker -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
 
@@ -121,7 +127,197 @@
             </div>
         </section>
 
-        
+        <section>
+            <div class="container">
+                <div id="side-left">
+                    <div class="col-md-4">
+                        <div class="panel-default main-panel">
+                            <div class="text-center">
+                                <h4 class="text-orange">
+                                    <strong>Mulai dari Rp. 559.000</strong>
+                                </h4>
+                                <button class="btn btn-warning bg-orange">
+                                    <strong>Pesan Sekarang</strong>
+                                </button>
+                            </div>
+                            <br>
+                            <div class="panel-primary lokasi">
+                                <div class="panel-heading bg-blue">
+                                    Lokasi
+                                </div>
+                                <div class="panel-body">
+                                    <div class="mapouter">
+                                        <div class="gmap_canvas">
+                                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=kuta%20bali&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                        </div>
+                                    <style>.mapouter{position:relative;text-align:right;}.gmap_canvas {overflow:hidden;background:none!important;}</style>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="panel-default review">
+                                <ul class="list-inline head">
+                                    <li>
+                                        <h4 class="text-toska">
+                                            <strong>Review</strong>
+                                        </h4>
+                                    </li>
+                                    <li class="pull-right">
+                                        <img src="./images/favicon.ico" alt="" class="img-responsive">
+                                    </li>
+                                </ul>
+                                <hr><hr class="tail">
+
+                                <h4>Peringkat Wisatawan TripAdvisor</h4>
+
+                                <div class="rating-area">
+                                    <img src="./images/favicon.ico" alt="" class="img-responsive">
+                                    <div class="text-orange">
+                                        <strong>4.5</strong>
+                                        <input type="hidden" class="rating" data-filled="fa fa-circle" data-empty="fa fa-circle-o" value="4.5" disabled="disabled"/>
+                                    </div>
+                                </div>
+                                <small>Berdasarkan 191 ulasan wisatawan</small>
+                                <br><br>
+                                
+                                <ul class="list-unstyled rating-level text-toska">
+                                    <li>
+                                        <input type="hidden" class="rating" data-filled="fa fa-circle" data-empty="fa fa-circle-o" value="5" disabled="disabled"/>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="19" aria-valuemin="0" aria-valuemax="100" style="width: 19%;">
+                                            </div>
+                                            <span class="progress-completed">19</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <input type="hidden" class="rating" data-filled="fa fa-circle fa-2x" data-empty="fa fa-circle-o fa-2x" value="4" disabled="disabled"/>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100" style="width: 47%;">
+                                            </div>
+                                            <span class="progress-completed">47</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <input type="hidden" class="rating" data-filled="fa fa-circle fa-2x" data-empty="fa fa-circle-o fa-2x" value="3" disabled="disabled"/>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100" style="width: 28%;">
+                                            </div>
+                                            <span class="progress-completed">28</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <input type="hidden" class="rating" data-filled="fa fa-circle fa-2x" data-empty="fa fa-circle-o fa-2x" value="2" disabled="disabled"/>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100" style="width: 4%;">
+                                            </div>
+                                            <span class="progress-completed">4</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <input type="hidden" class="rating" data-filled="fa fa-circle fa-2x" data-empty="fa fa-circle-o fa-2x" value="1" disabled="disabled"/>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 2%;">
+                                            </div>
+                                            <span class="progress-completed">2</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <br>
+
+                                <div class="fasilitas">
+                                    <ul class="list-unstyled text-toska">
+                                        <li>
+                                            <p class="text-muted">Nilai</p>
+                                            <input type="hidden" class="rating" data-filled="fa fa-circle fa-2x" data-empty="fa fa-circle-o fa-2x" value="4" disabled="disabled"/>
+                                        </li>
+                                        <li>
+                                            <p class="text-muted">Kamar</p>
+                                            <input type="hidden" class="rating" data-filled="fa fa-circle fa-2x" data-empty="fa fa-circle-o fa-2x" value="4" disabled="disabled"/>
+                                        </li>
+                                        <li>
+                                            <p class="text-muted">Kebersihan</p>
+                                            <input type="hidden" class="rating" data-filled="fa fa-circle fa-2x" data-empty="fa fa-circle-o fa-2x" value="4" disabled="disabled"/>
+                                        </li>
+                                        <li>
+                                            <p class="text-muted">Layanan</p>                                            
+                                            <input type="hidden" class="rating" data-filled="fa fa-circle fa-2x" data-empty="fa fa-circle-o fa-2x" value="4" disabled="disabled"/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="side-right">
+                    <div class="col-md-8">
+                        <div class="panel-default">
+                            
+                            <div id="view-hotel" class="slider-pro">
+                                <div class="sp-slides">
+                                    <div class="sp-slide">
+                                        <img class="sp-image" src="./images/image1.jpg" 
+                                            data-src="./images/image1.jpg"
+                                            data-small="./images/image1.jpg"
+                                            data-medium="./images/image1.jpg"
+                                            data-large="./images/image1.jpg"
+                                            data-retina="./images/image1.jpg"/>
+                                    </div>
+                        
+                                    <div class="sp-slide">
+                                        <img class="sp-image" src="./images/image2.jpg" 
+                                            data-src="./images/image2.jpg" 
+                                            data-small="./images/image2.jpg"
+                                            data-medium="./images/image2.jpg"
+                                            data-large="./images/image2.jpg"
+                                            data-retina="./images/image2.jpg"/>
+                                    </div>
+                        
+                                    <div class="sp-slide">
+                                        <img class="sp-image" src="./images/image3.jpg" 
+                                            data-src="./images/image3.jpg" 
+                                            data-small="./images/image3.jpg"
+                                            data-medium="./images/image3.jpg"
+                                            data-large="./images/image3.jpg"
+                                            data-retina="./images/image3.jpg"/>
+                                    </div>
+                        
+                                    <div class="sp-slide">
+                                        <img class="sp-image" src="./images/image4.jpg" 
+                                            data-src="./images/image4.jpg" 
+                                            data-small="./images/image4.jpg"
+                                            data-medium="./images/image4.jpg"
+                                            data-large="./images/image4.jpg"
+                                            data-retina="./images/image4.jpg"/>
+                                    </div>
+                        
+                                    <div class="sp-slide">
+                                        <img class="sp-image" src="./images/image5.jpg" 
+                                            data-src="./images/image5.jpg" 
+                                            data-small="./images/image5.jpg"
+                                            data-medium="./images/image5.jpg"
+                                            data-large="./images/image5.jpg"
+                                            data-retina="./images/image5.jpg"/>
+                                    </div>
+                                </div>
+                        
+                                <div class="sp-thumbnails">
+                                    <img class="sp-thumbnail" src="./images/image1.jpg"/>
+                                    <img class="sp-thumbnail" src="http://bqworks.com/slider-pro/images/image2_thumbnail.jpg"/>
+                                    <img class="sp-thumbnail" src="http://bqworks.com/slider-pro/images/image3_thumbnail.jpg"/>
+                                    <img class="sp-thumbnail" src="http://bqworks.com/slider-pro/images/image4_thumbnail.jpg"/>
+                                    <img class="sp-thumbnail" src="http://bqworks.com/slider-pro/images/image5_thumbnail.jpg"/>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="main-panel">
+                                dsads
+                            </div>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -208,11 +404,13 @@
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap Rating -->
+    <script src="js/bootstrap-rating.min.js"></script>
+    <!-- Slider BQworks -->
+    <script src="js/jquery.sliderPro.min.js"></script>
     <!-- Bootstrap DatePicker -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-    <!-- Owl Carousel -->
-    <script src="js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
-    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>

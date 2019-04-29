@@ -4,7 +4,15 @@ section {
     padding: 30px 0;
 }
 .bg-blue { background-color:#28a1e6; color: #fff }
-
+.main-panel {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 15px 20px;
+}
+.text-toska { color: #04a785 }
+.bg-toska { background-color: #04a785 }
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff }
 /* Blue Bar */
 
 #blue-bar {
@@ -33,4 +41,100 @@ section {
 }
 #blue-bar ul.address li h5 {
     margin: 0;
+}
+
+/* Body */
+#side-left .panel-default .text-center button {
+    width: 100%;
+    border-radius: 0;
+}
+#side-left .panel-default .lokasi {
+    border: 1px solid #ddd;
+}
+#side-left .panel-default .lokasi div.panel-heading {
+    border-radius: 0;
+}
+#side-left .panel-default .lokasi div.panel-body {
+    padding: 0;
+}
+#side-left .panel-default .lokasi div.panel-body .mapouter,
+#side-left .panel-default .lokasi div.panel-body .gmap_canvas,
+#side-left .panel-default .lokasi div.panel-body iframe {
+    height: 300px;
+}
+#side-left .panel-default .review {
+    border: 2px solid #ddd;
+    padding: 15px;
+}
+#side-left .panel-default .review hr {
+    margin: 0;
+    border-color: #ddd;
+}
+#side-left .panel-default .review hr.tail {
+    border: 2px solid #337ab7;
+    width: 30px;
+    float: right;
+    position: relative;
+    bottom: 5px;
+}
+
+/* Rating Area */
+#side-left .panel-default .review .rating-area img,
+#side-left .panel-default .review .rating-area div {
+    display: inline-block;
+}
+#side-left .panel-default .review .rating-area .rating-symbol-background {
+    visibility: visible !important;
+    font-size: 20px;
+}
+#side-left .panel-default .review .rating-area .rating-symbol-foreground {
+    bottom: 3.2px;
+    left: 3px !important;
+}
+#side-left .panel-default .review .rating-area .rating-symbol-foreground .fa {
+    font-size: 12px;
+}
+
+/* Level Rating */
+#side-left .panel-default .review .rating-level li .rating-symbol-background {
+    visibility: visible !important;
+    font-size: 25px;
+}
+#side-left .panel-default .review .rating-level li .rating-symbol-foreground {
+    top: 1.5px;
+    left: 4px !important;
+}
+#side-left .panel-default .review .rating-level li .rating-symbol-foreground .fa {
+    font-size: 15px;
+}
+#side-left .panel-default .review .rating-level li div.progress {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    border-radius: 0;
+}
+#side-left .panel-default .review .rating-level li div.progress .progress-bar {
+    background-color: #04a785;
+}
+#side-left .panel-default .review .rating-level li div.progress span {
+    position: absolute;
+    right: 12%;
+    font-size: 12px;
+}
+
+/* Fasilitas */
+#side-left .panel-default .review .fasilitas p {
+    margin: 0;
+    padding-top: 5px;
+}
+#side-left .panel-default .review .fasilitas li .rating-symbol-background {
+    visibility: visible !important;
+    font-size: 30px;
+}
+#side-left .panel-default .review .fasilitas li .rating-symbol-foreground {
+    top: 5.5px;
+    left: 5px !important;
+}
+#side-left .panel-default .review .fasilitas li .rating-symbol-foreground .fa {
+    font-size: 18px;
 }
