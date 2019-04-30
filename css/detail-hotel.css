@@ -244,34 +244,49 @@ section {
 /* Tipe Kamar */
 #side-right .panel-default .main-panel.tipe-kamar {
     padding: 10px 30px;
+    border-top: none;
 }
-#side-right .panel-default .tipe-kamar .col-md-7,
-#side-right .panel-default .tipe-kamar .col-md-5 {
+#side-right .panel-default .main-panel.tipe-kamar-title {
+    border-bottom: none;
+    padding: 10px 30px;
+    padding-bottom: 0;
+}
+#side-right .panel-default .tipe-kamar .col-md-12,
+#side-right .panel-default .tipe-kamar .col-md-6 {
     padding: 0;
 }
-#side-right .panel-default .tipe-kamar .head h3 {
+#side-right .panel-default .tipe-kamar-title .head h3 {
     padding-bottom: 15px;
+    margin-bottom: 0;
     border-bottom: 1px solid #888;
 }
-#side-right .panel-default .tipe-kamar .head hr {
+#side-right .panel-default .tipe-kamar-title .head hr {
     width: 10%;
     float: right;
-    bottom: 35px;
+    margin: 0;
+    bottom: 8px;
     position: relative;
-    border-bottom: 5px solid #337ab7;
+    border-bottom: 7px solid #337ab7;
 }
 #side-right .panel-default .tipe-kamar .list-kamar ul li {
-    padding-top: 10px;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li:last-child {
+    border-bottom: none;
 }
 #side-right .panel-default .tipe-kamar .list-kamar ul li.view {
-    width: 45%;
+    width: 50%;
+    border-bottom: none;
 }
 #side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc {
     position: relative;
-    bottom: 20px;
-    width: 50%;
-    line-height: 2;
+    bottom: 40px;
+    width: 48%;
     padding: 0;
+    padding-left: 10px;
+    border: none;
+    line-height: 1.5;
 }
 #side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc h4 {
     font-size: 16px;
@@ -280,6 +295,10 @@ section {
 #side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc p {
     font-size: 12px;
     margin: 0;
+    margin-bottom: 10px;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc small {
+    font-size: 12px;
 }
 #side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc i.fa {
     width: 9%;
@@ -290,12 +309,77 @@ section {
 #side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc i.fa.fa-wifi {
     color: #04a785;
 }
-#side-right .panel-default .tipe-kamar .list-kamar .right-box .head strong {
-    font-size: 23px;
+#side-right .panel-default .tipe-kamar .list-kamar .col-md-3 p {
+    font-size: 13px;
 }
-#side-right .panel-default .tipe-kamar .list-kamar .right-box .head small {
+#side-right .panel-default .tipe-kamar .list-kamar .col-md-3 button {
+    position: relative;
+    top: 20px;
+}
+
+/* Collapse Detail Kamar */
+#side-right .tipe-kamar .list-kamar .detail-kamar .panel-body,
+#side-right .tipe-kamar .list-kamar .detail-kamar .panel-body .col-md-4 {
+    padding: 0;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .panel-heading {
+    padding-left: 0;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .collapse.in {
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 ul {
+    margin-bottom: 10px;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 ul li {
+    padding: 0;
+    border-bottom: none;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 ul li a {
     font-size: 12px;
+    border-color: transparent;
 }
-#side-right .panel-default .tipe-kamar .list-kamar .right-box button {
-    
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 ul li.active a, 
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 ul li.active a:focus, 
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 ul li.active a:hover {
+    color: #28a1e6;
+    border-bottom: 2px solid #28a1e6;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 .tab-content .info {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 .tab-content .info:last-child {
+    border-bottom: none;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 .tab-content table {
+    margin: 0;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 .tab-content table tbody tr td {
+    border-top: none;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 .tab-content table tbody tr td i {
+    color: #04a785;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 .tab-content div.info table tbody tr td:first-child {
+    text-align: center;
+    width: 10px;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 .tab-content div.info.list-info table tbody tr td {
+    width: auto;
+    text-align: left;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 .tab-content div.info.list-info table {
+    margin-left: 10px;
+}
+#side-right .tipe-kamar .list-kamar .detail-kamar .col-md-8 .tab-content div.info.list-info table tbody tr td::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #337ab7; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+
 }

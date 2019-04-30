@@ -444,16 +444,18 @@
                                 <br>
 
                                 <!-- Tipe Kamar -->
-                                <div class="main-panel tipe-kamar">
+                                <div class="main-panel tipe-kamar-title">
                                     <div class="head">
                                         <h3>Silahkan Pilih Tipe Kamar</h3>
                                         <hr>
                                     </div>
+                                </div>
+                                <div class="main-panel tipe-kamar">
                                     <div class="list-kamar">
                                         <ul class="list-unstyled">
                                             <li>
                                                 <div class="panel-default row">
-                                                    <div class="col-md-7">
+                                                    <div class="col-md-6">
                                                         <ul class="list-inline">
                                                             <li class="view">
                                                                 <img src="./images/image1.jpg" alt="" class="img-responsive">
@@ -467,51 +469,156 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    <div class="right-box">
-                                                        <ul class="list-inline">
-                                                            <li class="head text-center">
-                                                                <strong class="text-orange">
-                                                                    Rp 561.000
-                                                                </strong>
-                                                                <br>
-                                                                <small class="text-blue">Sudah Termasuk Pajak</small>
-                                                            </li>
-                                                            <button class="btn btn-warning bg-orange">Pesan Sekarang</button>
-                                                        </ul>
+                                                    <div class="col-md-3 text-center">
+                                                        <h3 class="text-orange"><strong>Rp 561.000</strong></h3>
+                                                        <p class="text-blue">Sudah Termasuk Pajak</p>
+                                                    </div>
+                                                    <div class="col-md-3 text-center">
+                                                        <button class="btn btn-warning bg-orange">Pesan Sekarang</button>
+                                                    </div>
+                                                </div> 
+                                                <div class="detail-kamar">
+                                                    <div id="collapseOne" class="panel-collapse collapse in">
+                                                        <div class="panel-body">
+                                                            <div class="col-md-4">
+                                                                <img src="./images/image1.jpg" alt="" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <!-- Nav tabs -->
+                                                                <ul class="nav nav-tabs" role="tablist">
+                                                                    <li role="presentation" class="active"><a href="#roominfo" aria-controls="roominfo" role="tab" data-toggle="tab">Room Info</a></li>
+                                                                    <li role="presentation"><a href="#cancelation" aria-controls="cancelation" role="tab" data-toggle="tab">Cancelation Policy</a></li>
+                                                                    <li role="presentation"><a href="#additional" aria-controls="additional" role="tab" data-toggle="tab">Additional Info</a></li>
+                                                                    <li role="presentation"><a href="#points" aria-controls="points" role="tab" data-toggle="tab">Points</a></li>
+                                                                </ul>
+                                                                    
+                                                                <!-- Tab panes -->
+                                                                <div class="tab-content">
+                                                                    <div role="tabpanel" class="tab-pane active" id="roominfo">
+                                                                        <div class="info">
+                                                                            <strong>Room Overview</strong>
+                                                                            <table class="table">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td><i class="fa fa-home"></i></td>
+                                                                                        <td>Room Site</td>
+                                                                                        <td>25m <sup>2</sup></td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td><i class="fa fa-bed"></i></td>
+                                                                                        <td>Bed Type</td>
+                                                                                        <td>1 Bed untuk 2 orang</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="info">
+                                                                            <strong>Basic Fasilitas</strong>
+                                                                            <table class="table">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td><i class="fa fa-wifi"></i></td>
+                                                                                        <td>Wifi Gratis</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="info list-info">
+                                                                            <strong>Fasilitas Kamar Mandi</strong>
+                                                                            <table class="table">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>AC</td>
+                                                                                        <td>Meja</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>Coffee Maker</td>
+                                                                                        <td>Kulkas</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>TV</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="info list-info">
+                                                                            <strong>Fasilitas Kamar Mandi</strong>
+                                                                            <table class="table">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>Shower</td>
+                                                                                        <td>Toilet</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div role="tabpanel" class="tab-pane" id="cancelation">...</div>
+                                                                    <div role="tabpanel" class="tab-pane" id="additional">...</div>
+                                                                    <div role="tabpanel" class="tab-pane" id="points">...</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel-heading">
+                                                        <h4 class="panel-title text-blue">
+                                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                            Detail Kamar
+                                                            </a><i class="fa fa-caret-down"></i>
+                                                        </h4>
                                                     </div>
                                                 </div>
                                             </li>
-                                            <hr>
                                             <li>
-                                                    <div class="panel-default row">
-                                                        <div class="col-md-7">
-                                                            <ul class="list-inline">
-                                                                <li class="view">
-                                                                    <img src="./images/image1.jpg" alt="" class="img-responsive">
-                                                                </li>
-                                                                <li class="short-desc">
-                                                                    <h4>Standard Room Only</h4>
-                                                                    <p class="text-muted">(Max 2 Orang)</p>
-                                                                    <small><i class="fa fa-cutlery"></i> Tidak Termasuk Sarapan</small>
-                                                                    <br>
-                                                                    <small><i class="fa fa-wifi"></i> Wifi Gratis</small>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="right-box">
-                                                            <ul class="list-inline">
-                                                                <li class="head text-center">
-                                                                    <strong class="text-orange">
-                                                                        Rp 561.000
-                                                                    </strong>
-                                                                    <br>
-                                                                    <small class="text-blue">Sudah Termasuk Pajak</small>
-                                                                </li>
-                                                                <button class="btn btn-warning bg-orange">Pesan Sekarang</button>
-                                                            </ul>
-                                                        </div>
+                                                <div class="panel-default row">
+                                                    <div class="col-md-6">
+                                                        <ul class="list-inline">
+                                                            <li class="view">
+                                                                <img src="./images/image1.jpg" alt="" class="img-responsive">
+                                                            </li>
+                                                            <li class="short-desc">
+                                                                <h4>Standard Room Only</h4>
+                                                                <p class="text-muted">(Max 2 Orang)</p>
+                                                                <small><i class="fa fa-cutlery"></i> Tidak Termasuk Sarapan</small>
+                                                                <br>
+                                                                <small><i class="fa fa-wifi"></i> Wifi Gratis</small>
+                                                            </li>
+                                                        </ul>
                                                     </div>
-                                                </li>
+                                                    <div class="col-md-3 text-center">
+                                                        <h3 class="text-orange"><strong>Rp 561.000</strong></h3>
+                                                        <p class="text-blue">Sudah Termasuk Pajak</p>
+                                                    </div>
+                                                    <div class="col-md-3 text-center">
+                                                        <button class="btn btn-warning bg-orange">Pesan Sekarang</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="panel-default row">
+                                                    <div class="col-md-6">
+                                                        <ul class="list-inline">
+                                                            <li class="view">
+                                                                <img src="./images/image1.jpg" alt="" class="img-responsive">
+                                                            </li>
+                                                            <li class="short-desc">
+                                                                <h4>Standard Room Only</h4>
+                                                                <p class="text-muted">(Max 2 Orang)</p>
+                                                                <small><i class="fa fa-cutlery"></i> Tidak Termasuk Sarapan</small>
+                                                                <br>
+                                                                <small><i class="fa fa-wifi"></i> Wifi Gratis</small>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-3 text-center">
+                                                        <h3 class="text-orange"><strong>Rp 561.000</strong></h3>
+                                                        <p class="text-blue">Sudah Termasuk Pajak</p>
+                                                    </div>
+                                                    <div class="col-md-3 text-center">
+                                                        <button class="btn btn-warning bg-orange">Pesan Sekarang</button>
+                                                    </div>
+                                                </div>
+                                            </li>
                                         </ul>
                                         
                                     </div>
