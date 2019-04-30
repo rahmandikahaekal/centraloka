@@ -11,8 +11,9 @@ section {
 }
 .text-toska { color: #04a785 }
 .bg-toska { background-color: #04a785 }
+.text-blue { color: #28a1e6 }
 .text-orange { color: #f69336 }
-.bg-orange { background-color: #f69336; color: #fff }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 0; }
 /* Blue Bar */
 
 #blue-bar {
@@ -238,4 +239,63 @@ section {
 #side-right .panel-default .info-pemesanan .panel-body button.btn {
     padding: 5px 20px;
     border-radius: 0;
+}
+
+/* Tipe Kamar */
+#side-right .panel-default .main-panel.tipe-kamar {
+    padding: 10px 30px;
+}
+#side-right .panel-default .tipe-kamar .col-md-7,
+#side-right .panel-default .tipe-kamar .col-md-5 {
+    padding: 0;
+}
+#side-right .panel-default .tipe-kamar .head h3 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #888;
+}
+#side-right .panel-default .tipe-kamar .head hr {
+    width: 10%;
+    float: right;
+    bottom: 35px;
+    position: relative;
+    border-bottom: 5px solid #337ab7;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li {
+    padding-top: 10px;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li.view {
+    width: 45%;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc {
+    position: relative;
+    bottom: 20px;
+    width: 50%;
+    line-height: 2;
+    padding: 0;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc h4 {
+    font-size: 16px;
+    margin: 0;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc p {
+    font-size: 12px;
+    margin: 0;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc i.fa {
+    width: 9%;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc i.fa.fa-cutlery {
+    color: #888;
+}
+#side-right .panel-default .tipe-kamar .list-kamar ul li.short-desc i.fa.fa-wifi {
+    color: #04a785;
+}
+#side-right .panel-default .tipe-kamar .list-kamar .right-box .head strong {
+    font-size: 23px;
+}
+#side-right .panel-default .tipe-kamar .list-kamar .right-box .head small {
+    font-size: 12px;
+}
+#side-right .panel-default .tipe-kamar .list-kamar .right-box button {
+    
 }
