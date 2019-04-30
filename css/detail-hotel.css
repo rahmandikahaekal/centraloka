@@ -383,3 +383,83 @@ section {
     margin-left: -1em; /* Also needed for space (tweak if needed) */
 
 }
+
+/* Overview */
+#side-right .panel-default .overview .panel-heading {
+    padding: 0;
+    border: none;
+}
+#side-right .panel-default .overview .panel-heading h4 {
+    margin: 0;
+    margin-left: 20px;
+    padding: 15px;
+    color: #222;
+    background-color: #999;
+}
+#side-right .panel-default .overview .panel-body .col-md-2 ul .reward-badge img {
+    padding: 10px 0;
+    width: 55%;
+    display: inline-block;
+}
+#side-right .panel-default .overview .panel-body .col-md-10 ul li {
+    font-size: 14px;
+    line-height: 2;
+}
+#side-right .panel-default .overview .panel-body .col-md-10 ul li .desc {
+    width: 155px;
+}
+#side-right .panel-default .overview .main-panel {
+    margin: 0 30px 20px;
+    width: 80%;
+    font-size: 14px;
+}
+#side-right .panel-default .overview .main-panel li:first-child {
+    width: 75%;
+}
+#side-right .panel-default .overview .main-panel li button {
+    border-radius: 0;
+}
+
+/* Ulasan Testimonial */
+#side-right .panel-default .ulasan {
+    border-bottom: none;
+    padding: 10px 30px;
+}
+#side-right .panel-default .list-ulasan {
+    border-top: none;
+    padding: 0 20px;
+}
+#side-right .panel-default .ulasan .head {
+    padding: 20px 10px 30px;
+    border-bottom: 2px solid #ddd;
+}
+#side-right .panel-default .ulasan h4 {
+    margin: 0;
+}
+#side-right .panel-default .ulasan hr {
+    width: 10%;
+    float: right;
+    margin: 0;
+    bottom: 8px;
+    position: relative;
+    border-bottom: 7px solid #337ab7;
+}
+#side-right .panel-default .list-ulasan ul li {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+#side-right .panel-default .list-ulasan ul li:last-child {
+    border-bottom: none;
+}
+#side-right .panel-default .list-ulasan div.col-md-3 img {
+    width: 65%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#side-right .panel-default .list-ulasan div.col-md-9 ul li {
+    border-bottom: none;
+    padding: 0;
+}
+#side-right .panel-default .list-ulasan div.col-md-9 ul li span {
+    padding-right: 10px;
+}
