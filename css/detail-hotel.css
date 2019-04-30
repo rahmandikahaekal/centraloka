@@ -98,19 +98,20 @@ section {
 /* Level Rating */
 #side-left .panel-default .review .rating-level li .rating-symbol-background {
     visibility: visible !important;
-    font-size: 25px;
+    font-size: 20px;
 }
 #side-left .panel-default .review .rating-level li .rating-symbol-foreground {
-    top: 1.5px;
+    top: -2px;
     left: 4px !important;
 }
 #side-left .panel-default .review .rating-level li .rating-symbol-foreground .fa {
-    font-size: 15px;
+    font-size: 10px;
 }
 #side-left .panel-default .review .rating-level li div.progress {
     display: inline-block;
     width: 50%;
     margin: 0;
+    margin-left: 10px;
     border-radius: 0;
 }
 #side-left .panel-default .review .rating-level li div.progress .progress-bar {
@@ -143,6 +144,8 @@ section {
 #side-right .main-panel .row {
     margin: 0;
 }
+
+/* Panel Detail dari Hotel */
 #side-right .main-panel.detail .nav-tabs>li.active>a, 
 #side-right .main-panel.detail .nav-tabs>li.active>a:focus, 
 #side-right .main-panel.detail .nav-tabs>li.active>a:hover,
@@ -178,4 +181,61 @@ section {
     display: inline-block; /* Needed to add space between the bullet and the text */ 
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
+}
+
+/* Panel Info Pemesanan */
+#side-right .panel-default .panel-primary.main-panel {
+    padding: 0;
+    border-radius: 0;
+}
+#side-right .panel-default .panel-primary.main-panel .panel-heading {
+    border-radius: 0;
+}
+#side-right .panel-default .info-pemesanan .panel-body {
+    text-align: center;
+}
+#side-right .panel-default .info-pemesanan .panel-body .form-group {
+    width: 20%;
+    display: inline-block;
+}
+#side-right .panel-default .info-pemesanan .panel-body .form-group label {
+    font-weight: normal;
+    text-align: left !important;
+}
+#side-right .panel-default .info-pemesanan .panel-body .form-group input,
+#side-right .panel-default .info-pemesanan .panel-body .form-group .input-group-addon,
+#side-right .panel-default .info-pemesanan .panel-body .form-group select {
+    text-align: center;
+    border-radius: 0;
+}
+#side-right .panel-default .info-pemesanan .panel-body .form-group input {
+    border-right: 0;
+}
+#side-right .panel-default .info-pemesanan .panel-body .form-group input:focus,
+#side-right .panel-default .info-pemesanan .panel-body .form-group select:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #ddd;
+}
+#side-right .panel-default .info-pemesanan .panel-body .form-group .input-group-addon {
+    background: transparent;
+    position: relative;
+    right: 15px;
+    z-index: 11;
+}
+#side-right .panel-default .info-pemesanan .panel-body .form-group.select-order select::-ms-expand {	
+    display: none; 
+}
+#side-right .panel-default .info-pemesanan .panel-body .form-group.select-order select{
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 5px 10px;
+}
+#side-right .panel-default .info-pemesanan .panel-body .form-group.select-order {
+    width: 12%;
+    margin-right: 15px;
+}
+#side-right .panel-default .info-pemesanan .panel-body button.btn {
+    padding: 5px 20px;
+    border-radius: 0;
+}

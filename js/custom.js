@@ -14,3 +14,6 @@ $( document ).ready(function( $ ) {
         autoplay: false
     });
 });
+
+$('#date1').datepicker('setDate', new Date(2018, 02, 20));
+$('#date2').datepicker('setDate', new Date(2018, 02, 25));
