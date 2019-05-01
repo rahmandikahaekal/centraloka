@@ -463,3 +463,16 @@ section {
 #side-right .panel-default .list-ulasan div.col-md-9 ul li span {
     padding-right: 10px;
 }
+#side-right .panel-default .list-ulasan nav.text-center ul li a {
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 25%;
+    border: none;
+}
+#side-right .panel-default .list-ulasan nav.text-center ul li.prev a,
+#side-right .panel-default .list-ulasan nav.text-center ul li.next a {
+    color: #fff;
+    padding: 6px 20px;
+    background-color: #337ab7;
+    border-radius: 0;
+}

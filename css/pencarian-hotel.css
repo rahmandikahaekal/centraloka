@@ -77,6 +77,10 @@ hr {
 .side-left .nama-hotel input {
     border-radius: 0;
 }
+.side-left .hotel-price .ui-widget.ui-widget-content {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 .side-left .hotel-star label, 
 .side-left .hotel-fasilitas label,
 .side-left .hotel-lokasi label {

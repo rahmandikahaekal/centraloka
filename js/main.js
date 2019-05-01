@@ -19,7 +19,7 @@ $('.owl-carousel').owlCarousel({
 });
 
 $(document).ready(function(){
-    var date_input=$('input[name="date1"]'); //our date input has the name "date"
+    var date_input=$('input[name="date1"] , input[name="date2"]'); //our date input has the name "date"
     var container=$('.container form').length>0 ? $('.container form').parent() : "body";
     var options={
       format: 'mm/dd/yyyy',
