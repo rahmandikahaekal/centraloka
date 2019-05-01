@@ -18,7 +18,6 @@
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/jquery-ui.css">
     <!-- Hotel CSS -->
     <link rel="stylesheet" href="css/pencarian-hotel.css">
     
@@ -168,8 +167,13 @@
                                 <li class="list-group-item hotel-price">
                                     <div class="form-group">
                                         <label class="text-blue">Harga Permalam</label>
-                                        <div id="slider-range"></div>
-                                        <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                                        <div class="slider-wrapper">
+                                            <div id="slider-range"></div>
+                                        
+                                            <div class="range-wrapper">
+                                                <div class="range"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <hr>
@@ -795,7 +799,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Bootstrap DatePicker -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-     <!-- Custom JS -->
+    <!-- Custom JS -->
     <script src="js/pencarian-hotel.js"></script>
 </body>
 </html>

@@ -77,11 +77,111 @@ hr {
 .side-left .nama-hotel input {
     border-radius: 0;
 }
-.side-left .hotel-price .ui-widget.ui-widget-content {
+
+/* Slide Price Range */
+.slider-wrapper{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: arial;
     margin-top: 15px;
-    margin-bottom: 20px;
 }
-.side-left .hotel-star label, 
+  
+.ui-slider{
+    background: #efefef;
+    border: 1px solid #d2d2d2;
+    height: 10px;
+    position: relative;
+    border-radius: 100px;
+}
+  
+.ui-slider-range{
+    background: #71c0ff;
+    height: 10px;
+    position: absolute;
+    border-top: 1px solid #5d99c8;
+    border-bottom: 1px solid #5d99c8;
+    transform: translateY(-1px);
+}
+.ui-slider-range:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+  
+.ui-slider-handle{
+    background: #555;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+    z-index: 10;
+    background: linear-gradient(#555, #454545);
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    box-shadow: inset -2px -2px 6px 2px rgba(0,0,0, 0.1);
+    transition: width 0.1s;
+}
+.ui-slider-handle:focus{
+    outline: none;
+}
+  
+.ui-slider-handle:active{
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+  
+.ui-state-active{
+    width: 20px;
+}
+    
+.range-wrapper{
+    display: inline-block;
+    margin-top: 20px;
+}
+  
+.range{
+    background: #fff;
+    white-space: nowrap;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: #555;
+    width: 150px;
+    z-index: 10;
+    position: relative;
+}
+  
+.range-value{
+    width: 74px;
+    padding: 5px 5px;
+    text-align: left;
+    display: inline-block;
+    transition: background 0.1s;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.range-value:last-child {
+    width: 90px;
+}
+  
+.range-divider{
+    width: 1px;
+    display: inline-block;
+}
+
+
+/* End Slide Price */
 .side-left .hotel-fasilitas label,
 .side-left .hotel-lokasi label {
     font-weight: normal;
