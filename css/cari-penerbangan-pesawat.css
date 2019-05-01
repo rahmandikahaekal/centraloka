@@ -19,3 +19,104 @@ section {
 #search-box .col-md-8.side-left ul li:last-child {
     padding-left: 20px;
 }
+#search-box .col-md-4.side-right a {
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    top: 30px;
+    position: relative;
+}
+#search-box .accordion .panel-body {
+    padding: 0;
+    padding-top: 20px;
+}
+#search-box .accordion .panel-body .opsi li:first-child {
+    padding-right: 25px;
+}
+#search-box .accordion .panel-body .radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+/* Hide the browser's default radio button */
+#search-box .accordion .panel-body  .radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+/* Create a custom radio button */
+#search-box .accordion .panel-body .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+  
+/* On mouse-over, add a grey background color */
+#search-box .accordion .panel-body .radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+/* When the radio button is checked, add a blue background */
+#search-box .accordion .panel-body .radio-container input:checked ~ .checkmark {
+    background-color: #fff;
+}
+  
+/* Create the indicator (the dot/circle - hidden when not checked) */
+#search-box .accordion .panel-body .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Show the indicator (dot/circle) when checked */
+#search-box .accordion .panel-body .radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+/* Style the indicator (dot/circle) */
+#search-box .accordion .panel-body .radio-container .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ff9600;
+}
+#search-box .accordion .panel-body .destinasi {
+    padding: 0;
+}
+#search-box .accordion .panel-body .destinasi label {
+    font-size: 20px;
+}
+#search-box .accordion .panel-body .destinasi .input-group-addon {
+    background-color: #fff;
+    border-right: none;
+}
+#search-box .accordion .panel-body .destinasi .input-group-addon i {
+    font-size: 18px;
+}
+#search-box .accordion .panel-body .destinasi input.form-control {
+    font-size: 18px;
+    padding: 10px 5px;
+    border-left: none;
+}
+#search-box .accordion .panel-body .destinasi .glyphicon {
+    font-size: 30px;
+    color: orange;
+    left: 15px;
+    top: 35px;
+    position: relative;
+}

@@ -15,10 +15,6 @@
     <!-- Bootstrap DatePicker -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
 
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
-    
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -112,18 +108,112 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 side-right">
-                        <div class="dropdown pull-right">
-                            <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <h4>
-                                    <strong>Ubah Pencarian <span class="fa fa-caret-down fa-1x"></span></strong>
-                                </h4>
+                    <div class="col-md-4 side-right ">
+                        <div class="pull-right">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Ubah Pencarian <i class="fa fa-caret-down"></i>
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="dLabel">
-                                <li><a href="destinasi-pesawat2.html">Pulang</a></li>
-                            </ul>
                         </div>
                     </div>
+
+                    <div class="col-md-12 accordion">
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+
+                                <ul class="list-inline opsi">
+                                    <li>
+                                        <label class="radio-container">Sekali Jalan
+                                            <input type="radio" checked="checked" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="radio-container">Pulang Pergi
+                                            <input type="radio" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </li>
+                                </ul>  
+
+                                <div class="col-md-12 destinasi">
+                                    <div class="col-md-6 row pull-left">
+                                        <label for="">Dari</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon">
+                                                <i class="fa fa-map-marker"></i>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Keberangkatan" value="Jakarta(JTK)(Semua Penerbangan)">
+                                        </div>
+                                    </div>
+                                    <div class="glyphicon glyphicon-resize-horizontal"></div>
+                                    <div class="col-md-6 row pull-right">
+                                        <label for="">Ke</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon">
+                                                <i class="fa fa-map-marker"></i>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Keberangkatan" value="Jakarta(JTK)(Semua Penerbangan)">
+                                        </div>
+                                    </div>
+                                </div>   
+                                
+                                <div class="col-md-12 form-penumpang">
+                                    <div class="col-md-3 row pull-left">
+                                        <div class="form-group">
+                                            <label for="date1">Pergi</label>
+                                            <div class="input-group">
+                                                <input class="form-control" id="date1" name="date1" placeholder="MM/DD/YY" type="text"/>
+                                                <div class="input-group-addon">
+                                                    <i class="fa fa-calendar"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 row pull-right">
+                                        <ul class="list-inline pull-right">
+                                            <li>
+                                                <div class="form-group">
+                                                    <label for="">Dewasa</label>
+                                                    <select name="" id="" class="form-control">
+                                                        <option value="">0</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group">
+                                                    <label for="">Anak</label>
+                                                    <select name="" id="" class="form-control">
+                                                        <option value="">0</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group">
+                                                    <label for="">Bayi</label>
+                                                    <select name="" id="" class="form-control">
+                                                        <option value="">0</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>       
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -335,6 +425,8 @@
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap DatePicker -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
     <!-- Custom JS -->
     <script src="js/main.js"></script>
 </body>
