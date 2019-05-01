@@ -1,8 +1,7 @@
 /* ========= */
 /* ====== ppob CSS ====== */
-main {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,160,255,0)),to(#1a2aa4)));
-    background-image: linear-gradient(-180deg,rgba(0,160,255,0),#1a2aa4);
+section {
+    padding: 30px 0 40px;
 }
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -20,6 +19,10 @@ hr {
     border-bottom: 1px solid #ababab;
 }
 /* Navigation Tabs */
+div.main_ppob_area {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,160,255,0)),to(#1a2aa4)));
+    background-image: linear-gradient(-180deg,rgba(0,160,255,0),#1a2aa4);
+}
 .main_ppob_area .main_ppob_content .well .body-form ul.nav {
     text-align: center;
 }
@@ -155,6 +158,199 @@ hr {
 .main_ppob_content .well div.tab-content button.btn.btn-warning.pull-right:active,
 .main_ppob_content .well div.tab-content button.btn.btn-warning.pull-right:focus {
     outline: none;
+}
+
+/* Slider Image */
+#slider-image {
+    padding: 0;
+}
+#slider-image .owl-theme .owl-nav.disabled + .owl-dots {
+    position: absolute;
+    right: 0; left: 0; bottom: 10px
+}
+#slider-image .owl-theme .owl-dots .owl-dot span {
+    width: 15px;height: 15px;
+}
+
+/* Tujuan Wisata */
+#tujuan-wisata {
+    font-weight: bold;
+    background-color: #d4ebf9;
+}
+#tujuan-wisata h3 {
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+#tujuan-wisata .main_content .tujuan-body div div {
+    padding-bottom: 40px;
+}
+#tujuan-wisata .main_content .tujuan-body img {
+    width: 80%;
+    display: inline-block;
+}
+
+/* Download Aplikasi */
+#download-aplikasi {
+    background-color: #fff;
+    color: #222;
+}
+#download-aplikasi h3 {
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 30px
+}
+/* Side Left */
+#download-aplikasi .download-body img {
+    width: 80%;
+    display: inline-block
+}
+#download-aplikasi .download-body .side-left p {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+#download-aplikasi .download-body .side-left ul li img {
+    width: 100%;
+}
+#download-aplikasi .download-body .side-left ul li:first-child {
+    padding-bottom: 20px;
+}
+/* Side Right */
+#download-aplikasi .download-body .side-right img {
+    position: relative;
+    bottom: 13px;
+    width: 50%;
+}
+#download-aplikasi .download-body .side-right ul li div.input-group-addon {
+    background-color: transparent;
+    border-right: none !important;
+}
+#download-aplikasi .download-body .side-right ul li input {
+    border-left: none;
+}
+#download-aplikasi .download-body .side-right ul li input:visited,
+#download-aplikasi .download-body .side-right ul li input:focus,
+#download-aplikasi .download-body .side-right ul li input.active,
+#download-aplikasi .download-body .side-right ul li input:active {
+    outline: none;
+    border-color: #ccc;
+    box-shadow: none;
+}
+#download-aplikasi .download-body .side-right ul li:first-child {
+    padding-bottom: 20px;
+}
+#download-aplikasi .download-body .side-right ul li input {
+    padding: 19px 10px;
+    padding-right: 0;
+    border-radius: 0;
+}
+#download-aplikasi .download-body .side-right ul li:first-child button {
+    padding: 8px 18px;
+}
+#download-aplikasi .download-body .side-right ul li button {
+    color: #fff;
+    background-color: #ff9600;
+    font-size: 16px;
+    padding: 8px 22px;
+    border-radius: 0;
+}
+
+
+/* Alasan Membeli */
+#alasan-pembelian {
+    background-color: #28a1e6;
+    color: #fff;
+}
+#alasan-pembelian h3 {
+    color: #fff;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 30px
+}
+#alasan-pembelian .main_content .cara-body {
+    padding: 0 30px;
+    text-align: center;
+}
+#alasan-pembelian .main_content .cara-body div {
+    padding: 0 30px;
+}
+#alasan-pembelian img {
+    width: 40%;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+#alasan-pembelian .main_content .cara-body div:nth-child(2) img {
+    width: 45%;
+}
+#alasan-pembelian .main_content .cara-body div p {
+    text-align: left;
+    font-weight: 100;
+}
+
+
+/* Partner Centraloka.com */
+#partner {
+    font-weight: bold;
+    color: #222;
+    background-color: #fff;
+}
+#partner h3 {
+    font-weight: bold;
+}
+#partner ul li {
+    width: 13%;
+}
+#partner ul li img {
+    width: 85%;
+}
+#partner ul li:nth-child(5),
+#partner ul li:nth-child(6) {
+    width: 10%
+}
+#partner ul li:last-child {
+    width: 10%;
+}  
+#partner button {
+    background-color: #ff9600;
+    font-size: 16px;
+    padding: 8px 26px;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+/* Cara Pemesanan */
+#cara-pemesanan {
+    font-weight: bold;
+    color: #222;
+    background-color: #d4ebf9;
+}
+#cara-pemesanan h3 {
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+#cara-pemesanan .main_content .cara-body {
+    text-align: center;
+}
+#cara-pemesanan img {
+    width: 40%;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+#cara-pemesanan .main_content .cara-body div:nth-child(2) img {
+    width: 29%;
+}
+#cara-pemesanan .main_content ul li {
+    font-weight: bold;
+    font-size: 20px;
+}
+#cara-pemesanan .main_content ul li:first-child span {
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background-color: #ffb833;
 }
 
 @media (min-width: 768px) {
