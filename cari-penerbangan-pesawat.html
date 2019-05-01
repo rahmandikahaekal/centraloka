@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="col-md-12 accordion">
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                             <div class="panel-body">
 
                                 <ul class="list-inline opsi">
@@ -205,11 +205,12 @@
                                                 </div>
                                             </li>
                                         </ul>
-                                        
-                                        
-                                        
                                     </div>
-                                </div>       
+                                </div>      
+                                
+                                <div class="col-md-12">
+                                    <button class="btn btn-warning bg-orange pull-right">Cari</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -225,7 +226,7 @@
                     <div class="list-destinasi">
                         <ul class="list-unstyled">
                             <li>
-                                <div class="detail-destinasi">
+                                <div class="detail-destinasi panel-default">
                                     <ul class="list-inline">
                                         <li>
                                             <div class="img text-center">
@@ -268,11 +269,32 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    <a href="#">Detail Penerbangan</a>
+                                    <a href="#detail-tiket" class="detail-tiket" data-toggle="collapse" data-parent="detail-tiket" aria-expanded="true" aria-controls="collapseOne">
+                                        Detail Penerbangan
+                                    </a>
+                                    <div id="detail-tiket" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <ul class="list-inline">
+                                                <li>
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <img class="img-responsive" src="./images/lion-air.png" alt="">
+                                                        </li>
+                                                        <li>
+                                                            <small>Lion JT-12</small>
+                                                        </li>
+                                                        <li>
+                                                            <small class="text-muted">Economy</small>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                             <li>
-                                <div class="detail-destinasi">
+                                <div class="detail-destinasi panel-default">
                                     <ul class="list-inline">
                                         <li>
                                             <div class="img text-center">
@@ -319,7 +341,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="detail-destinasi">
+                                <div class="detail-destinasi panel-default">
                                     <ul class="list-inline">
                                         <li>
                                             <div class="img text-center">
@@ -366,7 +388,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="detail-destinasi">
+                                <div class="detail-destinasi panel-default">
                                     <ul class="list-inline">
                                         <li>
                                             <div class="img text-center">

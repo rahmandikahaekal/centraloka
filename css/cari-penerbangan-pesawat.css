@@ -1,8 +1,14 @@
 /* ========= */
 /* ====== Hotel CSS ====== */
+body { background-color: #fff !important}
 section {
     padding: 30px 0;
 }
+.panel-default {
+    border: 2px solid #ddd;
+    padding: 20px 30px;
+}
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 0; }
 .bg-blue { background-color:#28a1e6; color: #fff }
 
 /* Blue Bar */
@@ -95,8 +101,13 @@ section {
     border-radius: 50%;
     background: #ff9600;
 }
-#search-box .accordion .panel-body .destinasi {
+#search-box .accordion .panel-body .col-md-12 {
     padding: 0;
+    padding-bottom: 15px;
+}
+#search-box .accordion .panel-body .col-md-12 input,
+#search-box .accordion .panel-body .col-md-12 select {
+    border-radius: 0;
 }
 #search-box .accordion .panel-body .destinasi label {
     font-size: 20px;
@@ -119,4 +130,55 @@ section {
     left: 15px;
     top: 35px;
     position: relative;
+}
+#search-box .accordion .panel-body .form-penumpang label {
+    font-size: 16px;
+}
+#search-box .accordion .panel-body .form-penumpang .input-group-addon {
+    color: #fff;
+    border: none;
+    background: transparent;
+}
+#search-box .accordion .panel-body .form-penumpang .input-group-addon i {
+    font-size: 20px;
+}
+#search-box .accordion .panel-body div.col-md-12:last-child button {
+    padding: 6px 30px;
+}
+
+/* Destinasi Penerbangan */
+#destinasi-penerbangan .list-destinasi li {
+    margin-bottom: 30px;
+}
+#destinasi-penerbangan .detail-destinasi ul {
+    text-align: center;
+}
+#destinasi-penerbangan .detail-destinasi a {
+    margin-left: 8%;
+}
+#destinasi-penerbangan .detail-destinasi ul li {
+    margin: 0;
+    padding-right: 20px;
+    text-align: left;
+}
+#destinasi-penerbangan .detail-destinasi ul li:first-child {
+    width: 10%;
+}
+#destinasi-penerbangan .detail-destinasi ul li ul.list-unstyled li {
+    width: auto;
+}
+#destinasi-penerbangan .detail-destinasi ul li:last-child ul.list-unstyled li {
+    text-align: center;
+}
+#detail-tiket {
+    width: 80%;
+    margin-left: 7%;
+}
+#detail-tiket .panel-body ul,
+#detail-tiket .panel-body ul li ul,
+#detail-tiket .panel-body ul li ul.list-unstyled li {
+    text-align: left !important;
+}
+#detail-tiket .panel-body ul li:first-child {
+    width: 30%;
 }
