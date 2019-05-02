@@ -4,10 +4,14 @@ body { background-color: #fff !important}
 section {
     padding: 30px 0;
 }
+table {
+    margin-bottom: 0;
+}
 .panel-default {
     border: 2px solid #ddd;
     padding: 20px 30px;
 }
+.text-orange { color: #f69336 }
 .bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 0; }
 .bg-blue { background-color:#28a1e6; color: #fff }
 
@@ -218,4 +222,91 @@ section {
 }
 #detail-tiket .panel-body div.table-responsive table tbody tr td:last-child {
     color: #777;
+}
+
+/* Modal Rincian Penerbangan */
+#rincianpenerbangan div.modal-content {
+    padding: 0 30px;
+    border-radius: 0;
+    user-select: none;
+}
+#rincianpenerbangan div.modal-content .modal-header {
+    padding: 15px 0;
+}
+#rincianpenerbangan div.modal-content .modal-header h4 {
+    color: #03A9F4;
+    font-weight: bold;
+}
+#rincianpenerbangan div.modal-content .modal-header .close {
+    display: none;
+}
+#rincianpenerbangan div.modal-content hr {
+    border-top: 5px solid #03A9F4;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+#rincianpenerbangan div.modal-content .modal-body {
+    padding-bottom: 0;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-default .col-md-4 ul,
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-default .col-md-4 ul li {
+    text-align: left;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-default {
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 0;
+    border: 1px solid #ddd;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12:last-child .panel-default {
+    margin-top: 15px;
+    padding: 0;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-default.panel-jumlah table {
+    margin-bottom: 0;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12,
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .col-md-4 {
+    padding: 0 5px;
+    margin: 0;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .col-md-4 img {
+    width: 80%;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .col-md-4 p {
+    font-size: 12px;
+    margin: 0;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .col-md-4 .list-inline li {
+    font-size: 12px;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-jumlah{
+    padding: 0;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .table>tbody>tr:first-child td {
+    border-top: 0;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .table>tbody>tr>td {
+    font-size: 12px;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .table>tbody>tr>td:last-child {
+    text-align: center;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .table>tbody>tr:last-child>td {
+    border-top: 1px solid #ddd;
+}
+#rincianpenerbangan div.modal-content .modal-body div.col-md-12 div {
+    padding: 1px;
+    margin-top: 15px;
+}
+
+
+#rincianpenerbangan div.modal-content .modal-footer {
+    text-align: center;
+    border-top: 0;
+}
+#rincianpenerbangan div.modal-content .modal-footer button {
+    border-radius: 0;
 }
