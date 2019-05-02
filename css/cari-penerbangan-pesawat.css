@@ -152,9 +152,11 @@ section {
 }
 #destinasi-penerbangan .detail-destinasi ul {
     text-align: center;
+    margin-bottom: 15px;
 }
 #destinasi-penerbangan .detail-destinasi a {
-    margin-left: 8%;
+    margin-left: 9%;
+    color: #28a1e6;
 }
 #destinasi-penerbangan .detail-destinasi ul li {
     margin: 0;
@@ -174,11 +176,46 @@ section {
     width: 80%;
     margin-left: 7%;
 }
+#detail-tiket hr {
+    margin-top: 0;
+}
+#detail-tiket hr.custom {
+    position: relative;
+    border-top: 5px solid #28a1e6;
+    bottom: 25px;
+    width: 20%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+#detail-tiket .panel-body .col-md-3,
+#detail-tiket .panel-body .col-md-6 {
+    padding: 0;
+}
 #detail-tiket .panel-body ul,
 #detail-tiket .panel-body ul li ul,
 #detail-tiket .panel-body ul li ul.list-unstyled li {
     text-align: left !important;
 }
-#detail-tiket .panel-body ul li:first-child {
-    width: 30%;
+#detail-tiket .panel-body .col-md-3 ul.list-inline li {
+    width: 100%;
+}
+#detail-tiket .panel-body div.col-md-6 ul li {
+    width: auto;
+}
+#detail-tiket .panel-body div.col-md-6 ul .time img {
+    width: 18px;
+    display: inline;
+}
+#detail-tiket .panel-body div.col-md-6 ul .time small {
+    color: #777;
+}
+#detail-tiket .panel-body div.table-responsive table tbody tr td {
+    font-size: 14px;
+    padding: 0;
+    padding-right: 10px;
+    border: none;
+}
+#detail-tiket .panel-body div.table-responsive table tbody tr td:last-child {
+    color: #777;
 }
