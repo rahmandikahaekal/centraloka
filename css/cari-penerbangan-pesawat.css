@@ -151,6 +151,10 @@ table {
 }
 
 /* Destinasi Penerbangan */
+#destinasi-penerbangan i.fa.fa-suitcase,
+#destinasi-penerbangan i.fa.fa-cutlery {
+    color: #04a785;
+}
 #destinasi-penerbangan .list-destinasi li {
     margin-bottom: 30px;
 }
@@ -206,6 +210,9 @@ table {
 }
 #detail-tiket .panel-body div.col-md-6 ul li {
     width: auto;
+}
+#detail-tiket .panel-body div.col-md-6 ul .time {
+    padding-bottom: 10px;
 }
 #detail-tiket .panel-body div.col-md-6 ul .time img {
     width: 18px;
