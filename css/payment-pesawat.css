@@ -24,6 +24,14 @@ input[type=checkbox], input[type=radio] {
 
 /* Side Left */
 
+/* FlipCount */
+.main_content .side-left li.flipcount .flip-clock-wrapper {
+    width: 78%;
+}
+.main_content .side-left li.flipcount div.clock {
+    margin: 3em 8em;
+}
+
 /* Pilih Metode Pembayaran */
 .main_content .side-left ul li.pilih-metode {
     padding: 30px 15px;
@@ -70,7 +78,7 @@ input[type=checkbox], input[type=radio] {
     color: #ff9600;
 }
 .main_content .side-left div.panel ul li p i {
-    color: green;
+    color: #18a180;
 }
 .main_content .side-left div.panel ul li.pilih-rek .option {
     padding-bottom: 20px
@@ -141,7 +149,7 @@ input[type=checkbox], input[type=radio] {
     height: 70%;
     width: 2px;
     content: " ";
-    background-color: #4CAF50;
+    background-color: #18a180;
     top: 0;
     left: 0;
     right: 0;
@@ -153,7 +161,7 @@ input[type=checkbox], input[type=radio] {
     width: 20px;height: 20px;
     content: " ";
     background-color: #fff;
-    border: 1px solid #4CAF50;
+    border: 1px solid #18a180;
     border-radius: 50%;
     top: 0;
     left: 0;
@@ -165,8 +173,8 @@ input[type=checkbox], input[type=radio] {
     margin-left: 46%;
     width: 20px;height: 20px;
     content: " ";
-    background-color: #4CAF50;
-    border: 1px solid #4CAF50;
+    background-color: #18a180;
+    border: 1px solid #18a180;
     border-radius: 50%;
     left: 0;
     right: 0;
