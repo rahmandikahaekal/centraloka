@@ -4,6 +4,8 @@ section { padding: 30px 0 }
 input.form-control, select.form-control { border-radius: 0 }
 input.form-control:focus, select.form-control:focus { border-color: #ddd }
 h4 { font-size: 16px; margin: 0 }
+.bg-white { background-color: #fff; border-radius: 0;}
+
 .well {margin: 0; border: none; background-color: transparent; box-shadow: none }
 .panel-default { border: 1px solid #ddd; background-color: #fff}
 .text-orange { color: #f69336 }

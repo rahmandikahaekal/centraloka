@@ -13,6 +13,7 @@ table {
 }
 .text-orange { color: #f69336 }
 .bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 0; }
+.text-blue { color:#28a1e6; }
 .bg-blue { background-color:#28a1e6; color: #fff }
 
 /* Blue Bar */
@@ -128,17 +129,17 @@ table {
     padding: 10px 5px;
     border-left: none;
 }
-#search-box .accordion .panel-body .destinasi input::-webkit-input-placeholder {
+#search-box .accordion .panel-body .destinasi input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #333;
 }
-#search-box .accordion .panel-body .destinasi input::-moz-placeholder {
+#search-box .accordion .panel-body .destinasi input::-moz-placeholder { /* Firefox 19+ */
     color: #333;
 }
 #search-box .accordion .panel-body .destinasi input:-ms-input-placeholder { /* IE 10+ */
-    color: pink;
+    color: #333;
 }
 #search-box .accordion .panel-body .destinasi input:-moz-placeholder { /* Firefox 18- */
-    color: pink;
+    color: #333;
 }
 #search-box .accordion .panel-body .destinasi .glyphicon {
     font-size: 30px;
@@ -162,170 +163,131 @@ table {
     padding: 6px 30px;
 }
 
-/* Destinasi Penerbangan */
-#destinasi-penerbangan i.fa.fa-suitcase,
-#destinasi-penerbangan i.fa.fa-cutlery {
-    color: #04a785;
-}
-#destinasi-penerbangan .list-destinasi li {
+/* Destinasi Perjalanan */
+#destinasi-perjalanan .destinasi-perjalanan .list-perjalanan li {
     margin-bottom: 30px;
 }
-#destinasi-penerbangan .detail-destinasi ul {
-    text-align: center;
-    margin-bottom: 15px;
+#destinasi-perjalanan .destinasi-perjalanan .list-perjalanan ul li {
+    margin: 0;
 }
-#destinasi-penerbangan .detail-destinasi a {
-    margin-left: 9%;
+#destinasi-perjalanan .destinasi-perjalanan div.col-md-3:last-child h4 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+#destinasi-perjalanan a {
     color: #28a1e6;
 }
-#destinasi-penerbangan .detail-destinasi ul li {
-    margin: 0;
-    padding-right: 20px;
-    text-align: left;
+
+/* Detail Tiket */
+.detail-tiket .panel-body {
+    padding: 0;
+    padding-top: 15px;
 }
-#destinasi-penerbangan .detail-destinasi ul li:first-child {
-    width: 10%;
+.detail-tiket .panel-body div ul li {
+    margin: 0 !important;
 }
-#destinasi-penerbangan .detail-destinasi ul li ul.list-unstyled li {
-    width: auto;
-}
-#destinasi-penerbangan .detail-destinasi ul li:last-child ul.list-unstyled li {
-    text-align: center;
-}
-#detail-tiket {
-    width: 80%;
-    margin-left: 7%;
-}
-#detail-tiket hr {
+.detail-tiket hr {
     margin-top: 0;
 }
-#detail-tiket hr.custom {
+.detail-tiket hr.custom {
     position: relative;
     border-top: 5px solid #28a1e6;
     bottom: 25px;
-    width: 20%;
+    width: 15%;
     left: 0;
     margin: 0;
     padding: 0;
 }
-#detail-tiket .panel-body .col-md-3,
-#detail-tiket .panel-body .col-md-6 {
-    padding: 0;
-}
-#detail-tiket .panel-body ul,
-#detail-tiket .panel-body ul li ul,
-#detail-tiket .panel-body ul li ul.list-unstyled li {
-    text-align: left !important;
-}
-#detail-tiket .panel-body .col-md-3 ul.list-inline li {
-    width: 100%;
-}
-#detail-tiket .panel-body div.col-md-6 ul li {
-    width: auto;
-}
-#detail-tiket .panel-body div.col-md-6 ul .time {
-    padding-bottom: 10px;
-}
-#detail-tiket .panel-body div.col-md-6 ul .time img {
-    width: 18px;
-    display: inline;
-}
-#detail-tiket .panel-body div.col-md-6 ul .time small {
-    color: #777;
-}
-#detail-tiket .panel-body div.table-responsive table tbody tr td {
-    font-size: 14px;
-    padding: 0;
-    padding-right: 10px;
-    border: none;
-}
-#detail-tiket .panel-body div.table-responsive table tbody tr td:last-child {
-    color: #777;
-}
 
 /* Modal Rincian Penerbangan */
-#rincianpenerbangan div.modal-content {
+.rincian-perjalanan .modal-body .well {
+    border: none;
+    box-shadow: none;
+    margin: 0 !important;
+    background-color: transparent;
+}
+.rincian-perjalanan div.modal-content {
     padding: 0 30px;
     border-radius: 0;
     user-select: none;
 }
-#rincianpenerbangan div.modal-content .modal-header {
+.rincian-perjalanan div.modal-content .modal-header {
     padding: 15px 0;
 }
-#rincianpenerbangan div.modal-content .modal-header h4 {
+.rincian-perjalanan div.modal-content .modal-header h4 {
     color: #03A9F4;
     font-weight: bold;
 }
-#rincianpenerbangan div.modal-content .modal-header .close {
+.rincian-perjalanan div.modal-content .modal-header .close {
     display: none;
 }
-#rincianpenerbangan div.modal-content hr {
+.rincian-perjalanan div.modal-content hr {
     border-top: 5px solid #03A9F4;
     width: 50px;
     position: absolute;
     top: 30px;
     right: 20px;
 }
-#rincianpenerbangan div.modal-content .modal-body {
+.rincian-perjalanan div.modal-content .modal-body {
     padding-bottom: 0;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-default .col-md-4 ul,
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-default .col-md-4 ul li {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .panel-default .col-md-4 ul,
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .panel-default .col-md-4 ul li {
     text-align: left;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-default {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .panel-default {
     margin: 0;
     padding: 10px;
     padding-bottom: 0;
     border: 1px solid #ddd;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12:last-child .panel-default {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12:last-child .panel-default {
     margin-top: 15px;
     padding: 0;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-default.panel-jumlah table {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .panel-default.panel-jumlah table {
     margin-bottom: 0;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12,
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .col-md-4 {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12,
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .col-md-4 {
     padding: 0 5px;
     margin: 0;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .col-md-4 img {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .col-md-4 img {
     width: 80%;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .col-md-4 p {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .col-md-4 p {
     font-size: 12px;
     margin: 0;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .col-md-4 .list-inline li {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .col-md-4 .list-inline li {
     font-size: 12px;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .panel-jumlah{
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .panel-jumlah{
     padding: 0;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .table>tbody>tr:first-child td {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .table>tbody>tr:first-child td {
     border-top: 0;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .table>tbody>tr>td {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .table>tbody>tr>td {
     font-size: 12px;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .table>tbody>tr>td:last-child {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .table>tbody>tr>td:last-child {
     text-align: center;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 .table>tbody>tr:last-child>td {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 .table>tbody>tr:last-child>td {
     border-top: 1px solid #ddd;
 }
-#rincianpenerbangan div.modal-content .modal-body div.col-md-12 div {
+.rincian-perjalanan div.modal-content .modal-body div.col-md-12 div {
     padding: 1px;
     margin-top: 15px;
 }
 
 
-#rincianpenerbangan div.modal-content .modal-footer {
+.rincian-perjalanan div.modal-content .modal-footer {
     text-align: center;
     border-top: 0;
 }
-#rincianpenerbangan div.modal-content .modal-footer button {
+.rincian-perjalanan div.modal-content .modal-footer button {
     border-radius: 0;
 }
