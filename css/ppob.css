@@ -18,6 +18,11 @@ h3,h4 {
 hr {
     border-bottom: 1px solid #ababab;
 }
+.text-blue { color:#28a1e6; }
+.text-orange { color: #f69336 }
+.bg-blue { background-color:#28a1e6 !important; color: #fff !important;}
+
+
 /* Navigation Tabs */
 div.main_ppob_area {
     background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,160,255,0)),to(#1a2aa4)));
@@ -35,23 +40,24 @@ div.main_ppob_area {
 .main_ppob_content .well div.tab-content div.modal-header h3 {
     color: #259cef;
 }
-.main_ppob_content .well div.tab-content div.modal-dialog dl dt,
-.main_ppob_content .well div.tab-content div.modal-dialog dl dd {
-    line-height: 3;
-}
-.main_ppob_content .well div.tab-content div.modal-dialog dl dt {
-    color: #259cef;
-    text-align: left;
-}
-.main_ppob_content .well div.tab-content div.modal-dialog dl dd:before {
-    content: ":";
-    float: left;
-    position: relative;
-    right: 30px;
-}
 .main_ppob_content .well div.tab-content div.modal-footer button {
     border-radius: 0;
     padding: 6px 25px;
+}
+.main_ppob_content .well div.tab-content div.modal-body .form-body .form-group {
+    margin: 0;
+}
+.main_ppob_content .well div.tab-content div.modal-body .form-body .form-group label {
+    text-align: left;
+}
+.main_ppob_content .well div.tab-content div.modal-body .form-body .form-group label:before {
+    content: ":";
+    right: 0; 
+    color: #111;
+    position: absolute;
+}
+.main_ppob_content .well div.tab-content div.modal-body p {
+    margin: 7px;
 }
 
 .main_ppob_area .main_ppob_content .well {
