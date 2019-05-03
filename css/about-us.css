@@ -1,0 +1,54 @@
+/* ========= */
+/* ====== About US CSS ====== */
+body { background-color: #fff !important }
+main { border-top: 1px solid #ddd }
+section { padding: 30px 0 40px }
+.bg-blue { background-color:#28a1e6 !important; color: #fff !important; border-radius: 0}
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 0; }
+.panel-default { border: 1px solid #999 }
+
+/* Body */
+#aboutus .head img {
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+}
+#aboutus .body p {
+    font-size: 17px;
+}
+#aboutus .body .map .head {
+    padding: 20px;
+}
+#aboutus .body .map .gmap_canvas iframe {
+    width: 100%;
+    padding: 20px 0;
+    padding-top: 0;
+    zoom: 2;
+}
+#aboutus .body .panel-default .panel-heading,
+#aboutus .body .panel-default .panel-body {
+    padding: 20px 40px;
+}
+#aboutus .body .panel-default .panel-heading {
+    padding: 10px 40px;
+}
+#aboutus .body .panel-default .panel-body input {
+    border-radius: 0;
+}
+#aboutus .body .centraloka img {
+    width: 40%;
+}
+#aboutus .body .centraloka h2 {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#aboutus .body .centraloka ul {
+    padding-left: 15px;
+    line-height: 2;
+}
+#aboutus .body .centraloka ul li i {
+    font-size: 30px;
+    width: 10%;
+    color: #04a785;
+}
