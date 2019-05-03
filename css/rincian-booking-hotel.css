@@ -45,14 +45,15 @@ h4 { font-size: 16px; margin: 0 }
     color: #04a785;
     width: 7%;
 }
-#side-left .contact-detail .head {
+#side-left .contact-detail .head,
+#side-left .contact-detail .body {
     padding: 10px 20px;
 }
 #side-left .contact-detail .head h4 {
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
 }
-#side-left .contact-detail .head hr {
+#side-left .contact-detail .panel-body .head hr {
     margin: 0;
     width: 8%;
     float: right;
@@ -60,9 +61,16 @@ h4 { font-size: 16px; margin: 0 }
     position: relative;
     border-top: 7px solid #28a1e6;
 }
-#side-left  .contact-detail .body .col-md-6 {
+#side-left .contact-detail .body .col-md-6 {
     padding: 0;
 }
+#side-left .contact-detail .panel-body {
+    padding: 15px 25px;
+}
+#side-left .contact-detail .panel-body  hr {
+    border-top: 1px solid #444;
+}
+
 
 /* Side Right */
 #side-right  .list-group-item {
