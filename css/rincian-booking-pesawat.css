@@ -1,0 +1,116 @@
+/* ====== Booking Pesawat CSS ====== */
+body { background-color: #fff }
+section { padding: 30px 0 }
+input.form-control, select.form-control { border-radius: 0 }
+input.form-control:focus, select.form-control:focus { border-color: #ddd }
+h4 { font-size: 16px; margin: 0 }
+.well {margin: 0; border: none; background-color: transparent; box-shadow: none }
+.panel-default { border: 1px solid #ddd; background-color: #fff}
+
+.bg-white { background-color: #fff; border-radius: 0;}
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 0; }
+.text-blue { color:#28a1e6; }
+.bg-blue { background-color:#28a1e6 !important; color: #fff !important; border-radius: 0}
+.row { margin: 0}
+
+
+/* Notice */
+.notice {
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-left-width: 5px;
+    border-left-color: #18a180;
+}
+.notice .fa {
+    font-size: 25px;
+    color: #18a180;
+    padding-right: 5px;
+    top: 4px;
+    position: relative;
+}
+
+/* Side Left */
+#side-left .col-md-10 .panel-default .panel-heading {
+    border-radius: 0;
+    border: none;
+}
+#side-left .col-md-10 .panel-default .panel-body img {
+    width: 100px;
+}
+#side-left .col-md-10 .panel-default .panel-body ul li.maskapai {
+    width: 14%;
+    bottom: 10px;
+    position: relative;
+}
+#side-left .col-md-10 .panel-default .panel-body ul li.detail  {
+    width: 20%;
+}
+#side-left .col-md-10 .panel-default .panel-body ul li.time {
+    width: 7%;
+    bottom: 45px;
+    position: relative;
+}
+#side-left .col-md-10 .panel-default .panel-body ul li.muatan {
+    width: 15%;
+    bottom: 35px;
+    position: relative;
+}
+#side-left .col-md-10 .panel-default .panel-body ul li.muatan i {
+    color: #04a785;
+}
+#side-left .col-md-10 .panel-default .panel-body ul li.price {
+    bottom: 60px;
+    position: relative;
+}
+#side-left .col-md-10 .panel-default .panel-body ul li.price h3 {
+    font-size: 20px;
+}
+#side-left .col-md-10 .informasi-penumpang .panel-body {
+    padding: 15px 25px;
+}
+#side-left .col-md-10 .informasi-penumpang .panel-body hr {
+    border-top: 1px solid #444;
+}
+#side-left .col-md-10 .informasi-penumpang .panel-body ul {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+#side-left .col-md-10 .informasi-penumpang .panel-body .detail {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+#side-left .col-md-10 .informasi-penumpang .panel-body .detail p {
+    margin: 0;
+    margin-top: 10px;
+}
+#side-left .col-md-10 .informasi-penumpang .panel-body .detail ol {
+    color: #777;
+    padding-left: 15px;
+}
+
+/* Side Right */
+#side-right .col-md-2 {
+    padding: 0;
+}
+#side-right .col-md-2 .panel-default .panel-heading {
+    border-radius: 0;
+    border: none;
+}
+#side-right .col-md-2 .panel-default .panel-body ul li {
+    padding-bottom: 10px;
+}
+#side-right .col-md-2 .panel-default .panel-body ul li p {
+    color: #777;
+    margin-bottom: 0;
+}
+#side-right .col-md-2 .panel-default .panel-body ul li strong {
+    font-weight: normal;
+}
+#side-right .col-md-2 .panel-default .panel-footer {
+    text-align: center;
+    padding: 10px 3px;
+    background-color: #fff;
+}
