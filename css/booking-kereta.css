@@ -9,10 +9,23 @@ h4 { font-size: 16px; margin: 0 }
 .text-orange { color: #f69336 }
 .bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 0; }
 .text-blue { color:#28a1e6; }
-.bg-blue { background-color:#28a1e6 !important; color: #fff !important;}
+.bg-blue { background-color:#28a1e6 !important; color: #fff !important; border-radius: 0;}
 .row { margin: 0}
 
 /* Side Left */
+#side-left .destinasi .panel-body,
+#side-left .destinasi .panel-body table {
+    padding: 0;
+    margin: 0;
+}
+#side-left .destinasi .panel-body table tbody tr td {
+    padding: 20px 13px;
+    border: none;
+}
+#side-left .destinasi .panel-body table tbody tr td:last-child {
+    border-left: 1px solid #ddd;
+}
+
 #side-left .col-md-10 .contact-detail .head {
     padding: 10px 20px;
 }
@@ -30,6 +43,10 @@ h4 { font-size: 16px; margin: 0 }
 }
 #side-left .contact-detail .body div.form-group {
     padding: 0;
+}
+#side-left .col-md-10 ul li span {
+    bottom: 10px;
+    position: relative;
 }
 
 /* Side Right */

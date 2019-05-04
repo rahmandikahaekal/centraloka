@@ -46,6 +46,7 @@ div.main_ppob_area {
 }
 .main_ppob_content .well div.tab-content div.modal-body .form-body .form-group {
     margin: 0;
+    margin-bottom: 10px;
 }
 .main_ppob_content .well div.tab-content div.modal-body .form-body .form-group label {
     text-align: left;
