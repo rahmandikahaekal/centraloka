@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Centraloka.com memberikan solusi kebutuhan wisata Anda, tiket pesawat, hotel &amp; penginapan, kereta api, bus, rental mobil, kuliner, pembayaran dll.">
+    <title>Centraloka</title>
+
+    <link rel="shortcuts icon" href="images/centraloka-favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- FlipClock -->
+    <link rel="stylesheet" href="css/flipclock.css">
+    
+    <!-- Custom Page CSS -->
+    <link rel="stylesheet" href="css/payment-kereta.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="img-responsive" alt="Brand" src="./images/logo.png">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right nav-cl">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> Currency <span class="fa fa-caret-down"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">IDR</a></li>
+                            <li><a href="#">USD</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="images/flag.png" alt=""> <span class="fa fa-caret-down"></span></a>
+                        
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Hotel</a></li>
+                    <li><a href="tiket-pesawat.html">Tiket Pesawat</a></li>
+                    <li><a class="active" href="kereta-api.html">Kereta Api</a></li>
+                    <li><a href="pulsa.html">Pulsa & Paket Data</a></li>
+                    <li><a href="ppob.html">PPOB</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lainnya <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">Cek Pemesanan</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <main>
+        <div class="main_payment_area">
+            <div class="container">
+                <div class="row">
+                    <div class="main_content">
+
+                        <div class="col-md-9 side-left">
+                            <div class="panel panel-default">
+                                <ul class="list-group">
+                                    <li class="list-group-item flipcount">
+                                        <div class="clock"></div>
+                                    </li>
+                                    <li class="list-group-item pilih-metode">
+                                        <h4 class="text-blue col-md-12">
+                                            <strong>Pilih Metode Pembayaran</strong>
+                                        </h4>
+                                        <div class="row">
+                                            <div class="option col-md-12 " data-toggle="buttons">
+                                                <div class="col-md-4 col-sm-4 text-center">
+                                                    <label class="btn btn-default">
+                                                        <input type="radio" name="options" id="option1"> 
+                                                        <div>
+                                                            <strong>Transfer</strong>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 text-center">
+                                                    <label class="btn btn-default">
+                                                        <input type="radio" name="options" id="option2">
+                                                        <div>
+                                                            <strong>Credit Card</strong>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-4 col-sm-4 text-center">
+                                                    <label class="btn btn-default">
+                                                        <input type="radio" name="options" id="option3">
+                                                        <div>
+                                                            <strong>Virtual Account</strong>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item pilih-rek">
+                                        <div class="notice text-center">
+                                            <div class="option col-md-12 " data-toggle="buttons">
+                                                <div class="col-md-3 col-sm-3 text-center">
+                                                    <label class="btn btn-default">
+                                                        <input type="radio" name="options" id="option1"> 
+                                                        <div>
+                                                            <img class="img-responsive" src="./images/master.jpg" alt="">
+                                                        </div>
+                                                    </label><br>
+                                                    <strong>Bank BCA</strong>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 text-center">
+                                                    <label class="btn btn-default">
+                                                        <input type="radio" name="options" id="option2">
+                                                        <div>
+                                                            <img class="img-responsive" src="./images/visa.jpg" alt="">
+                                                        </div>
+                                                    </label><br>
+                                                    <strong>Bank Mandiri</strong>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 text-center">
+                                                    <label class="btn btn-default">
+                                                        <input type="radio" name="options" id="option3">
+                                                        <div>
+                                                            <img class="img-responsive" src="./images/comodo.jpg" alt="" >
+                                                        </div>
+                                                    </label><br>
+                                                    <strong>Bank BRI</strong>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 text-center">
+                                                    <label class="btn btn-default">
+                                                        <input type="radio" name="options" id="option3">
+                                                        <div>
+                                                            <img class="img-responsive" src="./images/master.jpg" alt="">
+                                                        </div>
+                                                    </label><br>
+                                                    <strong>Bank BNI</strong>
+                                                </div>
+                                            </div>
+                                            <p>
+                                                <i class="fa fa-exclamation-circle"></i> Metode pembayaran ini menerima transfer melalui ATM,
+                                                internet banking, mobile banking & SMS banking
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item info-pembayaran">
+                                        <div class="row">
+                                            <div class="info-penting col-md-10 col-md-offset-1">
+                                                <h5 class="text-blue">
+                                                    <strong>Informasi Penting</strong>
+                                                </h5>
+                                                <ul>
+                                                    <li>Metode pembayaran ini hanya untuk pembayaran melalui mesin ATM</li>
+                                                    <li>Bank tertentu menetapkan jumlah minimum untuk transfer melalui ATM, harap
+                                                        anda memperhatikan ketentuan ini pada ATM yang anda gunakan
+                                                    </li>
+                                                    <li>E-Tiket atau voucher akan dikirimkan melalui email setelah pembayaran
+                                                        selesai dilakukan
+                                                    </li>
+                                                </ul>
+
+                                                <hr>
+
+                                                <ul>
+                                                    <li>
+                                                        <div class="media">
+                                                            <div class="media-left pull-left">
+                                                                <strong>Kode Unik Transfer</strong>
+                                                            </div>
+                                                            
+                                                            <div class="media-right pull-right">
+                                                                <strong>Rp. -5.00</strong>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <br>
+                                                    <li>
+                                                        <div class="media">
+                                                            <div class="media-left pull-left">
+                                                                <strong>Total Bayar</strong>
+                                                            </div>
+                                                            <div class="media-right pull-right">
+                                                                <strong>Rp. 178.995</strong>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <hr>
+
+                                                    <li>
+                                                        <p class="text-muted">
+                                                            Jika anda setuju dengan <span class="text-blue">Syarat & Ketentuan</span> 
+                                                            dan <span class="text-blue">Kebijakan Privasi</span>, silahkan klik tombol
+                                                            `selesaikan pemesanan` untuk mengkonfirmasi pesanan anda
+                                                        </p>
+                                                        <br>
+                                                        <button class="btn btn-warning pull-right">Selesaikan Pemesanan</button>
+                                                    </li>
+                                                    <br><br>
+                                                    <hr>
+
+                                                    <p class="pull-left">
+                                                        <i class="fa fa-lock"></i> Transaksi 100% aman
+                                                    </p>
+                                                    <p class="pull-right">
+                                                        <img class="img-responsive" src="./images/comodo.jpg" alt="">
+                                                    </p>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 side-right">
+                            
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Booking ID : 156513</h3>
+                                </div>
+                            </div>
+
+                            <div class="rincian-biaya panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Rincian Biaya</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <p class="head text-blue">
+                                        <strong>Perjalanan Pergi</strong></p>
+                                    <p class="text-muted">
+                                        <strong>Argo Parahyangan</strong>
+                                    </p>
+                                    <span class="text-muted">Executive(A)</span>
+                                    <ul class="list-inline text-muted ">
+                                        <li class="pull-left">1x Dewasa</li>
+                                        <li class="pull-right">@RP. 90.000</li>
+                                    </ul>
+                                    
+                                    <hr>
+                                    
+                                    <p class="head text-blue">
+                                        <strong>Perjalanan Kembali</strong></p>
+                                    <p class="text-muted">
+                                        <strong>Argo Parahyangan</strong>
+                                    </p>
+                                    <span class="text-muted">Executive(A)</span>
+                                    <ul class="list-inline text-muted ">
+                                        <li class="pull-left">1x Dewasa</li>
+                                        <li class="pull-right">@RP. 89.000</li>
+                                    </ul>
+                                </div>
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <div class="media text-orange">
+                                            <div class="media-left pull-left">
+                                                <strong>Total</strong>
+                                            </div>
+                                            
+                                            <div class="media-right pull-right">
+                                                <strong>RP. 179.00</strong>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="rincian-keberangkatan panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Rincian Kereta</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <p class="head text-blue">
+                                        <strong>Perjalanan Pergi</strong></p>
+                                    <p><strong>Argo Parahyangan</strong></p>
+                                    
+                                    <div class="take-off">
+                                        <ul class="col-md-12 list-unstyled">
+                                            <li class="row">
+                                                <ul class="list-inline">
+                                                    <li class="pull-left">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <p class="text-muted">Executive(A)</p>
+                                                            </li>
+                                                            <li>
+                                                                <strong>Jakarta(JKT)</strong>
+                                                            </li>
+                                                            <li>
+                                                                <small class="text-muted">Stasiun Gambir</small>
+                                                            </li>
+                                                            <li>
+                                                                <small>
+                                                                    <strong>13:30</strong> WIB
+                                                                </small>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="pull-right">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <p class="text-muted text-left">8 Feb 2018</p>
+                                                            </li>
+                                                            <li>
+                                                                <strong>Bandung(BD)</strong>
+                                                            </li>
+                                                            <li>
+                                                                <small class="text-muted">Stasiun Bandung</small>
+                                                            </li>
+                                                            <li>
+                                                                <small>
+                                                                    <strong>14:20</strong> WIB
+                                                                </small>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>                             
+                                </div>
+
+                                <hr>
+
+                                <div class="panel-body">
+                                    <p class="head text-blue">
+                                        <strong>Perjalanan Kembali</strong></p>
+                                    <p><strong>Argo Parahyangan</strong></p>
+                                    
+                                    <div class="take-off">
+                                        <ul class="col-md-12 list-unstyled">
+                                            <li class="row">
+                                                <ul class="list-inline">
+                                                    <li class="pull-left">
+                                                        <ul class="list-unstyled">
+                                                            <li class="pull-left">
+                                                                <p class="text-muted">Executive(A)</p>
+                                                            </li>
+                                                            <li>
+                                                                <strong>Bandung(BD)</strong>
+                                                            </li>
+                                                            <li>
+                                                                <small class="text-muted">Stasiun Bandung</small>
+                                                            </li>
+                                                            <li>
+                                                                <small>
+                                                                    <strong>14:20</strong> WIB
+                                                                </small>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="pull-right">
+                                                        <ul class="list-unstyled">
+                                                            <li class="pull-right">
+                                                                <p class="text-muted">9 Feb 2018</p>
+                                                            </li>
+                                                            <li>
+                                                                <strong>Jakarta(JKT)</strong>
+                                                            </li>
+                                                            <li>
+                                                                <small class="text-muted">Stasiun Gambir</small>
+                                                            </li>
+                                                            <li>
+                                                                <small>
+                                                                    <strong>13:30</strong> WIB
+                                                                </small>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>                             
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="foot_link">
+                        <h4>Perusahaan</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">Aplikasi Mobile</a></li>
+                            <li><a href="">Situs Mobile</a></li>
+                            <li><a href="">Tentang Kami</a></li>
+                            <li><a href="">Affiliasi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                    
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="foot_link">
+                        <h4>Bantuan</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">Cara Pesan</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Kebijakan dan Privasi</a></li>
+                            <li><a href="">Syarat dan Ketentuan</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="foot_link">
+                        <h4>Keamanan Transaksi</h4>
+                        <ul class="list-unstyled">
+                            <li><img class="img-responsive" src="images/visa.jpg" alt=""></li>
+                            <li><img class="img-responsive" src="images/master.jpg" alt=""></li>
+                            <li><img class="img-responsive" src="images/comodo.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6  ">
+                    <div class="foot_link">
+                        <h4>Customer Service</h4>
+                        <ul class="foot_contact list-unstyled">
+                            <li><a href=""><i class="fa fa-phone"></i> +62 123 4567 7712</a></li>
+                            <li><a href=""><i class="fa fa-envelope-o"></i> cs@centraloka.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row foot_sosmed">
+                <div class="text-center">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- FlipClock -->
+    <script src="js/flipclock.js"></script>
+    <!-- Custom JS -->
+    <script src="js/payment.js"></script>
+</body>
+</html>
