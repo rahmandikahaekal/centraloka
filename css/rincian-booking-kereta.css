@@ -1,0 +1,100 @@
+/* ====== Booking Kereta CSS ====== */
+body { background-color: #fff }
+section { padding: 30px 0 }
+input.form-control, select.form-control { border-radius: 0 }
+input.form-control:focus, select.form-control:focus { border-color: #ddd }
+h2 { font-weight: 100; margin-top: 0}
+h4 { font-size: 16px; margin: 0 }
+.well {margin: 0; border: none; background-color: transparent; box-shadow: none }
+.panel-default { border: 1px solid #ddd; background-color: #fff}
+
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 0; }
+.text-blue { color:#28a1e6; }
+.bg-blue { background-color:#28a1e6 !important; color: #fff !important; border-radius: 0;}
+.bg-white { background-color: #fff !important; color: #333 !important; border-radius: 0;}
+.row { margin: 0}
+
+/* Notice */
+.notice {
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-left-width: 5px;
+    border-left-color: #18a180;
+}
+.notice .fa {
+    font-size: 25px;
+    color: #18a180;
+    padding-right: 5px;
+    top: 4px;
+    position: relative;
+}
+
+
+/* Side Left */
+#side-left .destinasi .panel-body,
+#side-left .destinasi .panel-body table {
+    padding: 0;
+    margin: 0;
+}
+#side-left .destinasi .panel-body table tbody tr td {
+    padding: 20px 13px;
+    border: none;
+}
+#side-left .destinasi .panel-body table tbody tr td:last-child {
+    border-left: 1px solid #ddd;
+}
+#side-left .informasi-penumpang .panel-body {
+    padding: 25px 30px;
+}
+#side-left .informasi-penumpang .panel-body hr {
+    border-top: 1px solid #777;
+}
+
+#side-left .informasi-penumpang .panel-body ul {
+    margin-top: 10px;
+    padding-left: 15px;
+
+}
+#side-left .informasi-penumpang .panel-body p {
+    margin: 0;
+}
+#side-left .informasi-penumpang .panel-body ol {
+    padding-left: 15px;
+}
+#side-left .informasi-penumpang .panel-body .detail {
+    margin-top: 15px;
+}
+#side-left .informasi-penumpang .panel-body .detail p {
+    margin: 0;
+}
+#side-left .informasi-penumpang .panel-body .detail li {
+    font-size: 95%;
+    color: #777;
+}
+
+/* Side Right */
+#side-right .col-md-2 {
+    padding: 0;
+}
+#side-right .col-md-2 .panel-default .panel-heading {
+    border-radius: 0;
+    border: none;
+}
+#side-right .col-md-2 .panel-default .panel-body ul li {
+    padding-bottom: 10px;
+}
+#side-right .col-md-2 .panel-default .panel-body ul li p {
+    color: #777;
+    margin-bottom: 0;
+}
+#side-right .col-md-2 .panel-default .panel-body ul li strong {
+    font-weight: normal;
+}
+#side-right .col-md-2 .panel-default .panel-footer {
+    text-align: center;
+    padding: 10px 3px;
+    background-color: #fff;
+}
