@@ -243,17 +243,25 @@ table {
 }
 
 /* Filter */
-table.dataTable.no-footer {
-    border: none;
+.result .searchFilter {
+    margin: 15px 0px;
 }
-.result table tbody tr td {
-    background-color: #fff !important;
+.result .searchFilter ul {
+    padding-left: 50px;
 }
-.result table tbody tr td:last-child {
-    text-align: center;
+.result .searchFilter ul li i {
+    color: #777;
 }
-.result table tbody tr td h4 {
+.result .searchFilter ul li.col {
+    width: 10% !important;
+}
+.result .searchFilter ul li.col.text {
     margin: 0;
+    width: 25% !important;
+}
+.result .searchFilter ul li.col.limit {
+    margin-left: 10%;
+    width: 11% !important;
 }
 
 /* Destinasi Perjalanan */
