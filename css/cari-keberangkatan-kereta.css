@@ -1,5 +1,6 @@
 /* ========= */
 /* ====== Hotel CSS ====== */
+* { outline: none !important; }
 body { background-color: #fff !important}
 section {
     padding: 30px 0;
@@ -161,6 +162,98 @@ table {
 }
 #search-box .accordion .panel-body div.col-md-12:last-child button {
     padding: 6px 30px;
+}
+
+/* Filter */
+.filter-hr {
+    border-top: 5px solid #2574a9;
+    margin: 0;
+    width: 10%;
+    float: right;
+    bottom: 5px;
+    position: relative;
+}
+.destinasi-perjalanan .formFilter {
+    padding: 0 0 15px 0;
+    margin: 20px 0 0;
+    border-bottom: 1px solid #ddd;
+}
+.destinasi-perjalanan .formFilter .column.text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.destinasi-perjalanan .formFilter .column {
+    display: inline-block;
+    margin: 0 0 0 55px;
+    position: relative;
+}
+.destinasi-perjalanan .formFilter .column span, 
+.destinasi-perjalanan .formFilter .column span i {
+    cursor: pointer;
+}
+.destinasi-perjalanan .formFilter .column span i {
+    color: #2574a9;
+}
+.destinasi-perjalanan .formFilter .column .dropdown-menu {
+    background: #fff;
+    border: 1px solid #2574a9;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    left: 0 !important;
+    right: auto !important;
+    margin: 5px 0 0;
+    overflow: hidden;
+    padding: 10px;
+    min-width: 250px !important;
+}
+.destinasi-perjalanan .formFilter .column .dropdown-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.destinasi-perjalanan .formFilter .column .dropdown-menu li {
+    padding: 0 0 2px;
+    margin: 0 0 2px;
+    list-style: none;
+    position: relative;
+}
+.destinasi-perjalanan .formFilter .column .dropdown-menu li i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    z-index: 1;
+    font-size: 16px;
+    color: #3f96ff;
+}
+.destinasi-perjalanan .formFilter .column .dropdown-menu li input[type="checkbox"] {
+    display: none;
+}
+.destinasi-perjalanan .formFilter .column .dropdown-menu li label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 20px;
+    z-index: 9;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Filter */
+table.dataTable.no-footer {
+    border: none;
+}
+.result table tbody tr td {
+    background-color: #fff !important;
+}
+.result table tbody tr td:last-child {
+    text-align: center;
+}
+.result table tbody tr td h4 {
+    margin: 0;
 }
 
 /* Destinasi Perjalanan */

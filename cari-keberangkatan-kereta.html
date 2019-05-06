@@ -15,6 +15,9 @@
     <!-- Bootstrap DatePicker -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
 
+    <!-- DataTable -->
+    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -212,15 +215,460 @@
             <div class="container">
                 <div class="main_content">
 
-                    <div class="destinasi-perjalanan">
-                        <div class="col-md-12">
+                    <div class="destinasi-perjalanan col-md-12">
+
+                        <div class="formFilter">
+                            <div class="column text">Filter:</div>
+                            <div class="column">
+                                <div class="dropdown">
+                                    <span class="dropdown-toggle" id="filterKelas" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Kelas
+                                        <i class="fa fa-caret-down"></i>
+                                    </span>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li>
+                                            <input type="checkbox" class="checkboxfilter" name="toggleAll" target-name="checkboxtrain">
+                                            <i class="fa fa-square-o"></i>
+                                            <label>
+                                                Pilih Semua
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="dropdown">
+                                    <span class="dropdown-toggle" id="filterStasiun" data-toggle="dropdown" aria-expanded="true">
+                                        Stasiun
+                                        <i class="fa fa-caret-down"></i>
+                                    </span>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li>
+                                            <input type="checkbox" class="checkboxfilter" name="toggleAll" target-name="checkboxtrain">
+                                            <i class="fa fa-square-o"></i>
+                                            <label>
+                                                Pilih Semua
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="dropdown">
+                                    <span class="dropdown-toggle" id="filterKereta" data-toggle="dropdown" aria-expanded="true">
+                                        Kereta
+                                        <i class="fa fa-caret-down"></i>
+                                    </span>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li>
+                                            <input type="checkbox" class="checkboxfilter" name="toggleAll" target-name="checkboxtrain">
+                                            <i class="fa fa-square-o"></i>
+                                            <label>
+                                                Pilih Semua
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="dropdown">
+                                    <span class="dropdown-toggle" id="filterWaktu" data-toggle="dropdown" aria-expanded="true">
+                                        Waktu
+                                        <i class="fa fa-caret-down"></i>
+                                    </span>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li>
+                                            <input type="checkbox" class="checkboxfilter" name="toggleAll" target-name="checkboxtrain">
+                                            <i class="fa fa-square-o"></i>
+                                            <label>
+                                                Pilih Semua
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="filter-hr">
+
+                        <div class="result">
+                            <table id="example" class="display" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Nama Kereta</th>
+                                        <th>
+                                            <ul class="list-inline">
+                                                <li>Pergi</li>
+                                                <li style="width: 20%"></li>
+                                                <li>Tiba</li>
+                                            </ul>
+                                        </th>
+                                        <th>Durasi</th>
+                                        <th>Harga</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <strong>Argo PARAHYANGAN</strong>
+                                            <p class="text-muted">Executive (A)</p>
+                                        </td>
+                                        <td>
+                                            <ul class="list-inline">
+                                                <li>
+                                                    <strong>13:30</strong>
+                                                    <p class="text-muted">Gambir</p>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/train.png" alt="" class="img-responsive">
+                                                </li>
+                                                <li>
+                                                    <strong>14:20</strong>
+                                                    <p class="text-muted">Bandung</p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <strong>50 Menit</strong>
+                                            <p class="text-muted">Langsung</p>
+                                        </td>
+                                        <td>
+                                            <h4><strong class="text-orange">Rp. 90.000</strong></h4>
+                                            <button class="btn btn-warning bg-orange" data-toggle="modal" data-target="#rincian-perjalanan1">Pesan Sekarang</button>
+                                            <div class="modal rincian-perjalanan fade text-left" id="rincian-perjalanan1" tabindex="-1" role="dialog" aria-labelledby="rincian-perjalanan1">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="modal-title" id="myModalLabel">Rincian Tiket Kereta</h4>
+                                                        </div>
+                                                        <hr>
+                                                        <div class="modal-body row">
+                                                            <div class="col-md-12">
+                                                                <div class="well">
+                                                                    <p class="pull-left text-blue">Berangkat</p>
+                                                                    <p class="pull-right">Economy - SubClass (G)</p>
+                                                                </div>
+                                                                <br>
+                                                                <div class="panel-default row">
+                                                                    <div class="col-md-4">
+                                                                        <strong>Argo Parahyangan</strong>
+                                                                        <p class="text-muted">Executive (A)</p>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <strong>Jakarta(JKT)</strong>     
+                                                                        <p>Stasiun Gambir</p>
+                                                                        <ul class="list-inline">
+                                                                            <li>
+                                                                                <strong>8 Feb</strong>
+                                                                            </li>
+                                                                            <li>
+                                                                                <strong>13:30</strong> WIB
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <strong>Bandung(BD)</strong>     
+                                                                        <p>Stasiun Bandung</p>
+                                                                        <ul class="list-inline">
+                                                                            <li>
+                                                                                <strong>8 Feb</strong>
+                                                                            </li>
+                                                                            <li>
+                                                                                <strong>14:20</strong> WIB
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                    
+                                                                <div class="panel-default panel-jumlah">
+                                                                    <table class="table">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                            <td>1 Dewasa</td>
+                                                                            <td>@ 90.000</td>
+                                                                            <td>Rp.</td>
+                                                                            <td>90.000</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                            <td>0 Anak-anak</td>
+                                                                            <td>@ 0</td>
+                                                                            <td>Rp.</td>
+                                                                            <td>0</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                            <td>0 infant</td>
+                                                                            <td>@ 0</td>
+                                                                            <td>Rp.</td>
+                                                                            <td>0</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <br>
+                                                            <div class="col-md-12">
+                                                                <div class="panel-default text-center bg-orange">
+                                                                    <h4>
+                                                                        Total Biaya = <strong>Rp. 90.000</strong>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Pilih Penerbangan Lainnya</button>
+                                                            <button type="button" class="btn btn-primary">Langkah Selanjutnya</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>Argo PARAHYANGAN</strong>
+                                            <p class="text-muted">Executive (A)</p>
+                                        </td>
+                                        <td>
+                                            <ul class="list-inline">
+                                                <li>
+                                                    <strong>13:30</strong>
+                                                    <p class="text-muted">Gambir</p>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/train.png" alt="" class="img-responsive">
+                                                </li>
+                                                <li>
+                                                    <strong>14:20</strong>
+                                                    <p class="text-muted">Bandung</p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <strong>50 Menit</strong>
+                                            <p class="text-muted">Langsung</p>
+                                        </td>
+                                        <td>
+                                            <h4><strong class="text-orange">Rp. 90.000</strong></h4>
+                                            <button class="btn btn-warning bg-orange" data-toggle="modal" data-target="#rincian-perjalanan1">Pesan Sekarang</button>
+                                            <div class="modal rincian-perjalanan fade text-left" id="rincian-perjalanan1" tabindex="-1" role="dialog" aria-labelledby="rincian-perjalanan1">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="modal-title" id="myModalLabel">Rincian Tiket Kereta</h4>
+                                                        </div>
+                                                        <hr>
+                                                        <div class="modal-body row">
+                                                            <div class="col-md-12">
+                                                                <div class="well">
+                                                                    <p class="pull-left text-blue">Berangkat</p>
+                                                                    <p class="pull-right">Economy - SubClass (G)</p>
+                                                                </div>
+                                                                <br>
+                                                                <div class="panel-default row">
+                                                                    <div class="col-md-4">
+                                                                        <strong>Argo Parahyangan</strong>
+                                                                        <p class="text-muted">Executive (A)</p>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <strong>Jakarta(JKT)</strong>     
+                                                                        <p>Stasiun Gambir</p>
+                                                                        <ul class="list-inline">
+                                                                            <li>
+                                                                                <strong>8 Feb</strong>
+                                                                            </li>
+                                                                            <li>
+                                                                                <strong>13:30</strong> WIB
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <strong>Bandung(BD)</strong>     
+                                                                        <p>Stasiun Bandung</p>
+                                                                        <ul class="list-inline">
+                                                                            <li>
+                                                                                <strong>8 Feb</strong>
+                                                                            </li>
+                                                                            <li>
+                                                                                <strong>14:20</strong> WIB
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                    
+                                                                <div class="panel-default panel-jumlah">
+                                                                    <table class="table">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                            <td>1 Dewasa</td>
+                                                                            <td>@ 90.000</td>
+                                                                            <td>Rp.</td>
+                                                                            <td>90.000</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                            <td>0 Anak-anak</td>
+                                                                            <td>@ 0</td>
+                                                                            <td>Rp.</td>
+                                                                            <td>0</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                            <td>0 infant</td>
+                                                                            <td>@ 0</td>
+                                                                            <td>Rp.</td>
+                                                                            <td>0</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <br>
+                                                            <div class="col-md-12">
+                                                                <div class="panel-default text-center bg-orange">
+                                                                    <h4>
+                                                                        Total Biaya = <strong>Rp. 90.000</strong>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Pilih Penerbangan Lainnya</button>
+                                                            <button type="button" class="btn btn-primary">Langkah Selanjutnya</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>Argo PARAHYANGAN</strong>
+                                            <p class="text-muted">Executive (A)</p>
+                                        </td>
+                                        <td>
+                                            <ul class="list-inline">
+                                                <li>
+                                                    <strong>13:30</strong>
+                                                    <p class="text-muted">Gambir</p>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/train.png" alt="" class="img-responsive">
+                                                </li>
+                                                <li>
+                                                    <strong>14:20</strong>
+                                                    <p class="text-muted">Bandung</p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <strong>50 Menit</strong>
+                                            <p class="text-muted">Langsung</p>
+                                        </td>
+                                        <td>
+                                            <h4><strong class="text-orange">Rp. 90.000</strong></h4>
+                                            <button class="btn btn-warning bg-orange" data-toggle="modal" data-target="#rincian-perjalanan1">Pesan Sekarang</button>
+                                            <div class="modal rincian-perjalanan fade text-left" id="rincian-perjalanan1" tabindex="-1" role="dialog" aria-labelledby="rincian-perjalanan1">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="modal-title" id="myModalLabel">Rincian Tiket Kereta</h4>
+                                                        </div>
+                                                        <hr>
+                                                        <div class="modal-body row">
+                                                            <div class="col-md-12">
+                                                                <div class="well">
+                                                                    <p class="pull-left text-blue">Berangkat</p>
+                                                                    <p class="pull-right">Economy - SubClass (G)</p>
+                                                                </div>
+                                                                <br>
+                                                                <div class="panel-default row">
+                                                                    <div class="col-md-4">
+                                                                        <strong>Argo Parahyangan</strong>
+                                                                        <p class="text-muted">Executive (A)</p>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <strong>Jakarta(JKT)</strong>     
+                                                                        <p>Stasiun Gambir</p>
+                                                                        <ul class="list-inline">
+                                                                            <li>
+                                                                                <strong>8 Feb</strong>
+                                                                            </li>
+                                                                            <li>
+                                                                                <strong>13:30</strong> WIB
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <strong>Bandung(BD)</strong>     
+                                                                        <p>Stasiun Bandung</p>
+                                                                        <ul class="list-inline">
+                                                                            <li>
+                                                                                <strong>8 Feb</strong>
+                                                                            </li>
+                                                                            <li>
+                                                                                <strong>14:20</strong> WIB
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                    
+                                                                <div class="panel-default panel-jumlah">
+                                                                    <table class="table">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                            <td>1 Dewasa</td>
+                                                                            <td>@ 90.000</td>
+                                                                            <td>Rp.</td>
+                                                                            <td>90.000</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                            <td>0 Anak-anak</td>
+                                                                            <td>@ 0</td>
+                                                                            <td>Rp.</td>
+                                                                            <td>0</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                            <td>0 infant</td>
+                                                                            <td>@ 0</td>
+                                                                            <td>Rp.</td>
+                                                                            <td>0</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <br>
+                                                            <div class="col-md-12">
+                                                                <div class="panel-default text-center bg-orange">
+                                                                    <h4>
+                                                                        Total Biaya = <strong>Rp. 90.000</strong>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Pilih Penerbangan Lainnya</button>
+                                                            <button type="button" class="btn btn-primary">Langkah Selanjutnya</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <br>
 
                             <ul class="list-unstyled list-perjalanan">
                                 <li>
                                     <div class="panel-default">
                                         <div class="panel-body">
                                             <div class="col-md-3">
-                                                <strong>Argo Parahyangan</strong>
+                                                <strong>Argo PARAHYANGAN</strong>
                                                 <p class="text-muted">Executive (A)</p>
                                             </div>
                                             <div class="col-md-3">
@@ -477,7 +925,9 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Bootstrap DatePicker -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <!-- DataTable -->
+    <script src="js/jquery.dataTables.min.js"></script>
     <!-- Custom JS -->
-    <script src="js/main.js"></script>
+    <script src="js/datatable-custom.js"></script>
 </body>
 </html>
