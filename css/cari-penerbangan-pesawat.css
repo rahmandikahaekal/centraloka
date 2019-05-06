@@ -287,9 +287,19 @@ table {
 #destinasi-perjalanan .destinasi-perjalanan .list-perjalanan table tbody tr td.durasi {
     text-align: left;
 }
+#destinasi-perjalanan .destinasi-perjalanan .list-perjalanan table tbody tr td i {
+    color: #04a785;
+}
 #destinasi-perjalanan .destinasi-perjalanan .list-perjalanan table tbody tr td {
     width: 13%;
     padding: 10px;
+}
+#destinasi-perjalanan .destinasi-perjalanan .list-perjalanan table tbody tr td.maskapai {
+    text-align: center;
+}
+#destinasi-perjalanan .destinasi-perjalanan .list-perjalanan table tbody tr td.maskapai img {
+    max-height: 35%;
+    display: inline-block;
 }
 #destinasi-perjalanan a {
     color: #28a1e6;
@@ -301,10 +311,7 @@ table {
 /* Detail Tiket */
 .detail-tiket .panel-body {
     padding: 0;
-    padding-top: 15px;
-}
-.detail-tiket .panel-body div ul li {
-    margin: 0 !important;
+    padding-top: 15px !important;
 }
 .detail-tiket hr {
     margin-top: 0;
@@ -317,6 +324,31 @@ table {
     left: 0;
     margin: 0;
     padding: 0;
+}
+.detail-tiket .panel-body div.col-md-5 li strong {
+    color: #444;
+}
+.detail-tiket .panel-body div.col-md-5 li.time {
+    padding: 20px 0;
+}
+.detail-tiket .panel-body div.col-md-5 li.time img {
+    display: inline-block;
+}
+.detail-tiket .panel-body div.col-md-3 img {
+    max-height: 50px;
+}
+.detail-tiket .panel-body div.col-md-4 form {
+    color: #444
+}
+.detail-tiket .panel-body div.col-md-4 .control-label {
+    text-align: left;
+    padding-top: 0;
+}
+.detail-tiket .panel-body div.col-md-4 .control-label::before {
+    content: ":";
+    right: 0;
+    color: #111;
+    position: absolute;
 }
 
 /* Modal Rincian Penerbangan */
