@@ -69,6 +69,104 @@ section {
     position: absolute;
 }
 
+/* Filter */
+.filter-hr {
+    border-top: 5px solid #2574a9;
+    margin: 0;
+    width: 10%;
+    float: right;
+    bottom: 5px;
+    position: relative;
+}
+ .formFilter {
+    padding: 0 0 15px 0;
+    margin: 20px 0 0;
+    border-bottom: 1px solid #ddd;
+    user-select: none;
+}
+ .formFilter .column.text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+ .formFilter .column {
+    display: inline-block;
+    margin: 0 0 0 55px;
+    position: relative;
+}
+ .formFilter .column span, 
+ .formFilter .column span i {
+    cursor: pointer;
+}
+ .formFilter .column span i {
+    color: #2574a9;
+}
+ .formFilter .column .dropdown-menu {
+    background: #fff;
+    border: 1px solid #2574a9;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    left: 0 !important;
+    right: auto !important;
+    margin: 5px 0 0;
+    overflow: hidden;
+    padding: 10px;
+    min-width: 250px !important;
+}
+ .formFilter .column .dropdown-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ .formFilter .column .dropdown-menu li {
+    padding: 0 0 2px;
+    margin: 0 0 2px;
+    list-style: none;
+    position: relative;
+}
+ .formFilter .column .dropdown-menu li i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    z-index: 1;
+    font-size: 16px;
+    color: #3f96ff;
+}
+ .formFilter .column .dropdown-menu li input[type="checkbox"] {
+    display: none;
+}
+ .formFilter .column .dropdown-menu li label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 20px;
+    z-index: 9;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Filter */
+ .searchFilter {
+    margin: 0 0 15px;
+}
+ .searchFilter ul {
+    padding-left: 50px;
+}
+ .searchFilter ul li {
+    cursor: pointer;
+    user-select: none;
+}
+ .searchFilter ul li i {
+    color: #777;
+}
+ .searchFilter ul li.col {
+    width: 14% !important;
+    margin-right: 4%;
+}
+
 /* List Destinasi */
 #destinasi-penerbangan .col-md-8 .list-destinasi,
 #destinasi-penerbangan .col-md-4 .list-destinasi {
@@ -96,7 +194,7 @@ section {
 }
 #destinasi-penerbangan .col-md-8 .list-destinasi ul li i.fa,
 #destinasi-penerbangan .col-md-4 .list-destinasi ul li i.fa {
-    color: green;
+    color: #04a785;
 }
 #destinasi-penerbangan .col-md-8 .list-destinasi ul li.list div h3,
 #destinasi-penerbangan .col-md-4 .list-destinasi ul li.list div h3 {
