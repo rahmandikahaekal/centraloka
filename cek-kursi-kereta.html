@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Centraloka.com memberikan solusi kebutuhan wisata Anda, tiket pesawat, hotel &amp; penginapan, kereta api, bus, rental mobil, kuliner, pembayaran dll.">
+    <title>Centraloka</title>
+
+    <link rel="shortcuts icon" href="images/centraloka-favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Hotel CSS -->
+    <link rel="stylesheet" href="css/cek-kursi-kereta.css">
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-responsive" alt="Brand" src="./images/logo.png">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right nav-cl">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> Currency <span class="fa fa-caret-down"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">IDR</a></li>
+                            <li><a href="#">USD</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="images/flag.png" alt=""> <span class="fa fa-caret-down"></span></a>
+                        
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Hotel</a></li>
+                    <li><a href="tiket-pesawat.html">Tiket Pesawat</a></li>
+                    <li><a class="active" href="kereta-api.html">Kereta Api</a></li>
+                    <li><a href="pulsa.html">Pulsa & Paket Data</a></li>
+                    <li><a href="ppob.html">PPOB</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lainnya <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">Cek Pemesanan</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <main>   
+        <div class="container">
+            <div class="col-md-12">
+
+                <section id="info">
+                    <h3>
+                        <ul class="list-inline">
+                            <li>Pilih Kursi Keberangkatan</li>
+                            <li>(1 of 2)</li>
+                        </ul>
+                    </h3>    
+                    <p><strong>Argo Parahyangan</strong></p>
+                    <p class="text-muted">Executive(A)<p>
+                    <ul class="list-inline">
+                        <li>Kamis, 8 Feb 2018</li>
+                        <li>13:30 WIB</li>
+                    </ul>
+                </section>
+
+                <section id="pilihkursi">
+                    <div class="panel-default">
+                        <div class="panel-heading bg-blue text-center">
+                            <h4><strong>Gerbong 1</strong></h4>
+                        </div>
+                        <div class="panel-body">
+                            <form class="cek-kursi" action="#">
+                                <ul class="list-inline">
+                                    <li class="seat-label">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <p>
+                                                    <span>A</span>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>B</span>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <br>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>C</span>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>D</span>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="list-inline">
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a1" name="radio-group" checked>
+                                                    <label for="a1"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b1" name="radio-group">
+                                                    <label for="b1"></label>
+                                                </p>
+                                                <p>
+                                                    <span>1</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c1" name="radio-group">
+                                                    <label for="c1"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d1" name="radio-group">
+                                                    <label for="d1"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a2" name="radio-group">
+                                                    <label for="a2"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b2" name="radio-group">
+                                                    <label for="b2"></label>
+                                                </p>
+                                                <p>
+                                                    <span>2</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c2" name="radio-group">
+                                                    <label for="c2"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d2" name="radio-group">
+                                                    <label for="d2"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a3" name="radio-group">
+                                                    <label for="a3"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b3" name="radio-group">
+                                                    <label for="b3"></label>
+                                                </p>
+                                                <p>
+                                                    <span>3</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c3" name="radio-group">
+                                                    <label for="c3"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d3" name="radio-group">
+                                                    <label for="d3"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a4" name="radio-group">
+                                                    <label for="a4"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b4" name="radio-group">
+                                                    <label for="b4"></label>
+                                                </p>
+                                                <p>
+                                                    <span>4</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c4" name="radio-group">
+                                                    <label for="c4"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d4" name="radio-group">
+                                                    <label for="d4"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a5" name="radio-group">
+                                                    <label for="a5"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b5" name="radio-group">
+                                                    <label for="b5"></label>
+                                                </p>
+                                                <p>
+                                                    <span>5</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c5" name="radio-group">
+                                                    <label for="c5"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d5" name="radio-group">
+                                                    <label for="d5"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a6" name="radio-group">
+                                                    <label for="a6"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b6" name="radio-group">
+                                                    <label for="b6"></label>
+                                                </p>
+                                                <p>
+                                                    <span>6</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c6" name="radio-group">
+                                                    <label for="c6"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d6" name="radio-group">
+                                                    <label for="d6"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a7" name="radio-group">
+                                                    <label for="a7"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b7" name="radio-group">
+                                                    <label for="b7"></label>
+                                                </p>
+                                                <p>
+                                                    <span>7</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c7" name="radio-group">
+                                                    <label for="c7"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d7" name="radio-group">
+                                                    <label for="d7"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a8" name="radio-group">
+                                                    <label for="a8"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b8" name="radio-group">
+                                                    <label for="b8"></label>
+                                                </p>
+                                                <p>
+                                                    <span>8</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c8" name="radio-group">
+                                                    <label for="c8"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d8" name="radio-group">
+                                                    <label for="d8"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a9" name="radio-group">
+                                                    <label for="a9"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b9" name="radio-group">
+                                                    <label for="b9"></label>
+                                                </p>
+                                                <p>
+                                                    <span>9</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c9" name="radio-group">
+                                                    <label for="c9"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d9" name="radio-group">
+                                                    <label for="d9"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a10" name="radio-group">
+                                                    <label for="a10"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b10" name="radio-group">
+                                                    <label for="b10"></label>
+                                                </p>
+                                                <p>
+                                                    <span>10</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c10" name="radio-group">
+                                                    <label for="c10"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d10" name="radio-group">
+                                                    <label for="d10"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a11" name="radio-group">
+                                                    <label for="a11"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b11" name="radio-group">
+                                                    <label for="b11"></label>
+                                                </p>
+                                                <p>
+                                                    <span>11</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c11" name="radio-group">
+                                                    <label for="c11"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d11" name="radio-group">
+                                                    <label for="d11"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a12" name="radio-group">
+                                                    <label for="a12"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b12" name="radio-group">
+                                                    <label for="b12"></label>
+                                                </p>
+                                                <p>
+                                                    <span>12</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c12" name="radio-group">
+                                                    <label for="c12"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="12" name="radio-group">
+                                                    <label for="d12"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a13" name="radio-group">
+                                                    <label for="a13"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b13" name="radio-group">
+                                                    <label for="b13"></label>
+                                                </p>
+                                                <p>
+                                                    <span>13</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c13" name="radio-group">
+                                                    <label for="c13"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d13" name="radio-group">
+                                                    <label for="d13"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a14" name="radio-group">
+                                                    <label for="a14"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b14" name="radio-group">
+                                                    <label for="b14"></label>
+                                                </p>
+                                                <p>
+                                                    <span>14</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c14" name="radio-group">
+                                                    <label for="c14"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d14" name="radio-group">
+                                                    <label for="d14"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a15" name="radio-group">
+                                                    <label for="a15"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b15" name="radio-group">
+                                                    <label for="b15"></label>
+                                                </p>
+                                                <p>
+                                                    <span>15</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c15" name="radio-group">
+                                                    <label for="c15"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d15" name="radio-group">
+                                                    <label for="d15"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a16" name="radio-group">
+                                                    <label for="a16"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b16" name="radio-group">
+                                                    <label for="b16"></label>
+                                                </p>
+                                                <p>
+                                                    <span>16</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c16" name="radio-group">
+                                                    <label for="c16"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d16" name="radio-group">
+                                                    <label for="d16"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a17" name="radio-group">
+                                                    <label for="a17"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b17" name="radio-group">
+                                                    <label for="b17"></label>
+                                                </p>
+                                                <p>
+                                                    <span>17</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c17" name="radio-group">
+                                                    <label for="c17"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d17" name="radio-group">
+                                                    <label for="d17"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a18" name="radio-group">
+                                                    <label for="a18"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b18" name="radio-group">
+                                                    <label for="b18"></label>
+                                                </p>
+                                                <p>
+                                                    <span>18</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c18" name="radio-group">
+                                                    <label for="c18"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d18" name="radio-group">
+                                                    <label for="d18"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a19" name="radio-group">
+                                                    <label for="a19"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b19" name="radio-group">
+                                                    <label for="b19"></label>
+                                                </p>
+                                                <p>
+                                                    <span>19</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c19" name="radio-group">
+                                                    <label for="c19"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d19" name="radio-group">
+                                                    <label for="d19"></label>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <input type="radio" id="a20" name="radio-group">
+                                                    <label for="a20"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="b20" name="radio-group">
+                                                    <label for="b20"></label>
+                                                </p>
+                                                <p>
+                                                    <span>20</span>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="c20" name="radio-group">
+                                                    <label for="c20"></label>
+                                                </p>
+                                                <p>
+                                                    <input type="radio" id="d20" name="radio-group">
+                                                    <label for="d20"></label>
+                                                </p>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </form>
+                            <form action="#" class="ket">
+                                <ul class="list-inline text-center">
+                                    <li class="checked">
+                                        <span class="checkbox"></span>
+                                        <p>Kursi dipilih</p>
+                                    </li>
+                                    <li class="disabled">
+                                        <span class="disbox"></span>
+                                        <p>Kursi tidak tersedia</p>
+                                    </li>
+                                    <li class="availabox">
+                                        <span class="availabox"></span>
+                                        <p>Kursi Tersedia</p>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="detailkursi">
+                    <div class="panel-default">
+                        <div class="panel-heading bg-blue">
+                            <h4>Detail Kursi Penumpang</h4>
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-md-2">
+                                <h4>Didit Riyadi</h4>
+                            </div>
+                            <div class="col-md-2">
+                                <h4>1x Dewasa</h4>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list-inline">
+                                    <li>Bandung</li>
+                                    <li>Jakarta</li>
+                                </ul>
+                                <small class="text-muted">Kamis, 9 Feb 2018</small>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list-inline">
+                                    <li>
+                                        <img src="./images/seat.png" alt="" class="img-responsive">
+                                    </li>
+                                    <li>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <strong>Kursi D1</strong>
+                                            </li>
+                                            <li>
+                                                <p class="text-muted">Gerbong 1</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <button class="btn btn-warning bg-orange pull-right">Lanjutkan</button>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="foot_link">
+                        <h4>Perusahaan</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">Aplikasi Mobile</a></li>
+                            <li><a href="">Situs Mobile</a></li>
+                            <li><a href="">Tentang Kami</a></li>
+                            <li><a href="">Affiliasi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                    
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="foot_link">
+                        <h4>Bantuan</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">Cara Pesan</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Kebijakan dan Privasi</a></li>
+                            <li><a href="">Syarat dan Ketentuan</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="foot_link">
+                        <h4>Keamanan Transaksi</h4>
+                        <ul class="list-unstyled">
+                            <li><img class="img-responsive" src="images/visa.jpg" alt=""></li>
+                            <li><img class="img-responsive" src="images/master.jpg" alt=""></li>
+                            <li><img class="img-responsive" src="images/comodo.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6  ">
+                    <div class="foot_link">
+                        <h4>Customer Service</h4>
+                        <ul class="foot_contact list-unstyled">
+                            <li><a href=""><i class="fa fa-phone"></i> +62 123 4567 7712</a></li>
+                            <li><a href=""><i class="fa fa-envelope-o"></i> cs@centraloka.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row foot_sosmed">
+                <div class="text-center">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
