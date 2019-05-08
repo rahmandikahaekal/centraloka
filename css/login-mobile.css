@@ -66,17 +66,8 @@ a:active {
     border-bottom: 1px solid #ddd;
     box-shadow: none;
 }
-#login-fitur .form-input,
-#login-fitur .loginby {
+#login-fitur .form-input {
     margin: 10px 0 15px;
-}
-#login-fitur .loginby button {
-    margin-bottom: 10px;
-    display: block;
-}
-#login-fitur .loginby button img {
-    width: 10%;
-    display: inline;
 }
 #login-fitur .footer p {
     margin: 15px 0 5px;
