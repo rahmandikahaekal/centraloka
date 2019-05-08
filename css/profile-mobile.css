@@ -55,9 +55,10 @@ a:active {
     width: 20%;
 }
 #login-fitur .head .info-user {
-    width: 75%;
-    padding-left: 10px;
-    position: relative;
+    width: 65%;
+    padding-left: 10px; 
+    /* bottom: 15px;
+    position: absolute; */
 }
 #login-fitur .head .info-user small {
     display: block;
