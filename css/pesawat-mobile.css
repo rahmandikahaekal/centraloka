@@ -45,8 +45,25 @@ a:active {
     padding: 30px 0;
 }
 #pesawat .body-form .input-form {
+    width: 85%;
+}
+#pesawat .body-form .form-group.switch .input-form {
     width: 75%;
 }
+#pesawat .body-form .form-group.destinasi:nth-child(2) span {
+    transform: rotate(180deg);
+}
+#pesawat .body-form .form-group.destinasi input::placeholder {
+    color: #333;
+    opacity: 1; /* Firefox */
+}
+#pesawat .body-form .form-group.destinasi input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #333;
+}
+#pesawat .body-form .form-group.destinasi input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #333;
+}
+
 #pesawat .body-form .form-group ul li span {
     color: #04a785;
     font-size: 25px;
@@ -69,4 +86,8 @@ a:active {
     padding: 0;
     border-bottom: 1px solid #ddd;
     box-shadow: none;
+}
+#pesawat button {
+    margin-top: 35%;
+    width: 100%;
 }
