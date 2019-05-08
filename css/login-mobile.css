@@ -1,0 +1,88 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+}
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+}
+.max-width { width: 100% }
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 5px; }
+.text-blue { color:#4a6ea8; }
+.bg-blue { background-color:#4a6ea8 !important; color: #fff !important; border-radius: 5px ;}
+.bg-white { background-color: #ddd; color: #333; font-weight: bold; border-radius: 5px; }
+
+/* Login Fitur */
+#login-fitur {
+    height: 100vh;
+}
+#login-fitur .head {
+    background-color: #f5f5f5;
+}
+#login-fitur .head img {
+    width: 25%;
+    display: inline-block;
+}
+#login-fitur .head p {
+    margin: 10px 0;
+}
+#login-fitur .form-input .form-group {
+    margin-bottom: 10px;
+}
+#login-fitur .form-input .form-group label {
+    color: #777;
+    font-weight: normal;
+    margin: 0;
+}
+#login-fitur .form-input .form-group input {
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    box-shadow: none;
+}
+#login-fitur .form-input,
+#login-fitur .loginby {
+    margin: 10px 0 15px;
+}
+#login-fitur .loginby button {
+    margin-bottom: 10px;
+    display: block;
+}
+#login-fitur .loginby button img {
+    width: 10%;
+    display: inline;
+}
+#login-fitur .footer p {
+    margin: 15px 0 5px;
+}
+#login-fitur .footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0; right: 0;
+}
