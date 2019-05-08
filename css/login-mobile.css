@@ -50,6 +50,7 @@ a:active {
 }
 #login-fitur .head p {
     margin: 10px 0;
+    padding: 0 15%;
 }
 #login-fitur .form-input .form-group {
     margin-bottom: 10px;
