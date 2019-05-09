@@ -87,7 +87,7 @@ a:active {
     padding-bottom: 15px;
 }
 #detail-penerbangan .destinasi .destinasi-perjalanan li.pergi::before {
-    margin-left: 25px;
+    margin-left: 8.5%;
     width: 15px;
     height: 15px;
     content: " ";
@@ -100,7 +100,7 @@ a:active {
     position: absolute;
 }
 #detail-penerbangan .destinasi .destinasi-perjalanan li.pulang::before {
-    margin-left: 25px;
+    margin-left: 8.5%;
     width: 15px;
     height: 15px;
     content: " ";
