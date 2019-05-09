@@ -1,0 +1,112 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+}
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+}
+.max-width { width: 100% }
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 5px; }
+.text-blue { color:#4a6ea8; }
+.bg-blue { background-color:#4a6ea8 !important; color: #fff !important; border-radius: 5px ;}
+.bg-white { background-color: #ddd; color: #333; font-weight: bold; border-radius: 5px; }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+}
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+}
+.max-width { width: 100% }
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 5px; }
+.text-blue { color:#4a6ea8; }
+.bg-blue { background-color:#4a6ea8 !important; color: #fff !important; border-radius: 5px ;}
+.bg-white { background-color: #ddd; color: #333; font-weight: bold; border-radius: 5px; }
+
+/* Cari Penerbangan */
+.list-penerbangan {
+    color: #777;
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 1px solid #777;
+}
+.list-penerbangan:last-child {
+    border-bottom: none;
+}
+.list-penerbangan .pull-left img {
+    display: inline;
+    max-height: 35px;
+    max-width: 70%;
+}
+.list-penerbangan .pull-left ul {
+    padding: 5px 0;
+}
+.list-penerbangan .pull-left ul li {
+    color: #333;
+}
+.list-penerbangan .pull-left ul li:first-child::before {
+    content: "-";
+    left: 60px;
+    position: absolute;
+}
+.list-penerbangan .pull-right {
+    padding-top: 30px;
+}
+.list-penerbangan .pull-right a {
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+}
