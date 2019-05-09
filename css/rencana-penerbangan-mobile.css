@@ -39,17 +39,19 @@ a:active {
 
 /* Rencana Penerbangan */
 #rencana-penerbangan .rencana,
-#rencana-penerbangan .detail-kontak {
+#rencana-penerbangan .detail-kontak,
+#rencana-penerbangan .penumpang {
     padding: 0;
 }
 #rencana-penerbangan .rencana .head,
-#rencana-penerbangan .detail-kontak .head {
+#rencana-penerbangan .detail-kontak .head,
+#rencana-penerbangan .penumpang .head {
     background-color: #f1f1f1;
     padding: 10px 15px;
     color: #666;
 }
 #rencana-penerbangan .rencana .body,
-#rencana-penerbangan .detail-kontak .body {
+#rencana-penerbangan .detail-kontak .body{
     border-bottom: 2px solid #ddd;
     padding: 10px 15px;
 }
@@ -77,10 +79,13 @@ a:active {
 }
 #rencana-penerbangan .rencana .destinasi .link a {
     color: #4a6ea8;
-    padding: 5px;
+    padding: 10px 4px;
     border-radius: 5px;
     border: 1px solid #f1f1f1;
     background-color: #f1f1f1;
+}
+#rencana-penerbangan .rencana .destinasi .link a i {
+    font-size: 14px;
 }
 #rencana-penerbangan .rencana .destinasi p {
     padding: 0;
@@ -89,10 +94,19 @@ a:active {
 
 #rencana-penerbangan .detail-kontak input,
 #rencana-penerbangan .detail-kontak select {
+    padding: 0;
     border: none;
     border-radius: 0;
-    box-shadow: none;
     border-bottom: 1px solid #ddd;
+    box-shadow: none;
+}
+#rencana-penerbangan .detail-kontak .glyphicon{
+    color: #4a6ea8;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    right: 10px;
 }
 #rencana-penerbangan .detail-kontak .kode-tel {
     width: 20%;
@@ -102,4 +116,86 @@ a:active {
     width: 75%;
     display: inline-block;
     margin-left: 10px;
+}
+#rencana-penerbangan .penumpang .body {
+    border-bottom: 1px solid #ddd;
+    background-color: #f1f1f1;
+}
+#rencana-penerbangan .penumpang .list-group {
+    margin: 0;
+}
+#rencana-penerbangan .penumpang .list-group .list-group-items {
+    border-bottom: 5px solid #ddd;
+    background-color: #fff;
+    padding: 15px;
+}
+#rencana-penerbangan .penumpang .list-group .list-group-items:last-child {
+    margin-bottom: 35px;
+}
+#rencana-penerbangan .penumpang .list-group .list-group-items ul li a {
+    font-size: 85%;
+}
+#rencana-penerbangan .penumpang .list-group .list-group-items ul li small {
+    color: #444;
+}
+#rencana-penerbangan .penumpang .list-group .list-group-items ul li a i {
+    margin-left: 10px;
+    color: #4a6ea8;
+}
+#rencana-penerbangan .penumpang .list-group .list-group-items .row {
+    margin: 0;
+}
+
+#rencana-penerbangan .price .body {
+    padding: 10px 0;
+}
+#rencana-penerbangan .price .body .row {
+    margin: 0;
+}
+#rencana-penerbangan .price .body .list-inline {
+    margin: 0;
+}
+
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
 }
