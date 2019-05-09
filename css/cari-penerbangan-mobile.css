@@ -76,7 +76,11 @@ a:active {
 .bg-white { background-color: #ddd; color: #333; font-weight: bold; border-radius: 5px; }
 
 /* Cari Penerbangan */
+a {
+    color: #777;
+}
 .list-penerbangan {
+    text-decoration: none;
     color: #777;
     padding: 15px 20px;
     margin: 0;
@@ -85,27 +89,36 @@ a:active {
 .list-penerbangan:last-child {
     border-bottom: none;
 }
-.list-penerbangan .pull-left img {
+.list-penerbangan .side-left,
+.list-penerbangan .side-right {
+    display: inline-block;
+}
+.list-penerbangan .side-left img {
     display: inline;
     max-height: 35px;
-    max-width: 70%;
+    max-width: 60%;
 }
-.list-penerbangan .pull-left ul {
+.list-penerbangan .side-left ul {
     padding: 5px 0;
 }
-.list-penerbangan .pull-left ul li {
+.list-penerbangan .side-left ul li {
     color: #333;
 }
-.list-penerbangan .pull-left ul li:first-child::before {
+.list-penerbangan .side-left ul li:first-child::before {
     content: "-";
     left: 60px;
     position: absolute;
 }
-.list-penerbangan .pull-right {
+.list-penerbangan .side-right {
     padding-top: 30px;
+    float: right;
 }
-.list-penerbangan .pull-right a {
-    padding: 2px 10px;
+.list-penerbangan .side-right h4 {
+    margin: 5px 10px;
+}
+.list-penerbangan .side-right a.detail-penerbangan {
+    color: #4a6ea8;
+    padding: 1px 10px;
     border-radius: 5px;
     border: 1px solid #f1f1f1;
     background-color: #f1f1f1;

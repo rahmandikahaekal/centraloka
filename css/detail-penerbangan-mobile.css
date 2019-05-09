@@ -1,0 +1,136 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+}
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+}
+.max-width { width: 100% }
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 5px; }
+.text-blue { color:#4a6ea8; }
+.bg-blue { background-color:#4a6ea8 !important; color: #fff !important; border-radius: 5px ;}
+.bg-white { background-color: #ddd; color: #333; font-weight: bold; border-radius: 5px; }
+
+/* Detail Penerbangan */
+#detail-penerbangan .head {
+    padding: 20px 15px;
+    border-bottom: 1px solid #ddd;
+}
+#detail-penerbangan .head strong {
+    color: #444;
+}
+#detail-penerbangan .head ul li:first-child small {
+    border-right: 3px solid #ddd;
+    padding-right: 10px;
+}
+
+#detail-penerbangan .destinasi {
+    padding: 20px 15px;
+    border-bottom: 1px solid #ddd;
+}
+#detail-penerbangan .destinasi img {
+    display: inline-block;
+    width: 60px;
+}
+#detail-penerbangan .destinasi ul.maskapai {
+    display: inline-block;
+    padding-left: 5px;
+    top: 10px;
+    position: relative;
+}
+#detail-penerbangan .destinasi .destinasi-perjalanan {
+    width: 85%;
+    float: right;
+    padding-top: 10px;
+}
+#detail-penerbangan .destinasi .destinasi-perjalanan::before {
+    margin-left: 10%;
+    height: 30%;
+    width: 2px;
+    content: " ";
+    background-color: #18a180;
+    left: 0;
+    right: 0;
+    bottom: 22%;
+    position: absolute;
+}
+#detail-penerbangan .destinasi .destinasi-perjalanan .row {
+    margin: 0;
+}
+#detail-penerbangan .destinasi .destinasi-perjalanan li.pergi {
+    padding-bottom: 15px;
+}
+#detail-penerbangan .destinasi .destinasi-perjalanan li.pergi::before {
+    margin-left: 25px;
+    width: 15px;
+    height: 15px;
+    content: " ";
+    background-color: #fff;
+    border: 1px solid #18a180;
+    border-radius: 50%;
+    top: 45%;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+#detail-penerbangan .destinasi .destinasi-perjalanan li.pulang::before {
+    margin-left: 25px;
+    width: 15px;
+    height: 15px;
+    content: " ";
+    background-color: #18a180;
+    border: 1px solid #18a180;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    bottom: 15%;
+    position: absolute;
+}
+#detail-penerbangan .destinasi .destinasi-perjalanan strong {
+    font-size: 14px;
+    color: #666;
+}
+#detail-penerbangan .destinasi .destinasi-perjalanan small {
+    font-size: 10px;
+}
+
+#detail-penerbangan .fasilitas {
+    padding: 0;
+}
+#detail-penerbangan .fasilitas .head {
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+}
+#detail-penerbangan .fasilitas .list-unstyled {
+    padding: 15px 20px;
+}
+#detail-penerbangan .fasilitas .list-unstyled li i {
+    color: #04a785;
+    width: 8%;
+}
