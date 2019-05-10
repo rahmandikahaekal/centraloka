@@ -1,0 +1,170 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+}
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+}
+.max-width { width: 100% }
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 5px; }
+.text-blue { color:#4a6ea8; }
+.bg-blue { background-color:#4a6ea8 !important; color: #fff !important; border-radius: 5px ;}
+.bg-white { background-color: #ddd; color: #333; font-weight: bold; border-radius: 5px; }
+.bg-grey { background-color: #f1f1f1 }
+
+/* Detail Payment */
+.label-id {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
+.label-id label {
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* FlipCount */
+.flipcount {
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+.flip-clock-wrapper ul li a div div.inn {
+    background-color: #00a4ff;
+}
+.flip-clock-wrapper {
+    width: 95%;
+    margin: 3%; 
+}
+.flip-clock-wrapper ul:nth-child(2),
+.flip-clock-wrapper ul:nth-child(3),
+.flip-clock-wrapper span:nth-child(4)
+ {
+    display: none;
+}
+.flip-clock-wrapper ul {
+    width: 40px;
+    height: 90px;
+}
+.flip-clock-wrapper ul li a div div.inn {
+    font-size: 65px;
+}
+.flip-clock-divider .flip-clock-label {
+    position: absolute;
+    top: -1.5em;
+    right: -65px;
+    color: black;
+    text-shadow: none;
+}
+.flip-clock-divider .flip-clock-label {
+    top: 9.5em;
+}
+.flip-clock-divider.minutes .flip-clock-label,
+.flip-clock-divider.seconds .flip-clock-label {
+    right: -70px;
+}
+
+/* Perjalanan Pergi */
+.pergi .head h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.pergi .head hr {
+    width: 10%;
+    margin: 0;
+    float: right;
+    border: 2px solid #03A9F4;
+    bottom: 15px;
+    position: relative;
+}
+
+.pergi .destinasi img {
+    display: inline-block;
+    width: 60px;
+}
+.pergi .destinasi ul.maskapai {
+    display: inline-block;
+    padding-left: 5px;
+    top: 10px;
+    position: relative;
+}
+.pergi .destinasi .destinasi-perjalanan {
+    width: 88%;
+    float: right;
+    padding-top: 10px;
+}
+.pergi .destinasi .destinasi-perjalanan::before {
+    margin-left: 10%;
+    height: 35%;
+    width: 2px;
+    content: " ";
+    background-color: #03A9F4;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    position: absolute;
+}
+.pergi .destinasi .destinasi-perjalanan .row {
+    margin: 0;
+}
+.pergi .destinasi .destinasi-perjalanan li.pergi {
+    padding-bottom: 15px;
+}
+.pergi .destinasi .destinasi-perjalanan li.pergi::before {
+    margin-left: 8.5%;
+    width: 15px;
+    height: 15px;
+    content: " ";
+    background-color: #fff;
+    border: 1px solid #03A9F4;
+    border-radius: 50%;
+    top: 55%;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.pergi .destinasi .destinasi-perjalanan li.pulang::before {
+    margin-left: 8.5%;
+    width: 15px;
+    height: 15px;
+    content: " ";
+    background-color: #03A9F4;
+    border: 1px solid #03A9F4;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    position: absolute;
+}
+.pergi .destinasi .destinasi-perjalanan strong {
+    font-size: 14px;
+    color: #666;
+}
+.pergi .destinasi .destinasi-perjalanan small {
+    font-size: 10px;
+}
