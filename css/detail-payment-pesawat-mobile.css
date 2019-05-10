@@ -89,12 +89,12 @@ a:active {
     right: -70px;
 }
 
-/* Perjalanan Pergi */
-.pergi .head h4 {
+/* Perjalanan */
+.perjalanan .head h4 {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
 }
-.pergi .head hr {
+.perjalanan .head hr {
     width: 10%;
     margin: 0;
     float: right;
@@ -102,40 +102,39 @@ a:active {
     bottom: 15px;
     position: relative;
 }
-
-.pergi .destinasi img {
+.perjalanan .destinasi img {
     display: inline-block;
     width: 60px;
 }
-.pergi .destinasi ul.maskapai {
+.perjalanan .destinasi ul.maskapai {
     display: inline-block;
     padding-left: 5px;
     top: 10px;
     position: relative;
 }
-.pergi .destinasi .destinasi-perjalanan {
+.perjalanan .destinasi .destinasi-perjalanan {
     width: 88%;
     float: right;
     padding-top: 10px;
 }
-.pergi .destinasi .destinasi-perjalanan::before {
+.perjalanan .destinasi .destinasi-perjalanan::before {
     margin-left: 10%;
-    height: 35%;
+    height: 20%;
     width: 2px;
     content: " ";
     background-color: #03A9F4;
     left: 0;
+    top: 40%;
     right: 0;
-    bottom: 10%;
     position: absolute;
 }
-.pergi .destinasi .destinasi-perjalanan .row {
+.perjalanan .destinasi .destinasi-perjalanan .row {
     margin: 0;
 }
-.pergi .destinasi .destinasi-perjalanan li.pergi {
+.perjalanan .destinasi .destinasi-perjalanan li.pergi {
     padding-bottom: 15px;
 }
-.pergi .destinasi .destinasi-perjalanan li.pergi::before {
+.perjalanan .destinasi .destinasi-perjalanan li.pergi::before {
     margin-left: 8.5%;
     width: 15px;
     height: 15px;
@@ -143,12 +142,12 @@ a:active {
     background-color: #fff;
     border: 1px solid #03A9F4;
     border-radius: 50%;
-    top: 55%;
+    top: 38%;
     left: 0;
     right: 0;
     position: absolute;
 }
-.pergi .destinasi .destinasi-perjalanan li.pulang::before {
+.perjalanan .destinasi .destinasi-perjalanan li.pulang::before {
     margin-left: 8.5%;
     width: 15px;
     height: 15px;
@@ -156,15 +155,76 @@ a:active {
     background-color: #03A9F4;
     border: 1px solid #03A9F4;
     border-radius: 50%;
+    top: 57%;
     left: 0;
     right: 0;
-    bottom: 10%;
     position: absolute;
 }
-.pergi .destinasi .destinasi-perjalanan strong {
+.perjalanan .destinasi .destinasi-perjalanan strong {
     font-size: 14px;
     color: #666;
 }
-.pergi .destinasi .destinasi-perjalanan small {
+.perjalanan .destinasi .destinasi-perjalanan small {
     font-size: 10px;
+}
+
+.perjalanan .muatan {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.perjalanan .muatan .row {
+    width: 80%;
+    margin: 0;
+}
+.perjalanan .muatan i {
+    color: #04a785;
+    width: 20px;
+}
+.perjalanan .muatan .body li {
+    color: #777;
+    font-size: 12px;
+    line-height: 2;
+}
+/* Label Price */
+.label-price.row {
+    margin: 15px 0;
+    padding: 10px 25px;
+}
+.label-price label {
+    font-size: 14px;
+}
+.label-price label:first-child {
+    font-weight: normal
+}
+
+/* Total */
+.total .body ul {
+    padding: 0 15px;
+}
+.total .body ul li {
+    font-size: 14px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+.total .body ul li ul li {
+    border: none;
+}
+.total .body p {
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #02ab87;
+}
+.total .body p::before {
+    width: 0;
+    height: 0;
+    right: 45px;
+    bottom: 55px;
+    position: absolute;
+    content: '';
+    border-style: solid;
+    border-width: 15px;
+    border-color: transparent transparent #02ab87 transparent;
 }
