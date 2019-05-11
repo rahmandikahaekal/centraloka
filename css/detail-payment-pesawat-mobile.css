@@ -63,9 +63,13 @@ a:active {
 }
 .flip-clock-wrapper ul:nth-child(2),
 .flip-clock-wrapper ul:nth-child(3),
-.flip-clock-wrapper span:nth-child(4)
+.flip-clock-wrapper span:nth-child(4),
+.flip-clock-dot
  {
     display: none;
+}
+.flip-clock-divider {
+    width: 0;
 }
 .flip-clock-wrapper ul {
     width: 40px;
