@@ -18,7 +18,7 @@
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/pesawat-mobile.css">
+    <link rel="stylesheet" href="css/kereta-mobile.css">
 </head>
 <body>
 	<header>
@@ -27,14 +27,14 @@
 	<main>
         <!-- Semua kontent yang sudah ada nanti isinya disini -->
         
-        <section id="pesawat">
+        <section id="kereta">
             <div class="container">
 
                 <form class="body-form col-xs-12">
                     <div class="form-group switch destinasi">
                         <ul class="list-inline">
                             <li>
-                                <span class="fa fa-plane"></span>
+                                <span class="fa fa-train"></span>
                             </li>
                             <li class="input-form">
                                 <label for="inputDari">Dari</label>
@@ -48,7 +48,7 @@
                     <div class="form-group destinasi">
                         <ul class="list-inline">
                             <li>
-                                <span class="fa fa-plane"></span>
+                                <span class="fa fa-train"></span>
                             </li>
                             <li class="input-form">
                                 <label for="inputKe">Ke</label>
@@ -62,7 +62,7 @@
                                 <span class="fa fa-calendar"></span>
                             </li>
                             <li>
-                                <label for="inputTanggalPergi">Pergi</label>
+                                <label for="inputTanggalPergi">Berangkat</label>
                                 <input class="form-control" id="inputTanggalPergi" name="inputTanggalPergi" placeholder="MM/DD/YY" type="text"/>
                             </li>
                         </ul>
@@ -90,29 +90,14 @@
                                     <option value="">2 Dewasa</option>
                                     <option value="">3 Dewasa</option>
                                 </select>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="form-group full-width">
-                        <ul class="list-inline">
-                            <li>
-                                <span class="fa fa-wheelchair"></span>
-                            </li>
-                            <li class="input-form">
-                                <label for="inputKelasKabin">Ekonomi</label>
-                                <select name="inputKelasKabin" id="inputKelasKabin" class="form-control">
-                                    <option value="">Ekonomi</option>
-                                    <option value="">Brantas</option>
-                                    <option value="">Ekonomi</option>
-                                    <option value="">Brantas</option>
-                                </select>
+                                <p class="help-block text-muted">Penumpang bayi tidak mendapat kursi sendiri</p>
                             </li>
                         </ul>
                     </div>
                 </form>
                 
                 <div class="col-xs-12">
-                    <button class="btn bg-orange">Cari Penerbangan</button>
+                    <button class="btn bg-orange">Cari Kereta</button>
                 </div>
 
             </div>

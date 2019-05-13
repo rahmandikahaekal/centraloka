@@ -40,53 +40,62 @@ a:active {
 .col-xs-12 {
     padding: 0 20px;
 }
-/* Pesawat Fitur */
-#pesawat .body-form {
-    padding: 30px 15px;
+/* hotel Fitur */
+#hotel .body-form {
+    padding: 30px 10px;
 }
-#pesawat .body-form label {
+#hotel .body-form .row {
+    margin: 0;
+}
+#hotel .body-form div.form-group li:first-child {
+    width: 30px;
+}
+#hotel .body-form div.form-group li:first-child span.fa {
+    position: relative;
+    /* bottom: 10px; */
+}
+#hotel .body-form label {
+    font-size: 14px;
+    font-weight: normal;
     color: #777;
 }
-#pesawat .body-form .input-form {
+#hotel .body-form .input-form {
     width: 85%;
 }
-#pesawat .body-form .form-group.switch .input-form {
+#hotel .body-form .form-group.switch .input-form {
     width: 75%;
 }
-#pesawat .body-form .form-group.destinasi:nth-child(2) span {
-    transform: rotate(180deg);
-}
-#pesawat .body-form .form-group.destinasi input::placeholder {
+#hotel .body-form .form-group input::placeholder {
     color: #333;
     opacity: 1; /* Firefox */
 }
-#pesawat .body-form .form-group.destinasi input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+#hotel .body-form .form-group input:-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #333;
 }
-#pesawat .body-form .form-group.destinasi input::-ms-input-placeholder { /* Microsoft Edge */
+#hotel .body-form .form-group input::-ms-input-placeholder { /* Microsoft Edge */
     color: #333;
 }
 
-#pesawat .body-form .form-group ul li span {
+#hotel .body-form .form-group ul li span {
     color: #04a785;
     font-size: 25px;
 }
-#pesawat .body-form .form-group ul li span.fa.fa-user {
+#hotel .body-form .form-group ul li span.fa.fa-user {
     position: relative;
-    bottom: 20px;
+    bottom: 95px;
 }
-#pesawat .body-form .form-group.switch ul li span.fa.fa-refresh {
+#hotel .body-form .form-group.switch ul li span.fa.fa-refresh {
     position: absolute;
     right: 10px;
 }
-#pesawat .body-form .form-group.full-width ul li:last-child {
+#hotel .body-form .form-group.full-width ul li:last-child {
     width: 85%;
 }
-#pesawat .body-form label {
+#hotel .body-form label {
     margin: 0;
 }
-#pesawat .body-form input,
-#pesawat .body-form select {
+#hotel .body-form input,
+#hotel .body-form select {
     cursor: pointer;
     border-radius: 0;
     border: none;
@@ -94,7 +103,10 @@ a:active {
     border-bottom: 1px solid #ddd;
     box-shadow: none;
 }
-#pesawat button {
+#hotel .body-form .form-group p.help-block {
+    font-size: 12px;
+}
+#hotel button {
     margin-top: 35%;
     width: 100%;
 }

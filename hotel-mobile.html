@@ -18,7 +18,7 @@
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/pesawat-mobile.css">
+    <link rel="stylesheet" href="css/hotel-mobile.css">
 </head>
 <body>
 	<header>
@@ -27,32 +27,18 @@
 	<main>
         <!-- Semua kontent yang sudah ada nanti isinya disini -->
         
-        <section id="pesawat">
+        <section id="hotel">
             <div class="container">
 
                 <form class="body-form col-xs-12">
-                    <div class="form-group switch destinasi">
+                    <div class="form-group switch location">
                         <ul class="list-inline">
                             <li>
-                                <span class="fa fa-plane"></span>
+                                <span class="fa fa-map-marker"></span>
                             </li>
                             <li class="input-form">
-                                <label for="inputDari">Dari</label>
-                                <input type="text" class="form-control" id="inputDari" placeholder="Kota atau Bandara">
-                            </li>
-                            <li>
-                                <span class="fa fa-refresh"></span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="form-group destinasi">
-                        <ul class="list-inline">
-                            <li>
-                                <span class="fa fa-plane"></span>
-                            </li>
-                            <li class="input-form">
-                                <label for="inputKe">Ke</label>
-                                <input type="text" class="form-control" id="inputKe" placeholder="Kota atau Bandara">
+                                <label for="inputDari">Hotel/Tujuan</label>
+                                <input type="text" class="form-control" id="inputDari" placeholder="Hotel Terdekat">
                             </li>
                         </ul>
                     </div>
@@ -61,9 +47,9 @@
                             <li>
                                 <span class="fa fa-calendar"></span>
                             </li>
-                            <li>
-                                <label for="inputTanggalPergi">Pergi</label>
-                                <input class="form-control" id="inputTanggalPergi" name="inputTanggalPergi" placeholder="MM/DD/YY" type="text"/>
+                            <li class="input-form">
+                                <label for="inputCheckin">Tanggal Check-in</label>
+                                <input class="form-control" id="inputCheckin" name="inputCheckin" placeholder="Rab,21 Feb 2018" type="text"/>
                             </li>
                         </ul>
                     </div>
@@ -72,9 +58,21 @@
                             <li>
                                 <span class="fa fa-calendar"></span>
                             </li>
-                            <li>
-                                <label for="inputTanggalPulang">Pulang</label>
-                                <input class="form-control" id="inputTanggalPulang" name="inputTanggalPulang" placeholder="MM/DD/YY" type="text"/>
+                            <li style="width: 85%">
+                                <ul class="list-inline row">
+                                    <li class="pull-left" style="width: 60%">
+                                        <label for="inputCheckout">Tanggal Check Out</label>
+                                        <input class="form-control" id="inputCheckout" name="inputCheckout" placeholder="Rab,23 Feb 2018" type="text"/>
+                                    </li>
+                                    <li class="pull-right" style="width: 38%">
+                                        <label for="inputDurasi">Durasi</label>
+                                        <select name="inputDurasi" id="inputDurasi" class="form-control">
+                                            <option value="">1 Malam</option>
+                                            <option value="">2 Malam</option>
+                                            <option value="">3 Malam</option>
+                                        </select>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
@@ -84,27 +82,18 @@
                                 <span class="fa fa-user"></span>
                             </li>
                             <li class="input-form">
-                                <label for="inputPenumpang">Penumpang</label>
-                                <select name="inputPenumpang" id="inputPenumpang" class="form-control">
-                                    <option value="">1 Dewasa</option>
-                                    <option value="">2 Dewasa</option>
-                                    <option value="">3 Dewasa</option>
+                                <label for="inputTamu">Tamu</label>
+                                <select name="inputTamu" id="inputTamu" class="form-control">
+                                    <option value="">1 Tamu</option>
+                                    <option value="">2 Tamu</option>
+                                    <option value="">3 Tamu</option>
                                 </select>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="form-group full-width">
-                        <ul class="list-inline">
-                            <li>
-                                <span class="fa fa-wheelchair"></span>
-                            </li>
-                            <li class="input-form">
-                                <label for="inputKelasKabin">Ekonomi</label>
-                                <select name="inputKelasKabin" id="inputKelasKabin" class="form-control">
-                                    <option value="">Ekonomi</option>
-                                    <option value="">Brantas</option>
-                                    <option value="">Ekonomi</option>
-                                    <option value="">Brantas</option>
+                                <br>
+                                <label for="inputTamu">Kamar</label>
+                                <select name="inputTamu" id="inputTamu" class="form-control">
+                                    <option value="">1 Kamar</option>
+                                    <option value="">2 Kamar</option>
+                                    <option value="">3 Kamar</option>
                                 </select>
                             </li>
                         </ul>
@@ -112,7 +101,7 @@
                 </form>
                 
                 <div class="col-xs-12">
-                    <button class="btn bg-orange">Cari Penerbangan</button>
+                    <button class="btn bg-orange">Cari Hotel</button>
                 </div>
 
             </div>
