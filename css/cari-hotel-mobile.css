@@ -70,10 +70,20 @@ main {
 #cari .detail ul.row:last-child li.pull-left strong {
     font-size: 14px;
 }
+#cari .detail ul:first-child li strong a {
+    color: #333;
+}
+#cari .detail ul:first-child li small {
+    color: #777;
+}
 #cari .detail ul.row:last-child li.pull-right a {
     color: #4a6ea8;
     padding: 3px 10px;
     border-radius: 5px;
     border: 1px solid #f1f1f1;
     background-color: #f1f1f1;
+}
+
+.glyphicon.glyphicon-star-empty {
+    visibility: hidden !important;
 }
