@@ -1,0 +1,196 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+}
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+}
+.max-width { width: 100% }
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 5px; }
+.text-blue { color:#4a6ea8; }
+.bg-blue { background-color:#4a6ea8 !important; color: #fff !important; border-radius: 5px ;}
+.bg-white { background-color: #ddd; color: #333; font-weight: bold; border-radius: 5px; }
+
+/* keterangan Penerbangan */
+#booking .keterangan,
+#booking .detail-kontak,
+#booking .tamu {
+    padding: 0;
+}
+#booking .keterangan .head,
+#booking .detail-kontak .head {
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    color: #666;
+}
+#booking .keterangan,
+#booking .detail-kontak {
+    border-bottom: 5px solid #ddd;
+}
+
+#booking .keterangan .detail-hotel {
+    padding: 10px 15px;
+    color: #333;
+}
+#booking .keterangan .detail-hotel p {
+    font-size: 13px;
+}
+#booking .keterangan .detail-hotel ul.list-inline li {
+    font-size: 14px;
+}
+#booking .keterangan .detail-hotel ul.list-inline li:first-child {
+    border-right: 1px solid #333;
+    padding-right: 10px;
+}
+#booking .keterangan .detail-hotel .link {
+    position: relative;
+    float: right;
+    bottom: 25px;
+}
+#booking .keterangan .detail-hotel .link i {
+    font-size: 12px;
+    color: #03A9F4;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+}
+#booking .keterangan .detail-hotel p {
+    padding: 0;
+    margin: 0;
+}
+
+#booking .detail-kontak .body{
+    border-bottom: 2px solid #ddd;
+    padding: 10px 15px;
+}
+#booking .detail-kontak input,
+#booking .detail-kontak select {
+    color: #777;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ddd;
+    box-shadow: none;
+}
+#booking .detail-kontak .glyphicon{
+    color: #03A9F4;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    right: 10px;
+}
+#booking .detail-kontak .kode-tel {
+    width: 20%;
+    display: inline-block;
+}
+#booking .detail-kontak .no-tel {
+    width: 75%;
+    display: inline-block;
+    margin-left: 10px;
+}
+#booking .tamu .body {
+    border-bottom: 1px solid #ddd;
+    background-color: #f1f1f1;
+}
+#booking .tamu .list-group {
+    margin: 0;
+}
+#booking .tamu .list-group .list-group-items {
+    border-bottom: 5px solid #ddd;
+    background-color: #fff;
+    padding: 15px;
+}
+#booking .tamu .list-group .list-group-items:last-child {
+    margin-bottom: 35px;
+}
+#booking .tamu .list-group .list-group-items:last-child p {
+    font-size: 13px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#booking .tamu .list-group .list-group-items .row {
+    margin: 0;
+}
+
+#booking .price .body {
+    padding: 10px 0;
+}
+#booking .price .body .row {
+    margin: 0;
+}
+#booking .price .body .list-inline {
+    margin: 0;
+}
+
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
