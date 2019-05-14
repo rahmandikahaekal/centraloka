@@ -50,7 +50,7 @@ main {
     border-left: none;border-right: none;
     margin-bottom: 10px;
 }
-/* Cari Hotel Mobile */ 
+/* Cari Kamar Mobile */ 
 #cari ul div.col-xs-4,
 #cari ul div.col-xs-8 {
     padding: 0 10px;
@@ -58,32 +58,28 @@ main {
 #cari .detail {
     font-size: 12px;
 }
-#cari .detail li.text-orange.rating {
-    border-bottom: 1px solid #ddd;
-}
-#cari .detail p span {
-    font-weight: bold;
-}
+
 #cari .detail ul.row:last-child {
     margin: 0;
 }
-#cari .detail ul.row:last-child li.pull-left strong {
+#cari .detail ul.row:last-child li.side-footer strong {
     font-size: 14px;
-}
-#cari .detail ul:first-child li strong a {
-    color: #333;
 }
 #cari .detail ul:first-child li small {
     color: #777;
 }
-#cari .detail ul.row:last-child li.pull-right a {
-    color: #4a6ea8;
-    padding: 3px 10px;
-    border-radius: 5px;
-    border: 1px solid #f1f1f1;
-    background-color: #f1f1f1;
-}
 
-.glyphicon.glyphicon-star-empty {
-    visibility: hidden !important;
+#cari .detail ul li.side-footer {
+    padding-top: 10px;
+}
+#cari .detail ul li.side-footer h4 {
+    margin: 0;
+}
+#cari .detail ul li.side-footer ul li.pull-left {
+    padding-top: 5px;
+}
+#cari .detail ul li.side-footer button {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 10px;
 }
