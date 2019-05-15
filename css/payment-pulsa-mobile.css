@@ -1,0 +1,129 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+}
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+}
+.max-width { width: 100% }
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 5px; }
+.text-blue { color:#4a6ea8; }
+.bg-blue { background-color:#4a6ea8 !important; color: #fff !important; border-radius: 5px ;}
+.bg-white { background-color: #ddd; color: #333; font-weight: bold; border-radius: 5px; }
+.bg-grey { background-color: #f1f1f1 }
+
+/* Payment Peswawat */
+#payment-pulsa .keterangan  {
+    padding: 0;
+}
+#payment-pulsa .keterangan {
+    border-bottom: 5px solid #ddd;
+}
+
+#payment-pulsa .keterangan .detail-pulsa {
+    padding: 20px 15px;
+    color: #333;
+}
+#payment-pulsa .keterangan .detail-pulsa p {
+    font-size: 13px;
+}
+#payment-pulsa .keterangan .detail-pulsa .link {
+    position: relative;
+    float: right;
+}
+#payment-pulsa .keterangan .detail-pulsa .link i {
+    font-size: 12px;
+    color: #03A9F4;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+}
+#payment-pulsa .keterangan .detail-pulsa p {
+    padding: 0;
+    margin: 0;
+}
+
+#payment-pulsa .price {
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #666;
+}
+
+#payment-pulsa  .pilih-metode .head {
+    font-size: 14px;
+    color: #777;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-bottom: 5px solid #ddd;
+}
+#payment-pulsa  .pilih-metode .body {
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+#payment-pulsa  .pilih-metode .body .row {
+    margin: 0;
+    padding-bottom: 10px;
+}
+#payment-pulsa  .pilih-metode .body ul li {
+    background-color: #fff !important;
+    padding: 10px 15px !important;
+    margin-bottom: 10px !important;
+    border: none;
+}
+#payment-pulsa  .pilih-metode .body ul.list-inline li {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+#payment-pulsa  .pilih-metode .body ul li div.pull-left {
+    font-weight: bold;
+    font-size: 12px;
+    color: #777;
+}
+#payment-pulsa  .pilih-metode .body ul li div.pull-right {
+    font-weight: bold;
+    font-size: 12px;
+}
+#payment-pulsa  .pilih-metode .body ul li div.pull-left,
+#payment-pulsa  .pilih-metode .body ul li div.pull-right {
+    padding-bottom: 10px;
+}
+#payment-pulsa  .pilih-metode .body ul li div i {
+    color: #03A9F4;
+    padding-left: 5px;
+}
+#payment-pulsa  .pilih-metode .body ul.list-inline li img {
+    width: 75px;
+    padding-top: 5px;
+}
+#payment-pulsa  .pilih-metode .body ul.list-inline {
+    border-top: 2px solid #ddd;
+}
