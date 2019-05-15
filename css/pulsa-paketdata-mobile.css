@@ -1,0 +1,127 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+}
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition: all ease-out 0.4s;
+    -o-transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
+}
+#pulsapaket input[type=checkbox], #pulsapaket input[type=radio] {
+    display: none;
+}
+.max-width { width: 100% }
+.text-orange { color: #f69336 }
+.bg-orange { background-color: #f69336; color: #fff; font-weight: bold; border-radius: 5px; }
+.text-blue { color:#4a6ea8; }
+.text-toska { color: #04a785; }
+.bg-blue { background-color:#4a6ea8 !important; color: #fff !important; border-radius: 5px ;}
+.bg-white { background-color: #ddd; color: #333; font-weight: bold; border-radius: 5px; }
+.bg-grey { background-color: #f1f1f1 }
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.no-border {
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+}
+.border-bottom {
+    border-bottom: 5px solid #ddd !important;
+    padding: 10px 15px;
+}
+
+/* PLN Mobile */
+#pulsapaket .head p {
+    margin: 0;
+}
+
+#pulsapaket .input-no {
+    margin-top: 20px;
+}
+#pulsapaket .input-no p.head-sub {
+    margin: 0;
+}
+#pulsapaket p.help-block {
+    margin: 0;
+}
+
+#pulsapaket .input-no ul {
+    padding-top: 10px;
+}
+#pulsapaket .input-no ul li {
+    padding: 0 5px;
+}
+#pulsapaket .input-no ul li label {
+    font-weight: normal;
+    font-size: 10px;
+    margin: 0;
+}
+#pulsapaket .input-no ul li:first-child {
+    width: 25%;
+}
+#pulsapaket .input-no ul li:last-child {
+    width: 70%;
+    padding-left: 10px;
+}
+#pulsapaket .col-xs-4 {
+    padding: 0;
+    text-align: center;
+}
+#pulsapaket .col-xs-4 label {
+    width: 88px;
+    padding: 5px;
+    margin: 5px;
+    color: #00BCD4;
+    background-color: #ffffff;
+    border-color: #00BCD4;
+}
+#pulsapaket .col-xs-4 label strong {
+    font-weight: normal;
+}
+#pulsapaket .col-xs-4 label.active {
+    font-weight: normal !important;
+    color: #fff !important;
+    background-color: #ec971f !important;
+    border-color: #ec971f !important;
+}
+
+
+#pulsapaket div.price {
+    margin-top: 30px;
+}
+#pulsapaket div.price h3 {
+    margin: 0;
+}
+#pulsapaket div.button {
+    margin-top: 20%;
+}
+#pulsapaket div.button button {
+    width: 100%;
+}
