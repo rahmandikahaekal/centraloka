@@ -40,16 +40,17 @@
                         </label>
                     </div>
                 </div>
-                <div class="form-group col-xs-12">
-                    <p class="help-block">No. Meter/ID Pelanggan</p>
-                    <input type="number" class="form-control no-border">
-                </div>
+                
 
                 <div class="tab-content">
                     <!-- Token Listrik -->
                     <div class="tab-pane active" id="tokenlistrik">
-                        <p class="help-block col-xs-12">Nominal</p>
+                        <div class="form-group col-xs-12">
+                            <p class="help-block">No. Meter/ID Pelanggan</p>
+                            <input type="number" class="form-control no-border">
+                        </div>
 
+                        <p class="help-block col-xs-12">Nominal</p>
                         <div class="option col-xs-12" data-toggle="buttons">
                             <div class="col-xs-4">
                                 <label class="btn btn-warning">
@@ -126,7 +127,27 @@
 
                     <!-- Tagihan Listrik -->
                     <div class="tab-pane" id="tagihanlistrik">
-                        <p class="help-block">Tagihan Listrik</p>
+                        <div class="form-group col-xs-12">
+                            <p class="help-block">No. Meter/ID Pelanggan</p>
+                            <input type="number" class="form-control no-border">
+                        </div>
+                        <small class="text-toska col-xs-12">Harga biaya admin Rp. 2.500</small>
+                        
+                        <div class="label-ket bg-grey col-xs-12">
+                            <strong>Keterangan:</strong><br>
+                            <small>Transaksi pukul 23:00 - 00:59 akan dipromosikan pada pukul 01:00</small>
+                        </div>
+
+                        <div class="price col-xs-12">
+                            <p>Harga</p>
+                            <h3>
+                                <strong class="text-orange">Rp 49.000</strong>
+                            </h3>
+                        </div>
+
+                        <div class="button col-xs-12">
+                            <button class="btn btn-warning bg-orange">Bayar</button>
+                        </div>
                     </div>
                 </div>
 

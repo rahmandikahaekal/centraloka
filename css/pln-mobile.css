@@ -111,7 +111,9 @@ a:active {
 #pln .category div.tab-content div.price h3 {
     margin: 0;
 }
+#pln .category div.tab-content div.button {
+    margin-top: 20%;
+}
 #pln .category div.tab-content div.button button {
-    margin-top: 30px;
     width: 100%;
 }
